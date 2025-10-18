@@ -39,20 +39,31 @@
 
         <!-- Demo Card -->
         <div class="p-4 rounded-lg border border-slate-200 bg-white">
-          <h2 class="font-semibold mb-2">Oder: Demo‑Fragen verwenden</h2>
+          <h2 class="font-semibold mb-2">Oder: Demo-Fragen verwenden</h2>
           <p class="text-sm text-slate-600 mb-3">
-            Zum schnellen Testen kannst du die eingebauten Demo‑Fragen laden.
+            Zum schnellen Testen kannst du die eingebauten Demo-Fragen laden.
           </p>
           <button id="loadDemo" class="px-3 py-2 rounded-md bg-slate-200 hover:bg-slate-300 text-sm">
-            Demo‑Fragen laden
+            Demo-Fragen laden
           </button>
         </div>
       </div>
 
       <!-- Options & Start -->
       <div class="p-4 rounded-lg border border-slate-200 bg-white">
-        <h3 class="font-semibold mb-2">Quiz‑Optionen & Start</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <h3 class="font-semibold mb-3">Quiz-Optionen & Start</h3>
+
+        <!-- Kapitel-Filter -->
+        <div class="mb-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div class="md:col-span-1">
+            <label for="chapterFilter" class="block text-sm text-slate-700 mb-1">Kapitel wählen</label>
+            <select id="chapterFilter" disabled
+                    class="w-full rounded-md border-slate-300 text-sm disabled:opacity-50 disabled:cursor-not-allowed">
+              <option value="all">Alle Kapitel</option>
+            </select>
+          </div>
+
+          <!-- Shuffle options -->
           <label class="flex items-center gap-2 p-3 rounded border bg-slate-50 cursor-pointer">
             <input id="shuffleQuestions" type="checkbox" class="h-4 w-4 accent-emerald-600" checked />
             <span>Fragen mischen</span>
@@ -62,7 +73,8 @@
             <span>Antwortoptionen mischen</span>
           </label>
         </div>
-        <div class="mt-4">
+
+        <div class="mt-2">
           <button id="startBtn" disabled
                   class="w-full px-4 py-2 rounded-md bg-emerald-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-emerald-700">
             Quiz starten
@@ -101,7 +113,7 @@
             </div>
           </div>
 
-          <!-- (Optional) Keep hidden timer column for future use -->
+          <!-- (Optional) hidden timer column -->
           <div class="text-right md:col-span-2 hidden">
             <div class="text-xs text-slate-500">Zeit (max. 75:00)</div>
             <div id="timer" class="font-mono text-xl">00:00</div>
@@ -121,10 +133,10 @@
           Anzahl korrekter Antworten: <span id="qCorrectCount">1</span>
         </div>
 
-        <fieldset id="choices" class="mt-4 space-y-2"></fieldset>
+        <!-- Bild / Media -->
+        <div id="qImage" class="mt-3"></div>
 
-        <!-- Früheres Sammel-Feedback bleibt entfernt/ungenutzt -->
-        <div id="feedback" class="hidden"></div>
+        <fieldset id="choices" class="mt-4 space-y-2"></fieldset>
 
         <div class="mt-6">
           <a href="#" id="clearBtn" class="inline-flex items-center text-sm underline text-slate-600 hover:text-slate-900 mb-3">Auswahl zurücksetzen</a>
@@ -210,11 +222,14 @@ function shuffle(arr){
 
 /** =====================
  * Built-in Demo Questions (will be expanded to 40)
+ * now with chapter + image (optional)
  * ===================== */
 const DEMO_QUESTIONS_BASE = [
   {
     question: "Was ist die Hauptstadt von Frankreich?",
     correctCount: 1,
+    chapter: "Geografie",
+    image: "", // z.B. "https://via.placeholder.com/800x400?text=Paris"
     options: [
       { text: "Berlin", isCorrect: false },
       { text: "Madrid", isCorrect: false },
@@ -227,6 +242,8 @@ const DEMO_QUESTIONS_BASE = [
   {
     question: "Welche zwei sind Primzahlen?",
     correctCount: 2,
+    chapter: "Mathematik",
+    image: "",
     options: [
       { text: "2", isCorrect: true, explanation: "2 ist die kleinste und einzige gerade Primzahl.", source: "https://de.wikipedia.org/wiki/Primzahl" },
       { text: "4", isCorrect: false },
@@ -239,6 +256,8 @@ const DEMO_QUESTIONS_BASE = [
   {
     question: "Wähle drei Programmiersprachen",
     correctCount: 3,
+    chapter: "Programmierung",
+    image: "",
     options: [
       { text: "JavaScript", isCorrect: true, explanation: "JavaScript ist eine Programmiersprache für Web- und Server-Anwendungen.", source: "https://developer.mozilla.org/de/docs/Web/JavaScript" },
       { text: "HTML", isCorrect: false },
@@ -251,6 +270,8 @@ const DEMO_QUESTIONS_BASE = [
   {
     question: "Welche Aussagen über Wasser sind korrekt? (2)",
     correctCount: 2,
+    chapter: "Naturwissenschaften",
+    image: "",
     options: [
       { text: "Siedepunkt liegt bei 100°C auf Meereshöhe", isCorrect: true, explanation: "Bei 1 atm siedet Wasser bei 100°C.", source: "https://de.wikipedia.org/wiki/Wasser" },
       { text: "Gefrierpunkt liegt bei 10°C", isCorrect: false },
@@ -263,6 +284,8 @@ const DEMO_QUESTIONS_BASE = [
   {
     question: "Welche der folgenden sind Kontinente? (3)",
     correctCount: 3,
+    chapter: "Geografie",
+    image: "",
     options: [
       { text: "Europa", isCorrect: true, explanation: "Europa ist ein Kontinent.", source: "https://de.wikipedia.org/wiki/Kontinent" },
       { text: "Asien", isCorrect: true, explanation: "Asien ist der größte Kontinent.", source: "https://de.wikipedia.org/wiki/Asien" },
@@ -288,7 +311,7 @@ function expandDemoTo40(base){
 }
 
 /** =====================
- * Validation
+ * Validation (chapter + image optional)
  * ===================== */
 function validateQuestions(data){
   const out = [], errors = [];
@@ -298,7 +321,8 @@ function validateQuestions(data){
     if(typeof q.question!=='string' || !q.question.trim()) errors.push(`${path}: "question" fehlt/leer.`);
     if(typeof q.correctCount!=='number' || ![1,2,3].includes(q.correctCount)) errors.push(`${path}: "correctCount" muss 1, 2 oder 3 sein.`);
     if(!Array.isArray(q.options) || q.options.length!==6) errors.push(`${path}: "options" muss ein Array mit genau 6 Elementen sein.`);
-    const opts = (q.options||[]).map((o, oi)=>({
+
+    const opts = (q.options||[]).map((o)=>({
       text: String(o.text ?? ''),
       isCorrect: Boolean(o.isCorrect),
       explanation: typeof o.explanation==='string' ? o.explanation : '',
@@ -308,9 +332,32 @@ function validateQuestions(data){
     if([1,2,3].includes(q.correctCount) && corrects !== q.correctCount){
       errors.push(`${path}: Anzahl "isCorrect:true" (${corrects}) entspricht nicht "correctCount" (${q.correctCount}).`);
     }
-    out.push({ question: q.question, correctCount: q.correctCount, options: opts });
+
+    // new optional fields
+    const chapter = (typeof q.chapter === 'string' && q.chapter.trim()) ? q.chapter.trim() : '';
+    const image = (typeof q.image === 'string' && q.image.trim()) ? q.image.trim() : '';
+
+    out.push({ question: q.question, correctCount: q.correctCount, options: opts, chapter, image });
   });
   return {ok: errors.length===0, errors, questions: out};
+}
+
+/** =====================
+ * Helpers: Chapters
+ * ===================== */
+function populateChapters(list){
+  const select = $('chapterFilter');
+  if(!select) return;
+  // reset
+  select.innerHTML = '<option value="all">Alle Kapitel</option>';
+  const set = new Set();
+  (list||[]).forEach(q => { if(q.chapter) set.add(q.chapter); });
+  [...set].sort((a,b)=>a.localeCompare(b)).forEach(ch=>{
+    const opt = document.createElement('option');
+    opt.value = ch; opt.textContent = ch;
+    select.appendChild(opt);
+  });
+  select.disabled = false;
 }
 
 /** =====================
@@ -342,6 +389,20 @@ function renderQuestion(){
   $('qTitle').textContent = q.question;
   $('qCorrectCount').textContent = q.correctCount;
   $('qIndex').textContent = (currentIndex+1) + ' von ' + questions.length;
+
+  // Bild
+  const imgWrap = $('qImage');
+  if(imgWrap){
+    if(q.image){
+      // Basic sanitization: only http/https
+      const safe = /^https?:\/\//i.test(q.image) ? q.image : '';
+      imgWrap.innerHTML = safe
+        ? `<img src="${safe}" alt="Bild zur Frage" class="max-h-80 w-full h-auto object-contain rounded border border-slate-200" loading="lazy">`
+        : '';
+    } else {
+      imgWrap.innerHTML = '';
+    }
+  }
 
   // Optionenreihenfolge fixieren (pro Frage)
   if(!optionOrders[currentIndex]){
@@ -375,7 +436,7 @@ function renderQuestion(){
   if(Array.isArray(userSelections[currentIndex])){
     const prev = new Set(userSelections[currentIndex]);
     fs.querySelectorAll('input[type=checkbox]').forEach(inp=>{
-      const realIdx = Number(inp.dataset.actual_index || inp.getAttribute('data-actual-index'));
+      const realIdx = Number((inp.dataset.actualIndex ?? inp.getAttribute('data-actual-index')));
       if(prev.has(realIdx)) inp.checked = true;
     });
   }
@@ -445,7 +506,7 @@ function finishQuiz(timeUp=false){
           <div class="font-medium">${q.question}</div>
           <div class="text-sm px-2 py-0.5 rounded bg-slate-100">Punkte: ${pts.toFixed(2)} / 1</div>
         </div>
-        <div class="text-xs text-slate-500 mt-0.5">Anzahl korrekter Antworten: ${q.correctCount}</div>
+        <div class="text-xs text-slate-500 mt-0.5">Anzahl korrekter Antworten: ${q.correctCount}${q.chapter ? ' · Kapitel: ' + q.chapter : ''}</div>
         <div class="mt-2 space-y-1"></div>
       </div>
     `;
@@ -474,7 +535,7 @@ function handleAnswer(){
   const q = questions[currentIndex];
   const inputs = $('choices').querySelectorAll('input[type=checkbox]');
   const selectedRealIdx = [...inputs]
-    .map(inp => (inp.checked ? Number(inp.dataset.actual_index || inp.getAttribute('data-actual-index')) : null))
+    .map(inp => (inp.checked ? Number((inp.dataset.actualIndex ?? inp.getAttribute('data-actual-index'))) : null))
     .filter(x=>x!==null);
 
   userSelections[currentIndex] = selectedRealIdx.slice();
@@ -489,9 +550,8 @@ function handleAnswer(){
   inputs.forEach(i => i.disabled = true);
   $('answerBtn').disabled = true;
 
-  // INLINE-FEEDBACK direkt an jeder Option rendern
+  // INLINE-FEEDBACK direkt an jeder Option
   const selectedSet = new Set(selectedRealIdx);
-  const correctSet = new Set(q.options.map((o, idx)=> o.isCorrect ? idx : null).filter(x=>x!==null));
 
   document.querySelectorAll('#choices .option-row').forEach(row => {
     const idx = Number(row.dataset.actualIndex);
@@ -500,7 +560,7 @@ function handleAnswer(){
     const picked = selectedSet.has(idx);
     const isRight = q.options[idx].isCorrect;
 
-    // Badge: Richtig/Falsch/Nicht gewählt
+    // Badge
     let badgeText = 'Nicht gewählt';
     let badgeClasses = 'bg-slate-100 text-slate-700';
     if(isRight){ badgeText = 'Richtig'; badgeClasses = 'bg-emerald-100 text-emerald-700'; }
@@ -510,7 +570,7 @@ function handleAnswer(){
     badge.textContent = badgeText;
     badge.classList.remove('hidden');
 
-    // Erklärung/Quelle nur bei richtigen Antworten einblenden
+    // Erklärung/Quelle nur bei richtigen Antworten
     if(isRight){
       const opt = q.options[idx];
       const srcHtml = opt.source ? `<div class="mt-1 text-xs text-slate-500">Quelle: <a class="underline" href="${opt.source}" target="_blank" rel="noreferrer">${opt.source}</a></div>` : '';
@@ -541,8 +601,10 @@ function nextQuestion(){
 function clearSelection(){
   $('choices').querySelectorAll('input[type=checkbox]').forEach(i => { i.checked = false; i.disabled = false; });
   $('answerBtn').disabled = false;
-  // Inline-Hinweise zurücksetzen
-  document.querySelectorAll('#choices .result-badge').forEach(el=>{ el.classList.add('hidden'); el.textContent=''; el.removeAttribute('class'); });
+  document.querySelectorAll('#choices .result-badge').forEach(el=>{
+    el.className = 'result-badge text-xs font-medium px-2 py-0.5 rounded hidden';
+    el.textContent = '';
+  });
   document.querySelectorAll('#choices .explanation').forEach(el=>{ el.classList.add('hidden'); el.textContent=''; });
 }
 
@@ -559,16 +621,14 @@ document.addEventListener('keydown', (e) => {
 $('choices').addEventListener('click', (e) => {
   const row = e.target.closest('.option-row');
   if(!row) return;
-  // ignore clicks on anchors (e.g., sources), inputs or labels
   if(e.target.closest('a') || e.target.tagName === 'INPUT' || e.target.tagName === 'LABEL') return;
   const cb = row.querySelector('input[type="checkbox"]');
   if(!cb || cb.disabled) return;
   cb.checked = !cb.checked;
-  // trigger change so existing logic enables the answer button
   cb.dispatchEvent(new Event('change', { bubbles: true }));
 });
 
-// Keyboard support: Space/Enter on focused row toggles checkbox
+// Keyboard support for row
 $('choices').addEventListener('keydown', (e) => {
   if(e.key !== ' ' && e.key !== 'Enter') return;
   const row = e.target.closest('.option-row');
@@ -594,12 +654,14 @@ $('fileInput').addEventListener('change', async (e) => {
       box.innerHTML = '<strong>Validierungsfehler:</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
       box.classList.remove('hidden');
       $('startBtn').disabled = true;
+      $('chapterFilter').disabled = true;
       return;
     }
     box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
     box.textContent = 'Validierung erfolgreich. Du kannst das Quiz starten.';
     box.classList.remove('hidden');
     allQuestions = valid;
+    populateChapters(allQuestions);
     $('startBtn').disabled = valid.length === 0;
   } catch(err){
     const box = $('validation');
@@ -607,6 +669,7 @@ $('fileInput').addEventListener('change', async (e) => {
     box.textContent = 'Fehler beim Lesen der JSON: ' + err.message;
     box.classList.remove('hidden');
     $('startBtn').disabled = true;
+    $('chapterFilter').disabled = true;
   }
 });
 
@@ -620,12 +683,14 @@ $('loadDemo').addEventListener('click', () => {
     box.innerHTML = '<strong>Validierungsfehler (Demo):</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
     box.classList.remove('hidden');
     $('startBtn').disabled = true;
+    $('chapterFilter').disabled = true;
     return;
   }
   allQuestions = valid;
   box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
   box.textContent = `Demo-Fragen geladen (${valid.length}). Klicke „Quiz starten“.`;
   box.classList.remove('hidden');
+  populateChapters(allQuestions);
   $('startBtn').disabled = valid.length === 0;
 });
 
@@ -635,7 +700,19 @@ $('startBtn').addEventListener('click', () => {
     alert('Bitte zuerst Fragen laden.');
     return;
   }
-  questions = allQuestions.slice();
+
+  // Kapitel-Filter anwenden
+  const selectedChapter = $('chapterFilter')?.value || 'all';
+  let pool = allQuestions.slice();
+  if(selectedChapter && selectedChapter !== 'all'){
+    pool = pool.filter(q => q.chapter === selectedChapter);
+    if(pool.length === 0){
+      alert('Für das gewählte Kapitel wurden keine Fragen gefunden.');
+      return;
+    }
+  }
+
+  questions = pool.slice();
   if($('shuffleQuestions').checked) shuffle(questions);
   questions = questions.slice(0, QUIZ_LENGTH);
 
@@ -685,11 +762,14 @@ $('exportBtn')?.addEventListener('click', () => {
       index: i+1,
       points: Number((pts ?? 0).toFixed(2)),
       selected: userSelections[i] || [],
-      correctCount: questions[i].correctCount
+      correctCount: questions[i].correctCount,
+      chapter: questions[i].chapter || '',
+      image: questions[i].image || ''
     })),
     answered: answeredCount,
     timestamp: new Date().toISOString(),
     timeLimitMinutes: MAX_MINUTES,
+    chapterFilter: $('chapterFilter')?.value || 'all'
   };
   download('quiz_result.json', JSON.stringify(report, null, 2));
 });
