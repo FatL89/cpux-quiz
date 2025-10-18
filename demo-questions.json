@@ -1,72 +1,88 @@
 [
   {
-    "question": "Was ist die Hauptstadt von Frankreich?",
+    "question": "Welcher eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
     "correctCount": 1,
-    "chapter": "Geografie",
+    "chapter": "LO 1.1",
     "image": "",
     "options": [
-      { "text": "Berlin", "isCorrect": false },
-      { "text": "Madrid", "isCorrect": false },
-      { "text": "Paris",  "isCorrect": true, "explanation": "Paris ist die Hauptstadt Frankreichs.", "source": "https://de.wikipedia.org/wiki/Paris" },
-      { "text": "Rom",    "isCorrect": false },
-      { "text": "Lissabon","isCorrect": false },
-      { "text": "Athen",  "isCorrect": false }
+      { "text": "Engagement des Managements für Usability und menschzentrierte Gestaltung", "isCorrect": false },
+      { "text": "Interesse des Managements an Innovationen", "isCorrect": false },
+      { "text": "Die Analyse von Konkurrenzprodukten, um mögliche Fallstricke zu verstehen", "isCorrect": false },
+      { "text": "Die Einbeziehung der Benutzer während des gesamten Gestaltungsprozesses", "isCorrect": true,
+        "explanation": "Kernprinzip der menschzentrierten Gestaltung ist die kontinuierliche Einbeziehung der Benutzer während des gesamten Gestaltungsprozesses.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 6 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Regelmäßige Vorführungen des entstehenden interaktiven Systems vor Benutzern", "isCorrect": false },
+      { "text": "Genaue Zeitpläne zur Erreichung von Usability-Meilensteinen, sodass der Fortschritt überwacht werden kann", "isCorrect": false }
     ]
   },
   {
-    "question": "Welche zwei sind Primzahlen?",
+    "question": "Welche zwei der folgenden HCD-Ergebnisse werden während der Aktivität „Verstehen und Festlegen des Nutzungskontextes“ erzeugt?",
     "correctCount": 2,
-    "chapter": "Mathematik",
+    "chapter": "LO 1.3",
     "image": "",
     "options": [
-      { "text": "2", "isCorrect": true,  "explanation": "Einzige gerade Primzahl.", "source": "https://de.wikipedia.org/wiki/Primzahl" },
-      { "text": "4", "isCorrect": false },
-      { "text": "5", "isCorrect": true,  "explanation": "Ungerade Primzahl.", "source": "https://de.wikipedia.org/wiki/Primzahl" },
-      { "text": "9", "isCorrect": false },
-      { "text": "21","isCorrect": false },
-      { "text": "1", "isCorrect": false }
+      { "text": "Erfordernisse", "isCorrect": false },
+      { "text": "Usability-Testbericht", "isCorrect": false },
+      { "text": "Personas", "isCorrect": true,
+        "explanation": "Personas sind ein typisches Ergebnis der Analyse des Nutzungskontextes.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 8 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Ist-Szenarien", "isCorrect": true,
+        "explanation": "Ist-Szenarien werden im Nutzungskontext erhoben und dokumentiert.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 8 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Nutzungsanforderungen", "isCorrect": false },
+      { "text": "Low-Fidelity-Prototyp", "isCorrect": false }
     ]
   },
   {
-    "question": "Wähle drei Programmiersprachen",
-    "correctCount": 3,
-    "chapter": "Programmierung",
+    "question": "Eine Hotelbuchungs-Website bietet keine Möglichkeit, eine Reservierung zu stornieren, obwohl der Nutzungskontext zeigt, dass Benutzer diese Funktion benötigen. Welcher eine Aspekt der Usability wird verletzt?",
+    "correctCount": 1,
+    "chapter": "LO 2.2",
     "image": "",
     "options": [
-      { "text": "JavaScript", "isCorrect": true, "explanation": "Weit verbreitet im Web.", "source": "https://developer.mozilla.org/de/docs/Web/JavaScript" },
-      { "text": "HTML",       "isCorrect": false },
-      { "text": "Python",     "isCorrect": true, "explanation": "Universell einsetzbar.", "source": "https://www.python.org/" },
-      { "text": "CSS",        "isCorrect": false },
-      { "text": "Go",         "isCorrect": true, "explanation": "Kompilierte Sprache von Google.", "source": "https://go.dev/" },
-      { "text": "SVG",        "isCorrect": false }
+      { "text": "Barrierefreiheit", "isCorrect": false },
+      { "text": "Vollständigkeit", "isCorrect": false },
+      { "text": "Effizienz", "isCorrect": false },
+      { "text": "Effektivität", "isCorrect": true,
+        "explanation": "Fehlt eine benötigte Funktion, können Nutzer ihr Ziel nicht erreichen – das verletzt die Effektivität.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 9 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Zufriedenstellung", "isCorrect": false },
+      { "text": "Geschwindigkeit", "isCorrect": false }
     ]
   },
   {
-    "question": "Welche Aussagen über Wasser sind korrekt? (2)",
+    "question": "Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
     "correctCount": 2,
-    "chapter": "Naturwissenschaften",
+    "chapter": "LO 2.8",
     "image": "",
     "options": [
-      { "text": "Siedepunkt liegt bei 100°C auf Meereshöhe", "isCorrect": true, "explanation": "Bei 1 atm.", "source": "https://de.wikipedia.org/wiki/Wasser" },
-      { "text": "Gefrierpunkt liegt bei 10°C", "isCorrect": false },
-      { "text": "Chemische Formel ist H₂O", "isCorrect": true, "explanation": "2x H, 1x O.", "source": "https://de.wikipedia.org/wiki/Wasser" },
-      { "text": "Wasser ist unkompressibel", "isCorrect": false },
-      { "text": "Wasser brennt leicht", "isCorrect": false },
-      { "text": "Wasser ist ein Metall", "isCorrect": false }
+      { "text": "Kleiner, kontrastarmer Text verhindert, dass Menschen mit Sehbehinderung Inhalte lesen können", "isCorrect": false },
+      { "text": "Gelieferte Blumen weichen stark von den Produktbildern ab", "isCorrect": false },
+      { "text": "Im Ausland informiert eine Nachricht am Mobiltelefon über Datenroaming-Gebühren", "isCorrect": true,
+        "explanation": "Die Warnung hilft, unerwartete Kosten zu vermeiden – ein Schaden wird abgewendet.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 10 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Auf der Hotel-Website ist Stornieren möglich, aber Benutzer finden nicht heraus, wie", "isCorrect": false },
+      { "text": "Benutzer geben an, dass ihnen das Aussehen der Startseite nicht gefällt", "isCorrect": false },
+      { "text": "Putzmittelflaschen haben einen kindersicheren Verschluss", "isCorrect": true,
+        "explanation": "Kindersichere Verschlüsse verhindern Schäden durch unbeabsichtigte Nutzung.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 10 (Frage), S. 46–47 (Antworten)" }
     ]
   },
   {
-    "question": "Welche der folgenden sind Kontinente? (3)",
-    "correctCount": 3,
-    "chapter": "Geografie",
+    "question": "Hinsichtlich der Website einer Fluggesellschaft: Welche zwei der folgenden Aspekte beeinflussen die User Experience, nicht aber die Usability?",
+    "correctCount": 2,
+    "chapter": "LO 2.4",
     "image": "",
     "options": [
-      { "text": "Europa", "isCorrect": true, "explanation": "Kontinent.", "source": "https://de.wikipedia.org/wiki/Kontinent" },
-      { "text": "Asien",  "isCorrect": true, "explanation": "Größter Kontinent.", "source": "https://de.wikipedia.org/wiki/Asien" },
-      { "text": "Australien", "isCorrect": true, "explanation": "Eigenständiger Kontinent.", "source": "https://de.wikipedia.org/wiki/Australien_(Kontinent)" },
-      { "text": "Grönland", "isCorrect": false },
-      { "text": "Sibirien", "isCorrect": false },
-      { "text": "Arktis (als Ozean-Region)", "isCorrect": false }
+      { "text": "Die Bilder auf der Website sind ansprechend", "isCorrect": false },
+      { "text": "Gepäckkosten bleiben verborgen, bis der Benutzer seinen Namen eingegeben hat", "isCorrect": false },
+      { "text": "Stornieren ist möglich, aber die Rückerstattung ist schwer zu finden", "isCorrect": false },
+      { "text": "Die Benutzer empfinden die Preise auf der Website als ziemlich hoch", "isCorrect": true,
+        "explanation": "Preiswahrnehmung ist primär ein Marketing-/Angebotsthema und wirkt auf die User Experience, nicht auf die Usability des UI.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 11 (Frage), S. 46–47 (Antworten)" },
+      { "text": "Die Flughafensuche ist nicht fehlertolerant (‚Strassbourg‘ schlägt ‚Strasbourg‘ nicht vor)", "isCorrect": false },
+      { "text": "Nach dem Flug verärgern unerwünschte Marketing-E-Mails der Fluggesellschaft die Benutzer", "isCorrect": true,
+        "explanation": "Dies passiert nach der Interaktion und betrifft die User Experience, nicht die Usability des Systems.",
+        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 11 (Frage), S. 46–47 (Antworten)" }
     ]
   }
 ]
