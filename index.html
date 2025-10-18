@@ -140,19 +140,76 @@
 
         <div class="mt-6">
           <a href="#" id="clearBtn" class="inline-flex items-center text-sm underline text-slate-600 hover:text-slate-900 mb-3">Auswahl zurücksetzen</a>
-          <div class="flex flex-wrap gap-3">
+          <div class="flex flex-col gap-3 w-full">
             <button id="answerBtn" disabled
-                    class="px-4 py-2 rounded-md bg-indigo-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-indigo-700 inline-flex items-center gap-2">
+                    class="w-full px-4 py-3 rounded-md bg-indigo-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-indigo-700 inline-flex items-center justify-center gap-2">
               <span>Antworten</span>
-              <span aria-hidden="true" class="inline-flex items-center justify-center w-5 h-5 rounded bg-indigo-500/20">⏎</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" rx="4" fill="url(#paint0_linear_1_16)" fill-opacity="0.3"/>
+<rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="url(#paint1_radial_1_16)" stroke-opacity="0.3"/>
+<g clip-path="url(#clip0_1_16)">
+<g filter="url(#filter0_d_1_16)">
+<path d="M16.6667 8.66667V11.3333H7.88667L10.2733 8.94L9.33333 8L5.33333 12L9.33333 16L10.2733 15.06L7.88667 12.6667H18V8.66667H16.6667Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_16" x="5.33333" y="8" width="13.1667" height="8.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.5" dy="0.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_16"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_16" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_16" x1="12" y1="0" x2="12" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F0F0F0"/>
+<stop offset="1" stop-color="#ECECEC"/>
+</linearGradient>
+<radialGradient id="paint1_radial_1_16" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(90) scale(12)">
+<stop stop-color="#E9E8E8"/>
+<stop offset="1" stop-color="#E3E3E3"/>
+</radialGradient>
+<clipPath id="clip0_1_16">
+<rect width="16" height="16" fill="white" transform="translate(4 4)"/>
+</clipPath>
+</defs>
+</svg>
             </button>
             <button id="nextBtn" disabled
-                    class="px-4 py-2 rounded-md bg-slate-900 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-800 inline-flex items-center gap-2">
+                    class="w-full px-4 py-3 rounded-md bg-slate-900 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-800 inline-flex items-center justify-center gap-2">
               <span id="nextBtnLabel">Nächste Frage</span>
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-5 h-5">
-                <path d="M4 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M12 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" rx="4" fill="url(#paint0_linear_1_17)" fill-opacity="0.3"/>
+<rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="url(#paint1_radial_1_17)" stroke-opacity="0.3"/>
+<g clip-path="url(#clip0_1_17)">
+<g filter="url(#filter0_d_1_17)">
+<path d="M10.6667 15.3333L14 12L10.6667 8.66667V15.3333Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_17" x="10.6667" y="8.66667" width="3.83333" height="7.16667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.5" dy="0.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_17"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_17" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_17" x1="12" y1="0" x2="12" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F0F0F0"/>
+<stop offset="1" stop-color="#ECECEC"/>
+</linearGradient>
+<radialGradient id="paint1_radial_1_17" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(90) scale(12)">
+<stop stop-color="#E9E8E8"/>
+<stop offset="1" stop-color="#E3E3E3"/>
+</radialGradient>
+<clipPath id="clip0_1_17">
+<rect width="16" height="16" fill="white" transform="translate(4 4)"/>
+</clipPath>
+</defs>
+</svg>
             </button>
           </div>
         </div>
