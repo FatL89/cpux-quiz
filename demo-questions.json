@@ -70,22 +70,47 @@
     ]
   },
   {
-    "question": "Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
-    "correctCount": 2,
-    "chapter": "LO 2.8",
-    "image": "",
-    "options": [
-      { "text": "Der Text auf einer Website ist klein und hat einen zu geringen Kontrast zum Hintergrund, so dass Benutzer mit einer Sehbehinderung ihn nicht lesen können.", "isCorrect": false },
-      { "text": "Das Aussehen und die Qualität der Blumen, die über die Website eines Blumenhändlers bestellt wurden, unterscheiden sich erheblich von den Bildern auf der Website.", "isCorrect": false },
-      { "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobiltelefon, die sie über Datenroaming-Gebühren informiert.", "isCorrect": true },
-      { "text": "Auf der Website eines Hotels können die Benutzer die Buchung eines teuren Hotelzimmers stornieren, aber sie finden nicht heraus, wie das geht.", "isCorrect": false },
-      { "text": "Die Benutzer geben spontan an, dass ihnen das Aussehen der Startseite einer Hotelwebsite nicht gefällt.", "isCorrect": false },
-      { 
-        "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öffnen können.", 
-        "isCorrect": true,
-        "explanation": "Die Beispiele illustrieren Maßnahmen, die potenzielle physische oder finanzielle Schäden durch Nutzung verhindern.",
-        "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 10 (Frage 5), S. 47–48 (Antworten)"
-      }
-    ]
-  }
+  "question": "Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
+  "correctCount": 2,
+  "chapter": "LO 2.8",
+  "image": "",
+  "options": [
+    {
+      "text": "Der Text auf einer Website ist klein und hat einen zu geringen Kontrast zum Hintergrund, so dass Benutzer mit einer Sehbehinderung ihn nicht lesen können.",
+      "isCorrect": false,
+      "explanation": "A ist eine Frage der Barrierefreiheit.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    },
+    {
+      "text": "Das Aussehen und die Qualität der Blumen, die über die Website eines Blumenhändlers bestellt wurden, unterscheiden sich erheblich von den Bildern auf der Website.",
+      "isCorrect": false,
+      "explanation": "B ist eine Frage der User Experience.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    },
+    {
+      "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobiltelefon, die sie über Datenroaming-Gebühren informiert.",
+      "isCorrect": true,
+      "explanation": "C ist richtig; es wird im Curriculum als Beispiel genannt.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    },
+    {
+      "text": "Auf der Website eines Hotels können die Benutzer die Buchung eines teuren Hotelzimmers stornieren, aber sie finden nicht heraus, wie das geht.",
+      "isCorrect": false,
+      "explanation": "D hat mit der Effektivität zu tun.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    },
+    {
+      "text": "Die Benutzer geben spontan an, dass ihnen das Aussehen der Startseite einer Hotelwebsite nicht gefällt.",
+      "isCorrect": false,
+      "explanation": "E bezieht sich auf die Zufriedenstellung.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    },
+    {
+      "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öffnen können.",
+      "isCorrect": true,
+      "explanation": "F ist richtig.",
+      "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 46–47"
+    }
+  ]
+}
 ]
