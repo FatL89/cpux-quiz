@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CPUX Testfragen – 40 Fragen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .choice:disabled + label { cursor: not-allowed; opacity: .7; }
+    .explanation { white-space: pre-wrap; }
+    .hud-shadow { box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; white-space:nowrap; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="max-w-5xl mx-auto p-4 md:p-6">
+    <header class="mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold">CPUX Testfragen</h1>
+      <p class="text-sm text-slate-600">
+        40 Fragen · Zeit: <span id="safeTimerDisplay" class="font-mono">00:00</span> / 75:00
+      </p>
+    </header>
+
+    <!-- Setup -->
+    <section id="setup" class="mb-6 space-y-4">
+      <!-- Choice: Upload vs Demo -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Upload Card -->
+        <div class="p-4 rounded-lg border border-slate-200 bg-white">
+          <h2 class="font-semibold mb-2">Eigene Fragen hochladen</h2>
+          <p class="text-sm text-slate-600 mb-3">
+            Lade eine JSON-Datei mit deinen Fragen hoch (Format wird validiert). Alternativ kannst du rechts die Demo-Fragen nutzen.
+          </p>
+          <input id="fileInput" type="file" accept="application/json"
+                 class="block w-full text-sm file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:bg-slate-900 file:text-white hover:file:bg-slate-800" />
+          <div id="validation" class="mt-3 hidden rounded-md border p-3 text-sm"></div>
+        </div>
+
+        <!-- Demo Card -->
+        <div class="p-4 rounded-lg border border-slate-200 bg-white">
+          <h2 class="font-semibold mb-2">Oder: Demo‑Fragen verwenden</h2>
+          <p class="text-sm text-slate-600 mb-3">
+            Zum schnellen Testen kannst du die eingebauten Demo‑Fragen laden.
+          </p>
+          <button id="loadDemo" class="px-3 py-2 rounded-md bg-slate-200 hover:bg-slate-300 text-sm">
+            Demo‑Fragen laden
+          </button>
+        </div>
+      </div>
+
+      <!-- Options & Start -->
+      <div class="p-4 rounded-lg border border-slate-200 bg-white">
+        <h3 class="font-semibold mb-2">Quiz‑Optionen & Start</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <label class="flex items-center gap-2 p-3 rounded border bg-slate-50 cursor-pointer">
+            <input id="shuffleQuestions" type="checkbox" class="h-4 w-4 accent-emerald-600" checked />
+            <span>Fragen mischen</span>
+          </label>
+          <label class="flex items-center gap-2 p-3 rounded border bg-slate-50 cursor-pointer">
+            <input id="shuffleOptions" type="checkbox" class="h-4 w-4 accent-emerald-600" checked />
+            <span>Antwortoptionen mischen</span>
+          </label>
+        </div>
+        <div class="mt-4">
+          <button id="startBtn" disabled
+                  class="w-full px-4 py-2 rounded-md bg-emerald-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-emerald-700">
+            Quiz starten
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sticky HUD -->
+    <section id="hud" class="hidden mb-6 sticky top-0 z-20">
+      <div class="hud-shadow p-3 rounded-lg border border-slate-200 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-3 items-center">
+          <!-- Header row: left progress, right score + toggle -->
+          <div class="md:col-span-5 flex items-center justify-between">
+            <span id="progressText" class="text-sm">0 von 40 beantwortet</span>
+            <div class="flex items-center gap-2 text-sm">
+              <span id="scoreText">Score: 0.00 / 40</span>
+              <button id="toggleScoreBtn" type="button"
+                      class="inline-flex items-center gap-2 px-2 py-1 rounded border border-slate-300 hover:bg-slate-50"
+                      aria-pressed="false" aria-label="Score ausblenden/anzeigen">
+                <svg id="iconEyeOpen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                  <path d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7zm0 12a5 5 0 110-10 5 5 0 010 10z"/>
+                </svg>
+                <svg id="iconEyeClosed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 hidden">
+                  <path d="M3.28 2.22l18.5 18.5-1.06 1.06-2.5-2.5A12.6 12.6 0 0112 19c-7 0-10-7-10-7a18.1 18.1 0 013.5-4.63L2.22 3.28 3.28 2.22zM12 7a5 5 0 00-5 5c0 .57.1 1.11.28 1.61l6.33-6.33A4.98 4.98 0 0012 7zm5 5a4.98 4.98 0 01-1.28 3.39l2.2 2.2A12.9 12.9 0 0022 12s-1.03-2.28-3.18-4.22l-2.2 2.2c.24.63.38 1.31.38 2.02z"/>
+                </svg>
+                <span id="toggleScoreLabel">Score ausblenden</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Progress bar full width -->
+          <div class="md:col-span-5">
+            <div class="w-full h-2 bg-slate-200 rounded">
+              <div id="progressBar" class="h-2 bg-emerald-600 rounded" style="width:0%"></div>
+            </div>
+          </div>
+
+          <!-- (Optional) Keep hidden timer column for future use -->
+          <div class="text-right md:col-span-2 hidden">
+            <div class="text-xs text-slate-500">Zeit (max. 75:00)</div>
+            <div id="timer" class="font-mono text-xl">00:00</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="hidden">
+      <div id="card" class="p-4 md:p-6 rounded-lg border border-slate-200 bg-white">
+        <div class="flex items-start justify-between gap-4">
+          <h2 id="qTitle" class="text-lg md:text-xl font-semibold">Frage</h2>
+          <span id="qIndex" class="text-sm text-slate-500">1 / 40</span>
+        </div>
+        <div class="text-sm text-slate-600 mt-1">
+          Anzahl korrekter Antworten: <span id="qCorrectCount">1</span>
+        </div>
+
+        <fieldset id="choices" class="mt-4 space-y-2"></fieldset>
+
+        <!-- Früheres Sammel-Feedback bleibt entfernt/ungenutzt -->
+        <div id="feedback" class="hidden"></div>
+
+        <div class="mt-6">
+          <a href="#" id="clearBtn" class="inline-flex items-center text-sm underline text-slate-600 hover:text-slate-900 mb-3">Auswahl zurücksetzen</a>
+          <div class="flex flex-wrap gap-3">
+            <button id="answerBtn" disabled
+                    class="px-4 py-2 rounded-md bg-indigo-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-indigo-700 inline-flex items-center gap-2">
+              <span>Antworten</span>
+              <span aria-hidden="true" class="inline-flex items-center justify-center w-5 h-5 rounded bg-indigo-500/20">⏎</span>
+            </button>
+            <button id="nextBtn" disabled
+                    class="px-4 py-2 rounded-md bg-slate-900 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-800 inline-flex items-center gap-2">
+              <span id="nextBtnLabel">Nächste Frage</span>
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-5 h-5">
+                <path d="M4 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="hidden">
+      <div class="p-6 rounded-lg border border-slate-200 bg-white">
+        <h2 class="text-xl font-bold mb-1">Ergebnis</h2>
+        <p id="finalScore" class="text-lg font-mono">0 / 40 (0.00%)</p>
+        <p id="grade" class="text-sm text-slate-600 mb-4">Status: –</p>
+        <div class="flex flex-wrap gap-3 mb-4">
+          <button id="restartBtn"
+                  class="px-4 py-2 rounded-md bg-slate-900 text-white hover:bg-slate-800">
+            Neues Quiz
+          </button>
+          <button id="exportBtn"
+                  class="px-4 py-2 rounded-md bg-slate-200 hover:bg-slate-300">
+            Ergebnis als JSON exportieren
+          </button>
+          <button id="toggleReview"
+                  class="px-4 py-2 rounded-md bg-slate-200 hover:bg-slate-300">
+            Review anzeigen/ausblenden
+          </button>
+        </div>
+        <div id="review" class="hidden">
+          <ol id="reviewList" class="space-y-4 list-decimal pl-5"></ol>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<script>
+/** =====================
+ * Globals & Types
+ * ===================== */
+let allQuestions = [];
+let questions = [];
+let currentIndex = 0;
+let answeredCount = 0;
+let totalScore = 0;
+let quizStarted = false;
+let timerInterval = null;
+const QUIZ_LENGTH = 40;
+const MAX_MINUTES = 75;
+let perQuestionScores = [];
+let userSelections = [];
+let optionOrders = [];
+
+/** =====================
+ * Utils
+ * ===================== */
+const $ = (id) => document.getElementById(id);
+const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
+function download(filename, content){
+  const blob = new Blob([content], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+}
+function shuffle(arr){
+  for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
+  return arr;
+}
+
+/** =====================
+ * Built-in Demo Questions (will be expanded to 40)
+ * ===================== */
+const DEMO_QUESTIONS_BASE = [
+  {
+    question: "Was ist die Hauptstadt von Frankreich?",
+    correctCount: 1,
+    options: [
+      { text: "Berlin", isCorrect: false },
+      { text: "Madrid", isCorrect: false },
+      { text: "Paris", isCorrect: true, explanation: "Paris ist seit 508 Hauptstadt des fränkischen Reiches bzw. Frankreichs.", source: "https://de.wikipedia.org/wiki/Paris" },
+      { text: "Rom", isCorrect: false },
+      { text: "Lissabon", isCorrect: false },
+      { text: "Athen", isCorrect: false }
+    ]
+  },
+  {
+    question: "Welche zwei sind Primzahlen?",
+    correctCount: 2,
+    options: [
+      { text: "2", isCorrect: true, explanation: "2 ist die kleinste und einzige gerade Primzahl.", source: "https://de.wikipedia.org/wiki/Primzahl" },
+      { text: "4", isCorrect: false },
+      { text: "5", isCorrect: true, explanation: "5 ist eine ungerade Primzahl.", source: "https://de.wikipedia.org/wiki/Primzahl" },
+      { text: "9", isCorrect: false },
+      { text: "21", isCorrect: false },
+      { text: "1", isCorrect: false }
+    ]
+  },
+  {
+    question: "Wähle drei Programmiersprachen",
+    correctCount: 3,
+    options: [
+      { text: "JavaScript", isCorrect: true, explanation: "JavaScript ist eine Programmiersprache für Web- und Server-Anwendungen.", source: "https://developer.mozilla.org/de/docs/Web/JavaScript" },
+      { text: "HTML", isCorrect: false },
+      { text: "Python", isCorrect: true, explanation: "Python ist eine universelle Programmiersprache.", source: "https://www.python.org/" },
+      { text: "CSS", isCorrect: false },
+      { text: "Go", isCorrect: true, explanation: "Go ist eine kompilierte Sprache von Google.", source: "https://go.dev/" },
+      { text: "SVG", isCorrect: false }
+    ]
+  },
+  {
+    question: "Welche Aussagen über Wasser sind korrekt? (2)",
+    correctCount: 2,
+    options: [
+      { text: "Siedepunkt liegt bei 100°C auf Meereshöhe", isCorrect: true, explanation: "Bei 1 atm siedet Wasser bei 100°C.", source: "https://de.wikipedia.org/wiki/Wasser" },
+      { text: "Gefrierpunkt liegt bei 10°C", isCorrect: false },
+      { text: "Chemische Formel ist H₂O", isCorrect: true, explanation: "Wasser besteht aus zwei Wasserstoff- und einem Sauerstoffatom.", source: "https://de.wikipedia.org/wiki/Wasser" },
+      { text: "Wasser ist unkompressibel", isCorrect: false },
+      { text: "Wasser brennt leicht", isCorrect: false },
+      { text: "Wasser ist ein Metall", isCorrect: false }
+    ]
+  },
+  {
+    question: "Welche der folgenden sind Kontinente? (3)",
+    correctCount: 3,
+    options: [
+      { text: "Europa", isCorrect: true, explanation: "Europa ist ein Kontinent.", source: "https://de.wikipedia.org/wiki/Kontinent" },
+      { text: "Asien", isCorrect: true, explanation: "Asien ist der größte Kontinent.", source: "https://de.wikipedia.org/wiki/Asien" },
+      { text: "Australien", isCorrect: true, explanation: "Australien gilt als eigenständiger Kontinent.", source: "https://de.wikipedia.org/wiki/Australien_(Kontinent)" },
+      { text: "Grönland", isCorrect: false },
+      { text: "Sibirien", isCorrect: false },
+      { text: "Arktis (als Ozean-Region)", isCorrect: false }
+    ]
+  }
+];
+
+function expandDemoTo40(base){
+  const out = [];
+  let i = 0;
+  while(out.length < 40){
+    const src = JSON.parse(JSON.stringify(base[i % base.length]));
+    // kleine Variation am Fragentext, damit sie unterscheidbar sind
+    src.question = `${src.question} (Variante ${Math.floor(out.length/base.length)+1})`;
+    out.push(src);
+    i++;
+  }
+  return out;
+}
+
+/** =====================
+ * Validation
+ * ===================== */
+function validateQuestions(data){
+  const out = [], errors = [];
+  if(!Array.isArray(data)) return {ok:false, errors:['JSON muss ein Array sein.']};
+  data.forEach((q, qi) => {
+    const path = `Frage ${qi+1}`;
+    if(typeof q.question!=='string' || !q.question.trim()) errors.push(`${path}: "question" fehlt/leer.`);
+    if(typeof q.correctCount!=='number' || ![1,2,3].includes(q.correctCount)) errors.push(`${path}: "correctCount" muss 1, 2 oder 3 sein.`);
+    if(!Array.isArray(q.options) || q.options.length!==6) errors.push(`${path}: "options" muss ein Array mit genau 6 Elementen sein.`);
+    const opts = (q.options||[]).map((o, oi)=>({
+      text: String(o.text ?? ''),
+      isCorrect: Boolean(o.isCorrect),
+      explanation: typeof o.explanation==='string' ? o.explanation : '',
+      source: typeof o.source==='string' ? o.source : ''
+    }));
+    const corrects = opts.filter(o=>o.isCorrect).length;
+    if([1,2,3].includes(q.correctCount) && corrects !== q.correctCount){
+      errors.push(`${path}: Anzahl "isCorrect:true" (${corrects}) entspricht nicht "correctCount" (${q.correctCount}).`);
+    }
+    out.push({ question: q.question, correctCount: q.correctCount, options: opts });
+  });
+  return {ok: errors.length===0, errors, questions: out};
+}
+
+/** =====================
+ * Scoring
+ * ===================== */
+function scoreQuestion(q, selectedIndices){
+  const k = q.correctCount;
+  const correctSet = new Set(q.options.map((o, idx)=> o.isCorrect ? idx : null).filter(x=>x!==null));
+  const selectedSet = new Set(selectedIndices);
+
+  // Punkte nur, wenn GENAU k gewählt wurden; sonst 0
+  if(selectedSet.size !== k) return 0;
+
+  if(k === 1){
+    const idx = [...selectedSet][0];
+    return correctSet.has(idx) ? 1 : 0;
+  }
+  const per = (k === 2) ? 0.5 : (1/3);
+  let s = 0;
+  for(const idx of selectedSet){ s += correctSet.has(idx) ? per : -per; }
+  return clamp(Math.max(0, s), 0, 1);
+}
+
+/** =====================
+ * Rendering
+ * ===================== */
+function renderQuestion(){
+  const q = questions[currentIndex];
+  $('qTitle').textContent = q.question;
+  $('qCorrectCount').textContent = q.correctCount;
+  $('qIndex').textContent = (currentIndex+1) + ' von ' + questions.length;
+
+  // Optionenreihenfolge fixieren (pro Frage)
+  if(!optionOrders[currentIndex]){
+    const order = [0,1,2,3,4,5];
+    if($('shuffleOptions').checked) shuffle(order);
+    optionOrders[currentIndex] = order;
+  }
+  const order = optionOrders[currentIndex];
+
+  const fs = $('choices');
+  fs.innerHTML = '';
+  order.forEach((optIdx, visIdx) => {
+    const opt = q.options[optIdx];
+    const id = 'choice_'+visIdx;
+    const row = document.createElement('div');
+    row.className = 'option-row flex flex-col gap-1 p-2 rounded hover:bg-slate-50 cursor-pointer';
+    row.setAttribute('tabindex','0');
+    row.dataset.actualIndex = String(optIdx);
+    row.innerHTML = `
+      <div class="flex items-start gap-3">
+        <input type="checkbox" id="${id}" class="choice mt-1" data-actual-index="${optIdx}" />
+        <label for="${id}" class="select-none">${opt.text}</label>
+        <span class="result-badge text-xs font-medium px-2 py-0.5 rounded hidden"></span>
+      </div>
+      <div class="ml-6 mt-1 text-sm explanation hidden"></div>
+    `;
+    fs.appendChild(row);
+  });
+
+  // Vorbelegung (falls vorhanden)
+  if(Array.isArray(userSelections[currentIndex])){
+    const prev = new Set(userSelections[currentIndex]);
+    fs.querySelectorAll('input[type=checkbox]').forEach(inp=>{
+      const realIdx = Number(inp.dataset.actual_index || inp.getAttribute('data-actual-index'));
+      if(prev.has(realIdx)) inp.checked = true;
+    });
+  }
+
+  $('answerBtn').disabled = false;
+  $('nextBtn').disabled = true;
+}
+
+function updateHud(){
+  $('progressText').textContent = answeredCount + ' von ' + questions.length + ' beantwortet';
+  const pct = (answeredCount / questions.length) * 100;
+  $('progressBar').style.width = pct + '%';
+  $('scoreText').textContent = 'Score: ' + totalScore.toFixed(2) + ' / ' + questions.length;
+}
+
+/** Sichtbarkeit steuern */
+function setVisible(ids){
+  const targets = Array.isArray(ids) ? ids : [ids];
+  ['setup','hud','quiz','results'].forEach(id => {
+    const el = $(id);
+    if(!el) return;
+    el.classList.toggle('hidden', !targets.includes(id));
+  });
+}
+
+/** =====================
+ * Timer
+ * ===================== */
+function startTimer(){
+  let elapsed = 0;
+  const limit = MAX_MINUTES * 60;
+  const tEl = $('safeTimerDisplay');
+  clearInterval(timerInterval);
+  if(tEl) tEl.textContent = '00:00';
+  timerInterval = setInterval(() => {
+    elapsed++;
+    const m = Math.floor(elapsed/60), s = elapsed%60;
+    if(tEl) tEl.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+    if(elapsed >= limit){ clearInterval(timerInterval); finishQuiz(true); }
+  }, 1000);
+}
+function timer(){ startTimer(); } // Wrapper
+
+/** =====================
+ * Lifecycle
+ * ===================== */
+function finishQuiz(timeUp=false){
+  quizStarted = false;
+  setVisible(['results']);
+  const max = questions.length;
+  const pct = (totalScore / max) * 100;
+  $('finalScore').textContent = `${totalScore.toFixed(2)} / ${max} (${pct.toFixed(2)}%)`;
+  const passed = (totalScore >= 28) || (pct >= 78);
+  const statusText = passed ? 'Bestanden (≥ 28 Punkte bzw. 78%)' : 'Nicht bestanden (< 28 Punkte bzw. 78%)';
+  $('grade').textContent = `${statusText}` + (timeUp ? ' (Zeit abgelaufen)' : '');
+
+  // Review
+  const list = $('reviewList');
+  list.innerHTML = '';
+  questions.forEach((q, qi) => {
+    const sel = new Set(userSelections[qi] || []);
+    const pts = perQuestionScores[qi] ?? 0;
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <div class="p-3 border rounded">
+        <div class="flex justify-between items-center gap-3">
+          <div class="font-medium">${q.question}</div>
+          <div class="text-sm px-2 py-0.5 rounded bg-slate-100">Punkte: ${pts.toFixed(2)} / 1</div>
+        </div>
+        <div class="text-xs text-slate-500 mt-0.5">Anzahl korrekter Antworten: ${q.correctCount}</div>
+        <div class="mt-2 space-y-1"></div>
+      </div>
+    `;
+    const container = li.querySelector('.mt-2');
+    q.options.forEach((opt, oi) => {
+      const isRight = opt.isCorrect;
+      const picked = sel.has(oi);
+      const icon = picked ? '✓' : '–';
+      const badge = isRight ? 'bg-emerald-100 text-emerald-700' : (picked ? 'bg-rose-100 text-rose-700' : 'bg-slate-100 text-slate-600');
+      const row = document.createElement('div');
+      row.className = 'flex items-start gap-2';
+      row.innerHTML = `
+        <span class="inline-block text-xs px-2 py-0.5 rounded ${badge}">${icon}</span>
+        <div>${opt.text}</div>
+      `;
+      container.appendChild(row);
+    });
+    list.appendChild(li);
+  });
+}
+
+/** =====================
+ * Answer flow – inline Feedback je Checkbox
+ * ===================== */
+function handleAnswer(){
+  const q = questions[currentIndex];
+  const inputs = $('choices').querySelectorAll('input[type=checkbox]');
+  const selectedRealIdx = [...inputs]
+    .map(inp => (inp.checked ? Number(inp.dataset.actual_index || inp.getAttribute('data-actual-index')) : null))
+    .filter(x=>x!==null);
+
+  userSelections[currentIndex] = selectedRealIdx.slice();
+
+  const pts = scoreQuestion(q, selectedRealIdx);
+  const wasAnswered = typeof perQuestionScores[currentIndex] === 'number';
+  if(wasAnswered){ totalScore -= perQuestionScores[currentIndex]; } else { answeredCount++; }
+  perQuestionScores[currentIndex] = pts;
+  totalScore += pts;
+
+  // Lock Auswahl
+  inputs.forEach(i => i.disabled = true);
+  $('answerBtn').disabled = true;
+
+  // INLINE-FEEDBACK direkt an jeder Option rendern
+  const selectedSet = new Set(selectedRealIdx);
+  const correctSet = new Set(q.options.map((o, idx)=> o.isCorrect ? idx : null).filter(x=>x!==null));
+
+  document.querySelectorAll('#choices .option-row').forEach(row => {
+    const idx = Number(row.dataset.actualIndex);
+    const badge = row.querySelector('.result-badge');
+    const expl  = row.querySelector('.explanation');
+    const picked = selectedSet.has(idx);
+    const isRight = q.options[idx].isCorrect;
+
+    // Badge: Richtig/Falsch/Nicht gewählt
+    let badgeText = 'Nicht gewählt';
+    let badgeClasses = 'bg-slate-100 text-slate-700';
+    if(isRight){ badgeText = 'Richtig'; badgeClasses = 'bg-emerald-100 text-emerald-700'; }
+    else if(picked){ badgeText = 'Falsch'; badgeClasses = 'bg-rose-100 text-rose-700'; }
+
+    badge.className = 'result-badge text-xs font-medium px-2 py-0.5 rounded ' + badgeClasses;
+    badge.textContent = badgeText;
+    badge.classList.remove('hidden');
+
+    // Erklärung/Quelle nur bei richtigen Antworten einblenden
+    if(isRight){
+      const opt = q.options[idx];
+      const srcHtml = opt.source ? `<div class="mt-1 text-xs text-slate-500">Quelle: <a class="underline" href="${opt.source}" target="_blank" rel="noreferrer">${opt.source}</a></div>` : '';
+      const explHtml = opt.explanation ? `<div>${opt.explanation}</div>` : '';
+      if(explHtml || srcHtml){
+        expl.innerHTML = explHtml + srcHtml;
+        expl.classList.remove('hidden');
+      }
+    } else {
+      expl.classList.add('hidden');
+      expl.innerHTML = '';
+    }
+  });
+
+  updateHud();
+  $('nextBtn').disabled = false;
+  $('nextBtnLabel').textContent = (currentIndex >= questions.length - 1) ? 'Ergebnis anzeigen' : 'Nächste Frage';
+}
+
+function nextQuestion(){
+  if(currentIndex >= questions.length - 1){ finishQuiz(false); return; }
+  currentIndex++;
+  renderQuestion();
+  const lbl = $('nextBtnLabel');
+  if(lbl) lbl.textContent = (currentIndex >= questions.length - 1) ? 'Ergebnis anzeigen' : 'Nächste Frage';
+}
+
+function clearSelection(){
+  $('choices').querySelectorAll('input[type=checkbox]').forEach(i => { i.checked = false; i.disabled = false; });
+  $('answerBtn').disabled = false;
+  // Inline-Hinweise zurücksetzen
+  document.querySelectorAll('#choices .result-badge').forEach(el=>{ el.classList.add('hidden'); el.textContent=''; el.removeAttribute('class'); });
+  document.querySelectorAll('#choices .explanation').forEach(el=>{ el.classList.add('hidden'); el.textContent=''; });
+}
+
+/** =====================
+ * Events & Setup
+ * ===================== */
+document.addEventListener('keydown', (e) => {
+  if($('quiz').classList.contains('hidden')) return;
+  if(e.key === 'Enter'){ if(!$('answerBtn').disabled) handleAnswer(); }
+  else if(e.key === 'ArrowRight'){ if(!$('nextBtn').disabled) nextQuestion(); }
+});
+
+// Make entire option row clickable
+$('choices').addEventListener('click', (e) => {
+  const row = e.target.closest('.option-row');
+  if(!row) return;
+  // ignore clicks on anchors (e.g., sources), inputs or labels
+  if(e.target.closest('a') || e.target.tagName === 'INPUT' || e.target.tagName === 'LABEL') return;
+  const cb = row.querySelector('input[type="checkbox"]');
+  if(!cb || cb.disabled) return;
+  cb.checked = !cb.checked;
+  // trigger change so existing logic enables the answer button
+  cb.dispatchEvent(new Event('change', { bubbles: true }));
+});
+
+// Keyboard support: Space/Enter on focused row toggles checkbox
+$('choices').addEventListener('keydown', (e) => {
+  if(e.key !== ' ' && e.key !== 'Enter') return;
+  const row = e.target.closest('.option-row');
+  if(!row) return;
+  const cb = row.querySelector('input[type="checkbox"]');
+  if(!cb || cb.disabled) return;
+  e.preventDefault();
+  cb.checked = !cb.checked;
+  cb.dispatchEvent(new Event('change', { bubbles: true }));
+});
+
+// File upload
+$('fileInput').addEventListener('change', async (e) => {
+  const file = e.target.files?.[0];
+  if(!file) return;
+  try {
+    const txt = await file.text();
+    const parsed = JSON.parse(txt);
+    const {ok, errors, questions: valid} = validateQuestions(parsed);
+    const box = $('validation');
+    if(!ok){
+      box.className = 'mt-3 rounded-md border border-rose-200 bg-rose-50 text-rose-800 p-3 text-sm';
+      box.innerHTML = '<strong>Validierungsfehler:</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
+      box.classList.remove('hidden');
+      $('startBtn').disabled = true;
+      return;
+    }
+    box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
+    box.textContent = 'Validierung erfolgreich. Du kannst das Quiz starten.';
+    box.classList.remove('hidden');
+    allQuestions = valid;
+    $('startBtn').disabled = valid.length === 0;
+  } catch(err){
+    const box = $('validation');
+    box.className = 'mt-3 rounded-md border border-rose-200 bg-rose-50 text-rose-800 p-3 text-sm';
+    box.textContent = 'Fehler beim Lesen der JSON: ' + err.message;
+    box.classList.remove('hidden');
+    $('startBtn').disabled = true;
+  }
+});
+
+// Demo laden
+$('loadDemo').addEventListener('click', () => {
+  const box = $('validation');
+  const data = expandDemoTo40(DEMO_QUESTIONS_BASE);
+  const {ok, errors, questions: valid} = validateQuestions(data);
+  if(!ok){
+    box.className = 'mt-3 rounded-md border border-rose-200 bg-rose-50 text-rose-800 p-3 text-sm';
+    box.innerHTML = '<strong>Validierungsfehler (Demo):</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
+    box.classList.remove('hidden');
+    $('startBtn').disabled = true;
+    return;
+  }
+  allQuestions = valid;
+  box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
+  box.textContent = `Demo-Fragen geladen (${valid.length}). Klicke „Quiz starten“.`;
+  box.classList.remove('hidden');
+  $('startBtn').disabled = valid.length === 0;
+});
+
+// Start
+$('startBtn').addEventListener('click', () => {
+  if(!allQuestions || allQuestions.length === 0){
+    alert('Bitte zuerst Fragen laden.');
+    return;
+  }
+  questions = allQuestions.slice();
+  if($('shuffleQuestions').checked) shuffle(questions);
+  questions = questions.slice(0, QUIZ_LENGTH);
+
+  currentIndex = 0;
+  answeredCount = 0;
+  totalScore = 0;
+  perQuestionScores = new Array(questions.length).fill(undefined);
+  userSelections = new Array(questions.length).fill(undefined);
+  optionOrders = new Array(questions.length).fill(null);
+  quizStarted = true;
+
+  $('safeTimerDisplay').textContent = '00:00';
+  updateHud();
+  setVisible(['hud','quiz']);
+  startTimer();
+  renderQuestion();
+
+  $('choices').addEventListener('change', () => { $('answerBtn').disabled = false; });
+});
+
+// Antworten
+$('answerBtn').addEventListener('click', handleAnswer);
+
+// Next / Finish
+$('nextBtn').addEventListener('click', () => {
+  if(currentIndex >= questions.length - 1){ finishQuiz(false); }
+  else { nextQuestion(); }
+});
+
+// Clear selection
+$('clearBtn').addEventListener('click', (e) => { e.preventDefault(); clearSelection(); });
+
+// Restart
+$('restartBtn')?.addEventListener('click', () => {
+  clearInterval(timerInterval);
+  $('safeTimerDisplay').textContent = '00:00';
+  setVisible(['setup']);
+});
+
+// Export Ergebnis
+$('exportBtn')?.addEventListener('click', () => {
+  const report = {
+    totalScore: Number(totalScore.toFixed(2)),
+    maxScore: questions.length,
+    percent: Number(((totalScore / questions.length) * 100).toFixed(2)),
+    perQuestion: perQuestionScores.map((pts, i) => ({
+      index: i+1,
+      points: Number((pts ?? 0).toFixed(2)),
+      selected: userSelections[i] || [],
+      correctCount: questions[i].correctCount
+    })),
+    answered: answeredCount,
+    timestamp: new Date().toISOString(),
+    timeLimitMinutes: MAX_MINUTES,
+  };
+  download('quiz_result.json', JSON.stringify(report, null, 2));
+});
+
+// Review ein-/ausblenden
+(function(){
+  const btn = $('toggleReview');
+  const panel = $('review');
+  if(!btn || !panel) return;
+  function setLabel(){
+    const isHidden = panel.classList.contains('hidden');
+    btn.textContent = isHidden ? 'Review anzeigen' : 'Review verbergen';
+  }
+  btn.addEventListener('click', () => {
+    panel.classList.toggle('hidden');
+    setLabel();
+  });
+  setLabel();
+})();
+
+// Score anzeigen/ausblenden (Eye-Toggle)
+(function(){
+  const btn = $('toggleScoreBtn');
+  if(!btn) return;
+  const iconOpen = $('iconEyeOpen');
+  const iconClosed = $('iconEyeClosed');
+  const label = $('toggleScoreLabel');
+  const score = $('scoreText');
+  let visible = true;
+  function render(){
+    if(score) score.classList.toggle('hidden', !visible);
+    if(iconOpen) iconOpen.classList.toggle('hidden', !visible);
+    if(iconClosed) iconClosed.classList.toggle('hidden', visible);
+    if(label) label.textContent = visible ? 'Score ausblenden' : 'Score anzeigen';
+    btn.setAttribute('aria-pressed', String(!visible));
+  }
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    visible = !visible;
+    render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>
