@@ -277,94 +277,40 @@ function shuffle(arr){
   return arr;
 }
 
-/** =====================
- * Built-in Demo Questions (will be expanded to 40)
- * now with chapter + image (optional)
- * ===================== */
-const DEMO_QUESTIONS_BASE = [
-  {
-    question: "Was ist die Hauptstadt von Frankreich?",
-    correctCount: 1,
-    chapter: "Geografie",
-    image: "", // z.B. "https://via.placeholder.com/800x400?text=Paris"
-    options: [
-      { text: "Berlin", isCorrect: false },
-      { text: "Madrid", isCorrect: false },
-      { text: "Paris", isCorrect: true, explanation: "Paris ist seit 508 Hauptstadt des fränkischen Reiches bzw. Frankreichs.", source: "https://de.wikipedia.org/wiki/Paris" },
-      { text: "Rom", isCorrect: false },
-      { text: "Lissabon", isCorrect: false },
-      { text: "Athen", isCorrect: false }
-    ]
-  },
-  {
-    question: "Welche zwei sind Primzahlen?",
-    correctCount: 2,
-    chapter: "Mathematik",
-    image: "",
-    options: [
-      { text: "2", isCorrect: true, explanation: "2 ist die kleinste und einzige gerade Primzahl.", source: "https://de.wikipedia.org/wiki/Primzahl" },
-      { text: "4", isCorrect: false },
-      { text: "5", isCorrect: true, explanation: "5 ist eine ungerade Primzahl.", source: "https://de.wikipedia.org/wiki/Primzahl" },
-      { text: "9", isCorrect: false },
-      { text: "21", isCorrect: false },
-      { text: "1", isCorrect: false }
-    ]
-  },
-  {
-    question: "Wähle drei Programmiersprachen",
-    correctCount: 3,
-    chapter: "Programmierung",
-    image: "",
-    options: [
-      { text: "JavaScript", isCorrect: true, explanation: "JavaScript ist eine Programmiersprache für Web- und Server-Anwendungen.", source: "https://developer.mozilla.org/de/docs/Web/JavaScript" },
-      { text: "HTML", isCorrect: false },
-      { text: "Python", isCorrect: true, explanation: "Python ist eine universelle Programmiersprache.", source: "https://www.python.org/" },
-      { text: "CSS", isCorrect: false },
-      { text: "Go", isCorrect: true, explanation: "Go ist eine kompilierte Sprache von Google.", source: "https://go.dev/" },
-      { text: "SVG", isCorrect: false }
-    ]
-  },
-  {
-    question: "Welche Aussagen über Wasser sind korrekt? (2)",
-    correctCount: 2,
-    chapter: "Naturwissenschaften",
-    image: "",
-    options: [
-      { text: "Siedepunkt liegt bei 100°C auf Meereshöhe", isCorrect: true, explanation: "Bei 1 atm siedet Wasser bei 100°C.", source: "https://de.wikipedia.org/wiki/Wasser" },
-      { text: "Gefrierpunkt liegt bei 10°C", isCorrect: false },
-      { text: "Chemische Formel ist H₂O", isCorrect: true, explanation: "Wasser besteht aus zwei Wasserstoff- und einem Sauerstoffatom.", source: "https://de.wikipedia.org/wiki/Wasser" },
-      { text: "Wasser ist unkompressibel", isCorrect: false },
-      { text: "Wasser brennt leicht", isCorrect: false },
-      { text: "Wasser ist ein Metall", isCorrect: false }
-    ]
-  },
-  {
-    question: "Welche der folgenden sind Kontinente? (3)",
-    correctCount: 3,
-    chapter: "Geografie",
-    image: "",
-    options: [
-      { text: "Europa", isCorrect: true, explanation: "Europa ist ein Kontinent.", source: "https://de.wikipedia.org/wiki/Kontinent" },
-      { text: "Asien", isCorrect: true, explanation: "Asien ist der größte Kontinent.", source: "https://de.wikipedia.org/wiki/Asien" },
-      { text: "Australien", isCorrect: true, explanation: "Australien gilt als eigenständiger Kontinent.", source: "https://de.wikipedia.org/wiki/Australien_(Kontinent)" },
-      { text: "Grönland", isCorrect: false },
-      { text: "Sibirien", isCorrect: false },
-      { text: "Arktis (als Ozean-Region)", isCorrect: false }
-    ]
-  }
-];
 
-function expandDemoTo40(base){
-  const out = [];
-  let i = 0;
-  while(out.length < 40){
-    const src = JSON.parse(JSON.stringify(base[i % base.length]));
-    // kleine Variation am Fragentext, damit sie unterscheidbar sind
-    src.question = `${src.question} (Variante ${Math.floor(out.length/base.length)+1})`;
-    out.push(src);
-    i++;
+/** =====================
+ * Demo questions loader (external JSON)
+ * ===================== */
+async function loadDemoFromRepo() {
+  const box = $('validation');
+  try {
+    const res = await fetch('demo-questions.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const { ok, errors, questions: valid } = validateQuestions(data);
+    if (!ok) {
+      box.className = 'mt-3 rounded-md border border-rose-200 bg-rose-50 text-rose-800 p-3 text-sm';
+      box.innerHTML = '<strong>Validierungsfehler (Demo):</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
+      box.classList.remove('hidden');
+      $('startBtn').disabled = true;
+      $('chapterFilter').disabled = true;
+      return;
+    }
+    allQuestions = valid;
+    box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
+    box.textContent = `Demo-Fragen geladen (${valid.length}). Klicke „Quiz starten“.`;
+    box.classList.remove('hidden');
+    populateChapters(allQuestions);
+    $('startBtn').disabled = valid.length === 0;
+  } catch (err) {
+    // Most common cause locally is file:// fetch restrictions
+    box.className = 'mt-3 rounded-md border border-amber-200 bg-amber-50 text-amber-900 p-3 text-sm';
+    box.innerHTML = `Konnte <code>demo-questions.json</code> nicht laden (${err.message}).<br>` +
+      'Tipp: Öffne die Seite über GitHub Pages oder einen lokalen Webserver (z. B. <code>python3 -m http.server</code>).';
+    box.classList.remove('hidden');
+    $('startBtn').disabled = true;
+    $('chapterFilter').disabled = true;
   }
-  return out;
 }
 
 /** =====================
@@ -730,26 +676,8 @@ $('fileInput').addEventListener('change', async (e) => {
   }
 });
 
-// Demo laden
-$('loadDemo').addEventListener('click', () => {
-  const box = $('validation');
-  const data = expandDemoTo40(DEMO_QUESTIONS_BASE);
-  const {ok, errors, questions: valid} = validateQuestions(data);
-  if(!ok){
-    box.className = 'mt-3 rounded-md border border-rose-200 bg-rose-50 text-rose-800 p-3 text-sm';
-    box.innerHTML = '<strong>Validierungsfehler (Demo):</strong><br>' + errors.map(x=>`• ${x}`).join('<br>');
-    box.classList.remove('hidden');
-    $('startBtn').disabled = true;
-    $('chapterFilter').disabled = true;
-    return;
-  }
-  allQuestions = valid;
-  box.className = 'mt-3 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-800 p-3 text-sm';
-  box.textContent = `Demo-Fragen geladen (${valid.length}). Klicke „Quiz starten“.`;
-  box.classList.remove('hidden');
-  populateChapters(allQuestions);
-  $('startBtn').disabled = valid.length === 0;
-});
+// Demo laden (aus externer JSON-Datei im Repo)
+$('loadDemo').addEventListener('click', () => { loadDemoFromRepo(); });
 
 // Start
 $('startBtn').addEventListener('click', () => {

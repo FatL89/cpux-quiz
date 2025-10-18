@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Was ist die Hauptstadt von Frankreich?",
+    "correctCount": 1,
+    "chapter": "Geografie",
+    "image": "",
+    "options": [
+      { "text": "Berlin", "isCorrect": false },
+      { "text": "Madrid", "isCorrect": false },
+      { "text": "Paris",  "isCorrect": true, "explanation": "Paris ist die Hauptstadt Frankreichs.", "source": "https://de.wikipedia.org/wiki/Paris" },
+      { "text": "Rom",    "isCorrect": false },
+      { "text": "Lissabon","isCorrect": false },
+      { "text": "Athen",  "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Welche zwei sind Primzahlen?",
+    "correctCount": 2,
+    "chapter": "Mathematik",
+    "image": "",
+    "options": [
+      { "text": "2", "isCorrect": true,  "explanation": "Einzige gerade Primzahl.", "source": "https://de.wikipedia.org/wiki/Primzahl" },
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true,  "explanation": "Ungerade Primzahl.", "source": "https://de.wikipedia.org/wiki/Primzahl" },
+      { "text": "9", "isCorrect": false },
+      { "text": "21","isCorrect": false },
+      { "text": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Wähle drei Programmiersprachen",
+    "correctCount": 3,
+    "chapter": "Programmierung",
+    "image": "",
+    "options": [
+      { "text": "JavaScript", "isCorrect": true, "explanation": "Weit verbreitet im Web.", "source": "https://developer.mozilla.org/de/docs/Web/JavaScript" },
+      { "text": "HTML",       "isCorrect": false },
+      { "text": "Python",     "isCorrect": true, "explanation": "Universell einsetzbar.", "source": "https://www.python.org/" },
+      { "text": "CSS",        "isCorrect": false },
+      { "text": "Go",         "isCorrect": true, "explanation": "Kompilierte Sprache von Google.", "source": "https://go.dev/" },
+      { "text": "SVG",        "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Welche Aussagen über Wasser sind korrekt? (2)",
+    "correctCount": 2,
+    "chapter": "Naturwissenschaften",
+    "image": "",
+    "options": [
+      { "text": "Siedepunkt liegt bei 100°C auf Meereshöhe", "isCorrect": true, "explanation": "Bei 1 atm.", "source": "https://de.wikipedia.org/wiki/Wasser" },
+      { "text": "Gefrierpunkt liegt bei 10°C", "isCorrect": false },
+      { "text": "Chemische Formel ist H₂O", "isCorrect": true, "explanation": "2x H, 1x O.", "source": "https://de.wikipedia.org/wiki/Wasser" },
+      { "text": "Wasser ist unkompressibel", "isCorrect": false },
+      { "text": "Wasser brennt leicht", "isCorrect": false },
+      { "text": "Wasser ist ein Metall", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Welche der folgenden sind Kontinente? (3)",
+    "correctCount": 3,
+    "chapter": "Geografie",
+    "image": "",
+    "options": [
+      { "text": "Europa", "isCorrect": true, "explanation": "Kontinent.", "source": "https://de.wikipedia.org/wiki/Kontinent" },
+      { "text": "Asien",  "isCorrect": true, "explanation": "Größter Kontinent.", "source": "https://de.wikipedia.org/wiki/Asien" },
+      { "text": "Australien", "isCorrect": true, "explanation": "Eigenständiger Kontinent.", "source": "https://de.wikipedia.org/wiki/Australien_(Kontinent)" },
+      { "text": "Grönland", "isCorrect": false },
+      { "text": "Sibirien", "isCorrect": false },
+      { "text": "Arktis (als Ozean-Region)", "isCorrect": false }
+    ]
+  }
+]
