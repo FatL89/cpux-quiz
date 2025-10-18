@@ -616,8 +616,13 @@ function clearSelection(){
  * ===================== */
 document.addEventListener('keydown', (e) => {
   if($('quiz').classList.contains('hidden')) return;
-  if(e.key === 'Enter'){ if(!$('answerBtn').disabled) handleAnswer(); }
-  else if(e.key === 'ArrowRight'){ if(!$('nextBtn').disabled) nextQuestion(); }
+  if(e.key === 'Enter'){
+    // Wenn Fokus innerhalb der Antwortliste ist, nicht direkt submitten (erst Auswahl toggeln)
+    if (e.target && e.target.closest && e.target.closest('#choices')) return;
+    if(!$('answerBtn').disabled){ e.preventDefault(); handleAnswer(); }
+  } else if(e.key === 'ArrowRight'){
+    if(!$('nextBtn').disabled){ e.preventDefault(); nextQuestion(); }
+  }
 });
 
 // Make entire option row clickable
@@ -641,6 +646,8 @@ $('choices').addEventListener('keydown', (e) => {
   e.preventDefault();
   cb.checked = !cb.checked;
   cb.dispatchEvent(new Event('change', { bubbles: true }));
+  // WICHTIG: verhindert, dass der globale Enter-Listener im gleichen Event auslöst
+  e.stopPropagation();
 });
 
 // File upload
