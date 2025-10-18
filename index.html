@@ -316,33 +316,52 @@ async function loadDemoFromRepo() {
 /** =====================
  * Validation (chapter + image optional)
  * ===================== */
+function toBoolLoose(v){
+  if (typeof v === 'boolean') return v;
+  if (typeof v === 'number') return v === 1;
+  if (typeof v === 'string') {
+    const s = v.trim().toLowerCase();
+    if (s === 'true' || s === '1' || s === 'yes' || s === 'y') return true;
+    if (s === 'false' || s === '0' || s === 'no' || s === 'n') return false;
+  }
+  return false;
+}
 function validateQuestions(data){
   const out = [], errors = [];
   if(!Array.isArray(data)) return {ok:false, errors:['JSON muss ein Array sein.']};
-  data.forEach((q, qi) => {
-    const path = `Frage ${qi+1}`;
-    if(typeof q.question!=='string' || !q.question.trim()) errors.push(`${path}: "question" fehlt/leer.`);
-    if(typeof q.correctCount!=='number' || ![1,2,3].includes(q.correctCount)) errors.push(`${path}: "correctCount" muss 1, 2 oder 3 sein.`);
-    if(!Array.isArray(q.options) || q.options.length!==6) errors.push(`${path}: "options" muss ein Array mit genau 6 Elementen sein.`);
 
-    const opts = (q.options||[]).map((o)=>({
-      text: String(o.text ?? ''),
-      isCorrect: Boolean(o.isCorrect),
-      explanation: typeof o.explanation==='string' ? o.explanation : '',
-      source: typeof o.source==='string' ? o.source : ''
+  data.forEach((raw, qi) => {
+    const path = `Frage ${qi+1}`;
+
+    const question = (typeof raw.question === 'string') ? raw.question.trim() : '';
+    if(!question) errors.push(`${path}: "question" fehlt/leer.`);
+
+    const ccNum = Number(raw.correctCount);
+    const correctCount = (Number.isFinite(ccNum) && [1,2,3].includes(ccNum)) ? ccNum : NaN;
+    if(![1,2,3].includes(correctCount)) errors.push(`${path}: "correctCount" muss 1, 2 oder 3 sein.`);
+
+    const rawOpts = Array.isArray(raw.options) ? raw.options : [];
+    if(rawOpts.length !== 6) errors.push(`${path}: "options" muss ein Array mit genau 6 Elementen sein.`);
+
+    const opts = rawOpts.map((o) => ({
+      text: String(o?.text ?? '').trim(),
+      isCorrect: toBoolLoose(o?.isCorrect),
+      explanation: (typeof o?.explanation === 'string') ? o.explanation : '',
+      source: (typeof o?.source === 'string') ? o.source : ''
     }));
-    const corrects = opts.filter(o=>o.isCorrect).length;
-    if([1,2,3].includes(q.correctCount) && corrects !== q.correctCount){
-      errors.push(`${path}: Anzahl "isCorrect:true" (${corrects}) entspricht nicht "correctCount" (${q.correctCount}).`);
+
+    const trueCount = opts.filter(o => o.isCorrect).length;
+    if([1,2,3].includes(correctCount) && trueCount !== correctCount){
+      errors.push(`${path}: Anzahl der korrekten Antworten (${trueCount}) entspricht nicht "correctCount" (${correctCount}).`);
     }
 
-    // new optional fields
-    const chapter = (typeof q.chapter === 'string' && q.chapter.trim()) ? q.chapter.trim() : '';
-    const image = (typeof q.image === 'string' && q.image.trim()) ? q.image.trim() : '';
+    const chapter = (typeof raw.chapter === 'string' && raw.chapter.trim()) ? raw.chapter.trim() : '';
+    const image = (typeof raw.image === 'string' && raw.image.trim()) ? raw.image.trim() : '';
 
-    out.push({ question: q.question, correctCount: q.correctCount, options: opts, chapter, image });
+    out.push({ question, correctCount: correctCount || 1, options: opts, chapter, image });
   });
-  return {ok: errors.length===0, errors, questions: out};
+
+  return { ok: errors.length === 0, errors, questions: out };
 }
 
 /** =====================
@@ -449,10 +468,13 @@ function renderQuestion(){
 }
 
 function updateHud(){
-  $('progressText').textContent = answeredCount + ' von ' + questions.length + ' beantwortet';
+  const pt = $('progressText');
+  if(pt) pt.textContent = answeredCount + ' von ' + questions.length + ' beantwortet';
   const pct = (answeredCount / questions.length) * 100;
-  $('progressBar').style.width = pct + '%';
-  $('scoreText').textContent = 'Score: ' + totalScore.toFixed(2) + ' / ' + questions.length;
+  const pb = $('progressBar');
+  if(pb) pb.style.width = pct + '%';
+  const st = $('scoreText');
+  if(st) st.textContent = 'Score: ' + totalScore.toFixed(2) + ' / ' + questions.length;
 }
 
 /** Sichtbarkeit steuern */
