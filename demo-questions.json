@@ -1,8 +1,8 @@
 [
   {
-    "question": "Welche drei der folgenden Kriterien sind Teil der Definition von Usability?",
-    "correctCount": 3,
-    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "question": "Welche eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
+    "correctCount": 1,
+    "chapter": "Öffentliche Prüfungsfragen",
     "image": "",
     "options": [
       { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
