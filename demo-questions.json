@@ -68,5 +68,145 @@
       { "text": "Screenreader", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
       { "text": "Spracherkennungssoftware zum Diktieren von Texten", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" }
     ]
+  },
+  {
+    "question": "Benutzer der Website eines Online-Buchhandels machen immer wieder einen bestimmten Fehler im Bestellprozess, wodurch eine falsche Lieferadresse verwendet wird. Die Benutzer erkennen diesen Fehler immer am Ende des Bestellprozesses, müssen den Fehler dann jedoch umständlich korrigieren.\n\nWelches eine Kriterium der Definition von Usability nach ISO 9241 wird von dieser Website verletzt?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Effektivität", "isCorrect": false, "explanation": "In der Fragestellung wird deutlich, dass die Benutzer den Fehler korrigieren, bevor sie »Bestellen« drücken. Die Effektivität ist also gegeben.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Fehlerfreiheit", "isCorrect": false, "explanation": "Fehlerfreiheit ist keine Eigenschaft der Definition von Usability nach ISO 9241.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Zufriedenstellung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" }
+    ]
+  },
+  {
+    "question": "Frank ist geschäftlich in Berlin und möchte über eine Hotelbuchungs-Website ein Hotel buchen.\n\nWelcher eine der folgenden Punkte beschreibt am besten das Ziel (»Ziel«) für Frank bei der Benutzung der Hotelbuchungs-Website?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Frank möchte ein günstiges Hotelzimmer finden, das zu seinen Vorstellungen passt.", "isCorrect": false, "explanation": "Das ist ein Zwischenergebnis eines Ziels, kein Ziel.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank möchte die zehn am besten bewerteten Hotels in Berlin sehen (Datengrundlage: Bewertungswebsite).", "isCorrect": false, "explanation": "Das ist eine Teilaufgabe.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank möchte in einem luxuriösen Hotel mit einem bei Hotelbuchungen erfahrenen, freundlichen Personal zum Schnäppchenpreis übernachten.", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank benötigt eine Rechnung für die Buchung, die seine Firma zu den Kostenstellen zurechnen kann, die die interne Finanzabteilung hierfür sehen möchte.", "isCorrect": false, "explanation": "Das ist ein Erfordernis und kein Ziel.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank möchte ein Hotel in fußläufiger Entfernung von der Konferenzhalle \u2192 International Conference Center Berlin \u2190 finden.", "isCorrect": false, "explanation": "Kein beabsichtigtes Ergebnis (Erfordernis).", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank möchte in einem Hotel mit hochwertig eingerichteten Zimmern übernachten.", "isCorrect": false, "explanation": "Das ist zwar ein Ziel, aber nicht für Frank bei der Nutzung dieser Website (Urlaubsreise). Für Frank ist dieses Ziel bei der Nutzung dieser Website irrelevante Information.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" }
+    ]
+  },
+  {
+    "question": "Hanna bestellt online bei einem Pizzaservice. Im Folgenden sind fünf Aussagen zu Hannas Benutzung der Website bzw. zum Pizzaservice:\n\n1. Hanna hat die Bedienung der Website als umständlich wahrgenommen.\n2. Hanna hat die Website gut gefunden und diese Bewertung auf der Website des Pizzaservice abgegeben.\n3. Das Logo des Pizzaservice wirkt auf Hanna überheblich und unprofessionell, so wird sie dort nicht mehr bestellen.\n4. Hannas Pizza wurde mit einem falschen Belag geliefert. Dies lag offensichtlich an einem Fehler, den Hanna bei der Benutzung der Website gemacht hatte.\n5. Als die Pizza geliefert wurde, war sie schon kalt. Das hat Hanna geärgert.\n\nWelche eine der folgenden Kombinationen von Aussagen bezieht sich ausschließlich auf Hannas User Experience mit der Website bzw. dem Pizzaservice und nicht auf die Usability der Website?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Aussagen Nr. 1 und 2", "isCorrect": false, "explanation": "Es fehlt Aussage Nr. 5.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Aussagen Nr. 2 und 3", "isCorrect": false, "explanation": "Es fehlt Aussage Nr. 1. Aussage Nr. 2 beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice nach der Benutzung (positive Bewertung) und betrifft somit lediglich die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Aussagen Nr. 1, 2 und 5", "isCorrect": true, "explanation": "Aussage Nr. 1 beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice nach der Nutzung und bezieht sich damit ausschließlich auf die User Experience der Website. Aussage Nr. 2 beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice vor der Nutzung und bezieht sich damit ausschließlich auf die User Experience. Aussage Nr. 5 bezieht sich auf eine Reaktion der Benutzerin nach der Benutzung der Website bzw. des Pizzaservice und damit ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Aussagen Nr. 1, 2, 3 und 5", "isCorrect": false, "explanation": "Aussage Nr. 3 betrifft nicht die Website des Pizzaservice oder den Pizzaservice als solchen und es ist aus der Aussage nicht ableitbar, dass hierdurch die User Experience der Website des Pizzaservice in irgendeiner Weise beeinflusst wird.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Aussagen Nr. 1, 2, 4 und 5", "isCorrect": false, "explanation": "Aussage Nr. 4 beschreibt ein Effektivitätsproblem der Website und bezieht sich damit auch auf die Usability der Website.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Alle fünf Aussagen", "isCorrect": false, "explanation": "Nur die Aussagen Nr. 1, 2 und 5 beziehen sich ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" }
+    ]
+  },
+  {
+    "question": "Welche drei der folgenden Komponenten sind Teil der Benutzungsschnittstelle eines Autos?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Gaspedal", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Airbag", "isCorrect": false, "explanation": "Ein Airbag ist kein Steuerelement und liefert keine Informationen für den Benutzer des Autos, deshalb zählt er nicht zur Benutzungsschnittstelle.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Schalthebel", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Stoßstange", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Anhängerkupplung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Vergaser", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" }
+    ]
+  },
+  {
+    "question": "Die Website einer öffentlichen Verwaltung wird unter anderem auch von Personengruppen benutzt, die Einschränkungen bezüglich der körperlichen Fähigkeiten haben, zum Beispiel Blindheit oder motorische Einschränkungen beim Steuern eines Mauszeigers.\n\nWelche drei der folgenden Aktivitäten fördern vorrangig die Barrierefreiheit der Website?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Eine Usability-Inspektion durchführen bezüglich der Steuerbarkeit der Website ausschließlich mittels Tastatur", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Die Website so umsetzen, dass Screenreader sie korrekt verwenden können", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Farben so verwenden, dass diese eindeutig interpretierbar sind", "isCorrect": false, "explanation": "Diese Aktivität ist für alle Benutzer sinnvoll und fördert nicht vorrangig die Barrierefreiheit.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Nur Begriffe verwenden, die dem Benutzer bekannt sind", "isCorrect": false, "explanation": "Diese Aktivität ist für alle Benutzer sinnvoll und fördert nicht vorrangig die Barrierefreiheit.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Auf allen Seiten der Website einen direkten Link zu einer Servicehotline anbieten", "isCorrect": false, "explanation": "Diese Aktivität ist für alle Benutzer sinnvoll und fördert nicht vorrangig die Barrierefreiheit.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Die Möglichkeit anbieten, dass Benutzer die Schriftgröße einfach ändern können", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" }
+    ]
+  },
+  {
+    "question": "Welche drei der folgenden Punkte können Bestandteile der Benutzungsschnittstelle einer Getränkeflasche bei der Aufgabe »Wasser trinken« sein?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Die Färbung der Flasche", "isCorrect": true, "explanation": "Die Färbung kann beeinflussen, ob der Benutzer den Füllstand erkennen kann, was die Interaktion mit dem Objekt beeinflussen kann.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Die Form des Bodens der Flasche (nach innen gewölbt oder nicht gewölbt)", "isCorrect": false, "explanation": "Stellt kein Steuerelement oder Rückmeldung für die Aufgabe »Wasser trinken« dar.", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Der Schraubverschluss der Flasche", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Der sichtbare Flüssigkeitsstand in der Flasche", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Ob die Flasche aus Glas oder aus stabilem Plastik hergestellt ist", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" },
+      { "text": "Ob die Flasche auf einem Tisch oder auf dem Boden steht", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 243" }
+    ]
+  },
+  {
+    "question": "Welche drei der folgenden Aussagen sind in Bezug auf den Begriff User Experience korrekt?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Was bei User Experience betrachtet wird, umfasst unter anderem auch die Einstellungen und Verhaltensweisen der Benutzer vor der Benutzung.", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "User Experience hängt nicht vom Nutzungskontext ab, sondern betrachtet unabhängig vom Nutzungskontext die Wahrnehmungen und Reaktionen eines Benutzers, die sich aus der Benutzung und/oder der erwarteten Benutzung eines interaktiven Systems ergeben.", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Mangelnde Effizienz kann sich negativ auf die User Experience auswirken.", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "User Experience ist der modernere Begriff für Usability und bedeutet essenziell dasselbe.", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Bei User Experience geht es vornehmlich um die Zufriedenstellung und die Erfüllung von Erwartungen.", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Bei User Experience geht es vornehmlich um das Erreichen von Zielen, die Zufriedenstellung des Benutzers hierbei und die Erfüllung von Erwartungen.", "isCorrect": false, "explanation": "Das Erreichen von Zielen ist kein vornehmliches Thema der User Experience, auch wenn dies natürlich sehr relevant ist für die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" }
+    ]
+  },
+  {
+    "question": "Eine Autovermietungs-Website bietet Benutzern keine Möglichkeit an, eine Reservierung zu stornieren. Eine Analyse des Nutzungskontexts zeigt, dass Benutzer diese Handlungsmöglichkeit benötigen. Welches Kriterium von Gebrauchstauglichkeit nach ISO 9241 wird von dieser Website verletzt?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Funktionale Angemessenheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Effizienz", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Zufriedenstellung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" }
+    ]
+  },
+  {
+    "question": "Welche eine der folgenden Aussagen beschreibt NICHT ein vollständiges interaktives System?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Eine Fußgängerampel", "isCorrect": false, "explanation": "Eine Fußgängerampel ist ein vollständiges interaktives System.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Ein Werbeplakat", "isCorrect": false, "explanation": "Ein Werbeplakat ist ein interaktives System, das keine Benutzereingaben entgegennimmt, wohl aber Benutzern Informationen anbietet.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Eine Schreibtischlampe", "isCorrect": false, "explanation": "Eine Schreibtischlampe ist ein vollständiges interaktives System.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Die Verpackung eines Produkts", "isCorrect": true, "explanation": "Die Verpackung eines Produkts ist kein vollständiges interaktives System, sondern ein Bestandteil neben anderen Bestandteilen eines interaktiven Systems.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Ein Schülerlotse", "isCorrect": false, "explanation": "Ein Schülerlotse erbringt eine Dienstleistung für Schüler, die die Straße überqueren wollen, und stellt ein interaktives System dar.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Ein Hammer", "isCorrect": false, "explanation": "Ein Hammer ist ein vollständiges interaktives System, das nur aus Hardware besteht.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" }
+    ]
+  },
+  {
+    "question": "Welcher eine der folgenden Punkte wird NICHT in der Normenreihe ISO 9241 behandelt?\n(Hinweis: Das hier behandelte Thema ist nicht prüfungsrelevant.)",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Software-Ergonomie", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Ergonomie des Arbeitsplatzes", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Prozess der menschzentrierten Gestaltung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Common Industry Format (CIF) der Arbeitsergebnisse in der Usability-Arbeit", "isCorrect": true, "explanation": "Die Familie der CIFs für Usability wird in ISO/IEC 2506x behandelt und nicht in ISO 9241.", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Ergonomie der Umgebung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" },
+      { "text": "Anzeigen und anzeigenbezogene Hardware", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 246" }
+    ]
   }
 ]
