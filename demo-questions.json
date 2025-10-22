@@ -1,5 +1,19 @@
 [
   {
+    "question": "Welche drei der folgenden Kriterien sind Teil der Definition von Usability?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Vollständigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Zufriedenstellung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
+    ]
+  },
+  {
     "question": "Welche eine der folgenden Formulierungen charakterisiert am besten, was menschzentrierte Qualität ist?",
     "correctCount": 1,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
