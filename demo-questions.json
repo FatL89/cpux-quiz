@@ -1,142 +1,72 @@
 [
   {
-    "question": "Welche eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
+    "question": "Welche drei der folgenden Kriterien sind Teil der Definition von Usability?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Vollständigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Zufriedenstellung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
+    ]
+  },
+  {
+    "question": "Welche eine der folgenden Formulierungen charakterisiert am besten, was menschzentrierte Qualität ist?",
     "correctCount": 1,
-    "chapter": "Öffentliche Prüfungsfragen",
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
     "options": [
-      { "text": "Engagement des Managements für Usability und menschzentrierte Gestaltung", "isCorrect": false },
-      { "text": "Interesse des Managements an Innovationen", "isCorrect": false },
-      { "text": "Die Analyse von Konkurrenzprodukten, um mögliche Fallstricke zu verstehen", "isCorrect": false },
-      { "text": "Die Einbeziehung der Benutzer während des gesamten Gestaltungsprozesses", "isCorrect": true, "explanation": "A: Engagement ist hilfreich, aber \"Engagement\" ist oft ein Lippenbekenntnis und kein echtes Commitment. D (richtig) ist in der Einleitung zu Kapitel 1 des Curriculums aufgeführt. E ist hilfreich, wenn das sich entwickelnde System nicht nur vorgeführt, sondern auch mit den Benutzern diskutiert wird.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 6 (Frage), S. 46 (Antworten)" },
-      { "text": "Regelmäßige Vorführungen des entstehenden interaktiven Systems vor Benutzern", "isCorrect": false },
-      { "text": "Genaue Zeitpläne zur Erreichung von Usability-Meilensteinen, sodass der Fortschritt überwacht werden kann", "isCorrect": false }
+      { "text": "Das Ausmaß, in dem die Nutzungsanforderungen erfüllt werden", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Das Ausmaß, in dem die Erfordernisse der Benutzer erfüllt werden", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Der Grad an Usability und User Experience, den das interaktive System erreicht", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Das Ausmaß, in dem Anforderungen bzgl. Usability, User Experience, Barrierefreiheit und Vermeidung von Schäden durch die Benutzung erfüllt werden", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Inwieweit das System von Benutzern als qualitativ ausreichend bewertet wird hinsichtlich der Usability, User Experience, Barrierefreiheit und Vermeidung von Schäden durch die Benutzung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Das Ausmaß, in dem alle relevanten Nutzungsanforderungen, Marktanforderungen und organisatorischen Anforderungen erfüllt werden", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
     ]
   },
   {
-    "question": "Die folgende Abbildung zeigt den Zusammenhang zwischen den Aktivitäten der menschzentrierten Gestaltung. Welche zwei Fehler sind in der Abbildung enthalten?",
+    "question": "Welche zwei der folgenden Aspekte beeinflussen die User Experience mit der Website einer Fluggesellschaft, nicht aber die Usability?",
     "correctCount": 2,
-    "chapter": "Öffentliche Prüfungsfragen",
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
     "options": [
-      { "text": "Die Aktivität „Management stimmt den Nutzungsanforderungen zu“ fehlt.", "isCorrect": false },
-      { "text": "Die Aktivität „Prototypen erstellen“ fehlt.", "isCorrect": false },
-      { "text": "Die Aktivität „Festlegen von menschzentrierten Funktionen“ fehlt.", "isCorrect": false },
-      { "text": "Statt „Festlegen der Nutzungsanforderungen“ sollte in der entsprechenden Aktivität „Festlegen der Nutzungsanforderungen, die den Nutzungskontext erfüllen” stehen.", "isCorrect": true, "explanation": "Siehe Abbildung 1 im Curriculum", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 7–8 (Frage), S. 46 (Antworten)" },
-      { "text": "Es fehlt einer der grau schraffierten Pfeile, der eine Iteration kennzeichnen.", "isCorrect": true, "explanation": "Siehe Abbildung 1 im Curriculum", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 7–8 (Frage), S. 46 (Antworten)" },
-      { "text": "Die Aktivität „Evaluieren der Gestaltungslösung gegen organisatorische Anforderungen” sollte „Evaluieren der Gestaltungslösung gegen Nutzungsanforderungen“ lauten.", "isCorrect": false }
+      { "text": "Die Bilder auf der Website sind ansprechend.", "isCorrect": false, "explanation": "Dies bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Die Gepäckkosten bleiben verborgen, bis der Benutzer seinen Namen eingegeben hat.", "isCorrect": false, "explanation": "Dies bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Es ist möglich, ein Ticket zu stornieren und einen Teil des Geldes rückerstattet zu bekommen, aber alle Benutzer haben Schwierigkeiten, herauszufinden, wie sie die Rückerstattung erhalten.", "isCorrect": false, "explanation": "Dies bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Die Benutzer empfinden die Preise auf der Website als ziemlich hoch.", "isCorrect": true, "explanation": "Dies ist keine Frage der Usability, sondern eine Wahrnehmung, die sich auf die User Experience auswirkt.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Die Flughafensuche ist nicht fehlertolerant. Zum Beispiel wird bei einer Suche nach »Strassbourg« nicht »Strasbourg« vorgeschlagen.", "isCorrect": false, "explanation": "Dies bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Nach dem Flug ärgern sich die Benutzer über unerwünschte Marketing-E-Mails der Fluggesellschaft.", "isCorrect": true, "explanation": "Dies hat Auswirkungen auf die User Experience. Da dies nach der Interaktion mit der Website geschieht, ist es kein Problem der Usability der Website.", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
     ]
   },
   {
-    "question": "Welche zwei der folgenden HCD-Ergebnisse werden während der Aktivität „Verstehen und Festlegen des Nutzungskontextes“ erzeugt?",
+    "question": "Welche zwei der folgenden Antworten sind wichtige Richtlinien, die im Zusammenhang mit Barrierefreiheit stehen?",
     "correctCount": 2,
-    "chapter": "Öffentliche Prüfungsfragen",
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
     "options": [
-      { "text": "Erfordernisse", "isCorrect": false },
-      { "text": "Usability-Testbericht", "isCorrect": false },
-      { "text": "Personas", "isCorrect": true, "explanation": "Siehe Abbildung 1 im Curriculum", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 8 (Frage), S. 46 (Antworten)" },
-      { "text": "Ist-Szenarien", "isCorrect": true, "explanation": "Siehe Abbildung 1 im Curriculum", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 8 (Frage), S. 46 (Antworten)" },
-      { "text": "Nutzungsanforderungen", "isCorrect": false },
-      { "text": "Low-Fidelity-Prototyp", "isCorrect": false }
+      { "text": "Die »Web Content Accessibility Guidelines« des W3C", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Die »Software Accessibility Guidelines« des W3C", "isCorrect": false, "explanation": "Siehe Antwort A.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Die DSGVO", "isCorrect": false, "explanation": "DSGVO steht für »Datenschutz-Grundverordnung«, die nichts mit Barrierefreiheit zu tun hat.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Der Standard ISO 9241-110 »Barrierefreiheit und Nutzbarkeit der gebauten Umwelt«", "isCorrect": false, "explanation": "Der Titel des Standards ISO 9241-110 lautet »Ergonomie der Mensch-System-Interaktion – Teil 110: Interaktionsprinzipien«. Dieser Standard wird im CPUX-FCurriculum auch erwähnt.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Der Standard ISO 9241-171 »Leitlinien für die Zugänglichkeit von Software«", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Die Barrierefreiheit-Grundsätze der deutschen Wirtschaft", "isCorrect": false, "explanation": "Barrierefreiheit-Grundsätze der deutschen Wirtschaft gibt es (mit Stand März 2023) nicht.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" }
     ]
   },
   {
-    "question": "Eine Hotelbuchungs-Website bietet den Benutzern keine Möglichkeit, eine Reservierung zu stornieren. Eine Analyse des Nutzungskontextes zeigt aber, dass Benutzer diese Funktion benötigen. Welcher eine Aspekt der Usability wird von dieser Website verletzt?",
-    "correctCount": 1,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Barrierefreiheit", "isCorrect": false },
-      { "text": "Vollständigkeit", "isCorrect": false },
-      { "text": "Effizienz", "isCorrect": false },
-      { "text": "Effektivität", "isCorrect": true, "explanation": "Siehe Beispiel 1 in der Definition von Effektivität\n\nB: Vollständigkeit ist gemäß der Definition im Curriculum kein Aspekt der Usability.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 9 (Frage), S. 46 (Antworten)" },
-      { "text": "Zufriedenstellung", "isCorrect": false },
-      { "text": "Geschwindigkeit", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
+    "question": "Welche zwei der folgenden Dinge sind KEINE Unterstützungstechnologien für Barrierefreiheit an einem Bildschirmarbeitsplatz?",
     "correctCount": 2,
-    "chapter": "Öffentliche Prüfungsfragen",
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
     "options": [
-      { "text": "Der Text auf einer Website ist klein und hat einen zu geringen Kontrast zum Hintergrund, so dass Benutzer mit einer Sehbehinderung ihn nicht lesen können.", "isCorrect": false },
-      { "text": "Das Aussehen und die Qualität der Blumen, die über die Website eines Blumenhändlers bestellt wurden, unterscheiden sich erheblich von den Bildern auf der Website.", "isCorrect": false },
-      { "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobiltelefon, die sie über Datenroaming-Gebühren informiert.", "isCorrect": true, "explanation": "Siehe die Definition der Vermeidung von Schäden durch die Benutzung\nA ist eine Frage der Barrierefreiheit.\nB ist eine Frage der User Experience.\nC ist richtig; es wird im Curriculum als Beispiel genannt.\nD hat mit der Effektivität zu tun.\nE bezieht sich auf die Zufriedenstellung.\nF ist richtig.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 10–11 (Frage), S. 46–47 (Antworten)" },
-      { "text": "Auf der Website eines Hotels können die Benutzer die Buchung eines teuren Hotelzimmers stornieren, aber sie finden nicht heraus, wie das geht.", "isCorrect": false },
-      { "text": "Die Benutzer geben spontan an, dass ihnen das Aussehen der Startseite einer Hotelwebsite nicht gefällt.", "isCorrect": false },
-      { "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öffnen können.", "isCorrect": true, "explanation": "Siehe die Definition der Vermeidung von Schäden durch die Benutzung\nA ist eine Frage der Barrierefreiheit.\nB ist eine Frage der User Experience.\nC ist richtig; es wird im Curriculum als Beispiel genannt.\nD hat mit der Effektivität zu tun.\nE bezieht sich auf die Zufriedenstellung.\nF ist richtig.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 10–11 (Frage), S. 46–47 (Antworten)" }
-    ]
-  },
-  {
-    "question": "Hinsichtlich der Website einer Fluggesellschaft, welche zwei der folgenden Aspekte beeinflussen die User Experience, nicht aber die Usability?",
-    "correctCount": 2,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Die Bilder auf der Website sind ansprechend.", "isCorrect": false },
-      { "text": "Die Gepäckkosten bleiben verborgen, bis der Benutzer seinen Namen eingegeben hat.", "isCorrect": false },
-      { "text": "Es ist möglich, ein Ticket zu stornieren und einen Teil des Geldes rückerstattet zu bekommen, aber alle Benutzer haben Schwierigkeiten herauszufinden, wie sie die Rückerstattung erhalten.", "isCorrect": false },
-      { "text": "Die Benutzer empfinden die Preise auf der Website als ziemlich hoch.", "isCorrect": true, "explanation": "A bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung. B, C und E beziehen sich auf beides: auf User Experience und auf Usability\nD ist keine Frage der Usability, sondern ein Marketingthema, das sich allerdings auf die User Experience auswirkt.\nF hat Auswirkungen auf die User Experience. Da dies nach der Interaktion geschieht, ist es kein Problem der Usability.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 11 (Frage), S. 47 (Antworten)" },
-      { "text": "Die Flughafensuche ist nicht fehlertolerant. Zum Beispiel wird bei einer Suche nach 'Strassbourg' nicht 'Strasbourg' vorgeschlagen.", "isCorrect": false },
-      { "text": "Nach dem Flug ärgern sich die Benutzer über unerwünschte Marketing-E-Mails der Fluggesellschaft.", "isCorrect": true, "explanation": "A bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung. B, C und E beziehen sich auf beides: auf User Experience und auf Usability\nD ist keine Frage der Usability, sondern ein Marketingthema, das sich allerdings auf die User Experience auswirkt.\nF hat Auswirkungen auf die User Experience. Da dies nach der Interaktion geschieht, ist es kein Problem der Usability.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 11 (Frage), S. 47 (Antworten)" }
-    ]
-  },
-  {
-    "question": "Welche zwei der folgenden Komponenten sind für den Autofahrer Teil der Benutzungsschnittstelle eines Autos?",
-    "correctCount": 2,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Lenkrad", "isCorrect": true, "explanation": "B, C, E, F: Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 12 (Frage), S. 47 (Antworten)" },
-      { "text": "Batterie", "isCorrect": false },
-      { "text": "Motor", "isCorrect": false },
-      { "text": "Türgriff", "isCorrect": true, "explanation": "B, C, E, F: Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 12 (Frage), S. 47 (Antworten)" },
-      { "text": "Auspuff", "isCorrect": false },
-      { "text": "Bremsscheibe", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Welche eine der folgenden Aussagen ist KEIN menschzentriertes Qualitätsziel für einen Geldautomaten der nächsten Generation?",
-    "correctCount": 1,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Die Benutzer müssen in der Lage sein, Geld doppelt so schnell wie bisher abzuheben.", "isCorrect": false },
-      { "text": "Die Benutzer müssen ein Gefühl der absoluten Privatsphäre haben, wenn sie den Geldautomaten benutzen.", "isCorrect": false },
-      { "text": "Die Benutzer müssen in der Lage sein, den Namen des Geldautomatenherstellers doppelt so schnell zu erkennen wie bisher.", "isCorrect": true, "explanation": "A, B, E und F sind menschzentrierte Qualitätsziele, da sie sich auf die Usability oder die User Experience beziehen. C ist kein menschzentriertes Qualitätsziel, da dies den Benutzern nicht wichtig ist; es könnte ein Marketingziel sein. D ist ein menschzentriertes Qualitätsziel, da sich dieses Ziel auf die Barrierefreiheit bezieht.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 13 (Frage), S. 47 (Antworten)" },
-      { "text": "Blinde Benutzer müssen in der Lage sein, ohne fremde Hilfe Geld abzuheben.", "isCorrect": false },
-      { "text": "Die Benutzer müssen in der Lage sein, mit jeder gültigen nationalen oder internationalen Bankkarte Geld abzuheben.", "isCorrect": false },
-      { "text": "Benutzer, die eine Quittung anfordern, müssen diese verstehen können.", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Welche eine der folgenden Methoden ist NICHT geeignet, um den Nutzungskontext eines Geldautomaten zu bestimmen?",
-    "correctCount": 1,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Die Idee für den neuen Geldautomaten repräsentativen Bankkunden zeigen", "isCorrect": true, "explanation": "Antwort A beschreibt eine einseitige Kommunikation. Während der Analyse wollen wir hören, was die Benutzer zu sagen haben.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 14–15 (Frage), S. 47 (Antworten)" },
-      { "text": "Bankangestellte am Bankschalter interviewen", "isCorrect": false },
-      { "text": "Benutzer eines aktuellen Geldautomaten interviewen", "isCorrect": false },
-      { "text": "Benutzer bei der Nutzung des aktuellen Geldautomaten beobachten", "isCorrect": false },
-      { "text": "Usability-Tests mit Geldautomaten von Wettbewerbern durchführen", "isCorrect": false },
-      { "text": "Durchführung von Fokusgruppen zu Erfordernissen, die zukünftige Geldautomaten erfüllen müssen", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geldautomaten zu kontrollieren und gegebenenfalls bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten?",
-    "correctCount": 1,
-    "chapter": "Öffentliche Prüfungsfragen",
-    "image": "",
-    "options": [
-      { "text": "Thomas ist kein Benutzer des Geldautomaten, da er kein Geld abhebt.", "isCorrect": false },
-      { "text": "Thomas ist primärer Benutzer des Geldautomaten.", "isCorrect": false },
-      { "text": "Thomas ist sekundärer Benutzer des Geldautomaten.", "isCorrect": true, "explanation": "Siehe die Definition von sekundärem Benutzer im Curriculum. E, F: Thomas ist sowohl ein (sekundärer) Benutzer als auch ein Interessenvertreter.", "source": "CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf, S. 15 (Frage), S. 47 (Antworten)" },
-      { "text": "Thomas ist ein indirekter Benutzer des Geldautomaten.", "isCorrect": false },
-      { "text": "Thomas ist ein Interessenvertreter für den Geldautomaten, aber kein Benutzer.", "isCorrect": false },
-      { "text": "Thomas ist Benutzer des Geldautomaten, aber kein Interessenvertreter.", "isCorrect": false }
+      { "text": "Joystick zur Maussteuerung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Touchscreen (berührungsempfindlicher Bildschirm)", "isCorrect": true, "explanation": "Im Vergleich zur Standardausstattung (Tastatur und Maus) ist ein Touchscreen für keine Form von Behinderung eine Erleichterung in der Interaktion mit dem interaktiven System.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Lupe", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Erklärungsvideos zur Erläuterung der Funktionsweise einer PC-Anwendung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Screenreader", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Spracherkennungssoftware zum Diktieren von Texten", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 239" }
     ]
   }
 ]
