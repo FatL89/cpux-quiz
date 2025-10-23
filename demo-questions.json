@@ -70,6 +70,34 @@
     ]
   },
   {
+    "question": "Welche zwei der folgenden Aussagen betreffen ausschließlich die User Experience der Website einer Hotelbuchungsplattform und nicht deren Usability?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Die Website ist nicht optimiert für die Nutzung mit alternativen Browsern wie Opera oder Edge.", "isCorrect": false, "explanation": "Diese Aussage betrifft die Effektivität der Website und damit deren Usability.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Eine ausgestellte Buchungsbestätigung enthält einen QR-Code, der beim Check-in im Hotel gescannt werden kann und dadurch den Check-in-Prozess vereinfacht.", "isCorrect": false, "explanation": "Diese Aussage betrifft sowohl die Website als auch das interaktive System, mit dem der QR-Code im Hotel gescannt wird.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Die Hotelbuchungsplattform hat den Ruf, die am besten zu benutzende Website von allen Hotelbuchungsplattformen zu haben.", "isCorrect": true, "explanation": "Hier geht es um die Erwartung an die Benutzung, aber nicht um die Benutzung selbst. Deshalb betrifft dies nicht die Usability der Website, wohl aber deren User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 239" },
+      { "text": "Der Hotelgast muss im Hotel mit genau dem Zahlungsmittel bezahlen, das in der Onlinebuchung angegeben wurde. Dies wird auf der Website aber nirgendwo erwähnt, was bei manchen Hotelgästen zu Verärgerung führt.", "isCorrect": false, "explanation": "Hier geht es um Informationen, die auf der Website fehlen, deshalb betrifft dies auch die Usability.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Die Website verwendet freundliche Farben.", "isCorrect": false, "explanation": "Diese Aussage betrifft die Zufriedenstellung durch die Benutzung der Website und damit betrifft dies neben der User Experience auch die Usability.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Die Benutzer der Website finden die Nutzungsbedingungen zwar unverschämt, verwenden die Website aber dennoch, weil sie die niedrigsten Hotelzimmerpreise anbietet", "isCorrect": true, "explanation": "Diese Aussage betrifft die User Experience der Website, aber nicht deren Usability.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" }
+    ]
+  },
+  {
+    "question": "Frage",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Antwort", "isCorrect": false, "explanation": "Dies bezieht sich auf Barrierefreiheit.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Dies bezieht sich auf User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Antwort", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Die Beschreibung bezieht sich auf eine Funktion zur Vermeidung eines (wirtschaftlichen) Schadens durch die Nutzung, die jedoch den Schaden nicht wirksam vermeidet.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Dies bezieht sich auf die Zufriedenstellung.", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
+      { "text": "Antwort", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" }
+    ]
+  },
+  {
     "question": "Benutzer der Website eines Online-Buchhandels machen immer wieder einen bestimmten Fehler im Bestellprozess, wodurch eine falsche Lieferadresse verwendet wird. Die Benutzer erkennen diesen Fehler immer am Ende des Bestellprozesses, müssen den Fehler dann jedoch umständlich korrigieren.\n\nWelches eine Kriterium der Definition von Usability nach ISO 9241 wird von dieser Website verletzt?",
     "correctCount": 1,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
@@ -82,5 +110,41 @@
       { "text": "Zufriedenstellung", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" },
       { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 240" }
     ]
+  },
+  {
+    "question": "Frank nutzt häufig die Website einer Hotelbuchungsplattform, um für seine Geschäftsreisen Hotels zu buchen. Welcher eine der folgenden Punkte ist ein Ziel von Frank für die Nutzung der Website der Hotelbuchungsplattform bei der Buchung von Geschäftsreisen?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Frank möchte überblicken können, welche 10 Hotels in Berlin bisher die besten Bewertungen von anderen Reisenden erhalten haben.", "isCorrect": false, "explanation": "Das ist ein Zwischenergebnis, das für sich genommen noch kein beabsichtigtes Ergebnis darstellt und folglich nicht als Ziel gilt. Es kann aber zur Erreichung eines Ziels dienen, zum Beispiel bei der Hotelsuche in Berlin immer nur eines der 10 top bewerteten Hotels in Betracht zu ziehen.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank überprüft, welche Hotels, die für seine Reise infrage kommen, kostenloses WLAN im Hotelzimmer anbieten.", "isCorrect": false, "explanation": "Das ist eine Teilaufgabe bei der Durchführung der Aufgabe »Ein Hotel buchen« und kein Ziel.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank will in einem luxuriösen Hotel in Berlin zum Schnäppchenpreis übernachten.", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank benötigt eine Rechnung mit ausgewiesener Mehrwertsteuer, um diese bei seinem Arbeitgeber abgeben zu können.", "isCorrect": false, "explanation": "Das ist ein Erfordernis für die Aufgabe »Ein Hotel buchen für eine Geschäftsreise« und kein Ziel.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank muss wissen, welche Zahlungsmittel von einem bestimmten Hotel akzeptiert werden, um entscheiden zu können, ob er für dieses Hotel buchen möchte oder nicht.", "isCorrect": false, "explanation": "Das ist kein beabsichtigtes Ergebnis, folglich kann es kein Ziel sein. (Es handelt sich um ein Erfordernis.)", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Frank möchte für seine nächste Urlaubsreise ein gut bewertetes Resort auf den Malediven buchen.", "isCorrect": false, "explanation": "Das ist zwar ein Ziel, aber nicht für Frank bei der Nutzung dieser Website. Die Formulierung der Frage gibt eindeutig an, dass Frank die Website nutzt, um Hotels für Geschäftsreisen zu buchen und nicht ein Resort für eine Urlaubsreise.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" }
+    ]
+  },
+  {
+    "question": "Hanna bestellt bei einem Pizzaservice eine Pizza. Hierzu nutzt sie die Website des Pizzaservice. Nachdem sie die Pizza gegessen hat, spricht Hanna mit einem Freund am Telefon über ihre Erfahrungen mit dem Pizzaservice und macht dabei folgende Aussagen:\n\n1 Hanna sagt, die Website des Pizzaservice sei schwer zu benutzen.\n\n2 Hanna hat auf der Startseite der Website gelesen »Stellen Sie Ihre eigene Pizzakreation in nur 60 Sekunden zusammen«. Das fand sie gut und fühlte sich angespornt, ihre selbstkreierte Pizza auch wirklich in dieser Zeit fertig zu konfigurieren.\n\n3 Hanna erzählt, dass sie bei einem Blumenladen kürzlich bei einer Onlinebestellung einen Dankeschön-Gutschein für die nächste Onlinebestellung erhalten hat. Das fand sie gut.\n\n4 Hannas Pizza wurde mit einem falschen Belag geliefert. Dies lag offensichtlich an einem Fehler, den Hanna bei der Benutzung der Website gemacht hatte.\n\n5 Als die Pizza geliefert wurde, war sie schon kalt. Das hat Hanna geärgert.\n\nWelche eine der folgenden Kombinationen von Aussagen bezieht sich ausschließlich auf Hannas User Experience mit der Website bzw. dem Pizzaservice und nicht auf die Usability der Website?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Aussagen Nr. 1 und 2", "isCorrect": false, "explanation": "Es fehlt Aussage Nr. 5. Diese bezieht sich auf eine Reaktion der Benutzerin nach der Benutzung der Website bzw. des Pizzaservice und damit ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Aussagen Nr. 2 und 3", "isCorrect": false, "explanation": "Es fehlt Aussage Nr. 1. Diese beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice nach der Nutzung und bezieht sich damit ausschließlich auf die User Experience der Website. Aussage Nr. 3 betrifft nicht die Website des Pizzaservice oder den Pizzaservice als solchen und es ist aus der Aussage nicht ableitbar, dass hierdurch die User Experience der Website des Pizzaservice in irgendeiner Weise beeinflusst wird. Es fehlt Aussage Nr. 5. Diese bezieht sich auf eine Reaktion der Benutzerin nach der Benutzung der Website bzw. des Pizzaservice und damit ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 241" },
+      { "text": "Aussagen Nr. 1, 2 und 5", "isCorrect": true, "explanation": "Aussage Nr. 1 beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice nach der Nutzung und bezieht sich damit ausschließlich auf die User Experience der Website. Aussage Nr. 2 beschreibt eine Reaktion in Bezug auf die Website des Pizzaservice vor der Nutzung und bezieht sich damit ausschließlich auf die User Experience. Aussage Nr. 5. bezieht sich auf eine Reaktion der Benutzerin nach der Benutzung der Website bzw. des Pizzaservice und damit ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Aussagen Nr. 1, 2, 3 und 5", "isCorrect": false, "explanation": "Aussage Nr. 3 betrifft nicht die Website des Pizzaservice oder den Pizzaservice als solchen und es ist aus der Aussage nicht ableitbar, dass hierdurch die User Experience der Website des Pizzaservice in irgendeiner Weise beeinflusst wird.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Aussagen Nr. 1, 2, 4 und 5", "isCorrect": false, "explanation": "Aussage Nr. 4 beschreibt ein Effektivitätsproblem der Website und bezieht sich damit auch auf die Usability der Website.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
+      { "text": "Alle fünf Aussagen", "isCorrect": false, "explanation": "Nur die Aussagen Nr. 1, 2 und 5 beziehen sich ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" }
+    ]
   }
+
+
+
+
+
+
+
+
 ]
