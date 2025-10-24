@@ -138,13 +138,76 @@
       { "text": "Aussagen Nr. 1, 2, 4 und 5", "isCorrect": false, "explanation": "Aussage Nr. 4 beschreibt ein Effektivitätsproblem der Website und bezieht sich damit auch auf die Usability der Website.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" },
       { "text": "Alle fünf Aussagen", "isCorrect": false, "explanation": "Nur die Aussagen Nr. 1, 2 und 5 beziehen sich ausschließlich auf die User Experience.", "source": "Basiswissen Usability und User Experience.pdf, S. 242" }
     ]
+  },
+
+  {
+    "question": "11 Welche drei der folgenden Komponenten sind Teil der Benutzungsschnittstelle eines Autos?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Gaspedal", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Airbag", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Schalthebel", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Stoßstange", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Anhängerkupplung", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Vergaser", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+    ]
+  },
+  {
+    "question": "12: Die Website einer öffentlichen Verwaltung wird unter anderem auch von Personengruppen benutzt, die Einschränkungen bezüglich der körperlichen Fähigkeiten haben, zum Beispiel Blindheit oder motorische Einschränkungen beim Steuern eines Mauszeigers.\nWelche drei der folgenden Aktivitäten fördern vorrangig die Barrierefreiheit der Website?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Eine Usability-Inspektion durchführen bezüglich der Steuerbarkeit der Website ausschließlich mittels Tastatur", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Die Website so umsetzen, dass Screenreader sie korrekt verwenden können", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Farben so verwenden, dass diese eindeutig interpretierbar sind", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Nur Begriffe verwenden, die dem Benutzer bekannt sind", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Auf allen Seiten der Website einen direkten Link zu einer Servicehotline anbieten", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Die Möglichkeit anbieten, dass Benutzer die Schriftgröße einfach ändern können", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+    ]
+  },
+  {
+    "question": "13: Welche drei der folgenden Punkte können Bestandteile der Benutzungsschnittstelle einer Getränkeflasche bei der Aufgabe »Wasser trinken« sein?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Die Färbung der Flasche", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Die Form des Bodens der Flasche (nach innen gewölbt oder nicht gewölbt)", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Der Schraubverschluss der Flasche", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Der sichtbare Flüssigkeitsstand in der Flasche", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Ob die Flasche aus Glas oder aus stabilem Plastik hergestellt ist", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Ob die Flasche auf einem Tisch oder auf dem Boden steht", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+    ]
+  },
+  {
+    "question": "14: Das folgende Diagramm soll die Beziehung der Begriffe Usability und User Experience veranschaulichen. Welche zwei Fehler sind in diesem Diagramm enthalten?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "images/question14.png",
+    "options": [
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+    ]
+  },
+  {
+    "question": "15: Angenommen, der folgende Text ist die Definition des Begriffs »Usability« gemäß ISO 9241: Usability ist das Ausmaß, in dem ein Produkt von bestimmten Benutzern benutzt werden kann, um in einem bestimmten Nutzungskontext bestimmte Ziele effektiv, effizient und mit ausreichend guter User Experience zu erreichen. Welche zwei der folgenden Fehler sind in dieser Definition enthalten?",
+    "correctCount": 3,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
+      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+    ]
   }
-
-
-
-
-
-
-
-
 ]
