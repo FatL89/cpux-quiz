@@ -11,8 +11,6 @@
     .hud-shadow { box-shadow: 0 4px 16px rgba(0,0,0,.06); }
     .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; white-space:nowrap; }
-    .media-16x9 { aspect-ratio: 16 / 9; width: 100%; background: #f8fafc; border-radius: .5rem; border: 1px solid rgb(226 232 240); overflow: hidden; }
-    .media-16x9 > img { width: 100%; height: 100%; object-fit: contain; display: block; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
@@ -56,14 +54,22 @@
         <h3 class="font-semibold mb-3">Quiz-Optionen & Start</h3>
 
         <!-- Kapitel-Filter -->
-        <div class="mb-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div class="mb-4 grid grid-cols-1 md:grid-cols-4 gap-3">
           <div class="md:col-span-1">
-            <label for="chapterFilter" class="block text-sm text-slate-700 mb-1">Kapitel wählen</label>
-            <select id="chapterFilter" disabled
-                    class="w-full rounded-md border-slate-300 text-sm disabled:opacity-50 disabled:cursor-not-allowed">
-              <option value="all">Alle Kapitel</option>
-            </select>
-          </div>
+  <label for="certificateFilter" class="block text-sm text-slate-700 mb-1">Zertifizierung wählen</label>
+  <select id="certificateFilter" disabled
+          class="w-full rounded-md border-slate-300 text-sm disabled:opacity-50 disabled:cursor-not-allowed">
+    <option value="all">Alle Zertifizierungen</option>
+  </select>
+</div>
+
+<div class="md:col-span-1">
+  <label for="chapterFilter" class="block text-sm text-slate-700 mb-1">Kapitel wählen</label>
+  <select id="chapterFilter" disabled
+          class="w-full rounded-md border-slate-300 text-sm disabled:opacity-50 disabled:cursor-not-allowed">
+    <option value="all">Alle Kapitel</option>
+  </select>
+</div>
 
           <!-- Shuffle options -->
           <label class="flex items-center gap-2 p-3 rounded border bg-slate-50 cursor-pointer">
@@ -136,7 +142,7 @@
         </div>
 
         <!-- Bild / Media -->
-        <div id="qImage"></div>
+        <div id="qImage" class="mt-3"></div>
 
         <fieldset id="choices" class="mt-4 space-y-2"></fieldset>
 
@@ -278,20 +284,6 @@ function shuffle(arr){
   for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
   return arr;
 }
-// Sanitize image URLs: allow http(s) and relative paths, block dangerous schemes
-function sanitizeImageUrl(u){
-  if(!u || typeof u !== 'string') return '';
-  const s = u.trim();
-  const low = s.toLowerCase();
-  // block dangerous schemes
-  if(low.startsWith('javascript:')) return '';
-  if(low.startsWith('data:')) return '';
-  // allow http(s), root-relative, dot-relative, and plain relative (no scheme)
-  if(/^https?:\/\//i.test(s)) return s;
-  if(s.startsWith('/') || s.startsWith('./') || s.startsWith('../')) return s;
-  if(!/^[a-zA-Z]+:\/\//.test(s)) return s; // no scheme -> treat as relative (e.g., images/img1.png)
-  return '';
-}
 
 
 /** =====================
@@ -317,7 +309,10 @@ async function loadDemoFromRepo() {
     box.textContent = `Demo-Fragen geladen (${valid.length}). Klicke „Quiz starten“.`;
     box.classList.remove('hidden');
     populateChapters(allQuestions);
-    $('startBtn').disabled = valid.length === 0;
+populateCertificates(allQuestions);
+$('chapterFilter').disabled = false;
+$('certificateFilter').disabled = false;
+$('startBtn').disabled = valid.length === 0;
   } catch (err) {
     // Most common cause locally is file:// fetch restrictions
     box.className = 'mt-3 rounded-md border border-amber-200 bg-amber-50 text-amber-900 p-3 text-sm';
@@ -326,6 +321,7 @@ async function loadDemoFromRepo() {
     box.classList.remove('hidden');
     $('startBtn').disabled = true;
     $('chapterFilter').disabled = true;
+    $('certificateFilter').disabled = true;
   }
 }
 
@@ -372,9 +368,10 @@ function validateQuestions(data){
     }
 
     const chapter = (typeof raw.chapter === 'string' && raw.chapter.trim()) ? raw.chapter.trim() : '';
-    const image = (typeof raw.image === 'string' && raw.image.trim()) ? raw.image.trim() : '';
+const image = (typeof raw.image === 'string' && raw.image.trim()) ? raw.image.trim() : '';
+const certificate = (typeof raw.certificate === 'string' && raw.certificate.trim()) ? raw.certificate.trim() : '';
 
-    out.push({ question, correctCount: correctCount || 1, options: opts, chapter, image });
+out.push({ question, correctCount: correctCount || 1, options: opts, chapter, image, certificate });
   });
 
   return { ok: errors.length === 0, errors, questions: out };
@@ -393,6 +390,20 @@ function populateChapters(list){
   [...set].sort((a,b)=>a.localeCompare(b)).forEach(ch=>{
     const opt = document.createElement('option');
     opt.value = ch; opt.textContent = ch;
+    select.appendChild(opt);
+  });
+  select.disabled = false;
+}
+
+function populateCertificates(list){
+  const select = $('certificateFilter');
+  if(!select) return;
+  select.innerHTML = '<option value="all">Alle Zertifizierungen</option>';
+  const set = new Set();
+  (list||[]).forEach(q => { if(q.certificate) set.add(q.certificate); });
+  [...set].sort((a,b)=>a.localeCompare(b)).forEach(cert => {
+    const opt = document.createElement('option');
+    opt.value = cert; opt.textContent = cert;
     select.appendChild(opt);
   });
   select.disabled = false;
@@ -431,12 +442,12 @@ function renderQuestion(){
   // Bild
   const imgWrap = $('qImage');
   if(imgWrap){
-    const safe = sanitizeImageUrl(q.image);
-    if(safe){
-      imgWrap.innerHTML = `
-        <div class="media-16x9 mt-3">
-          <img src="${safe}" alt="Bild zur Frage" loading="lazy" onerror="this.closest('.media-16x9')?.remove()">
-        </div>`;
+    if(q.image){
+      // Basic sanitization: only http/https
+      const safe = /^https?:\/\//i.test(q.image) ? q.image : '';
+      imgWrap.innerHTML = safe
+        ? `<img src="${safe}" alt="Bild zur Frage" class="max-h-80 w-full h-auto object-contain rounded border border-slate-200" loading="lazy">`
+        : '';
     } else {
       imgWrap.innerHTML = '';
     }
@@ -547,7 +558,7 @@ function finishQuiz(timeUp=false){
           <div class="font-medium">${q.question}</div>
           <div class="text-sm px-2 py-0.5 rounded bg-slate-100">Punkte: ${pts.toFixed(2)} / 1</div>
         </div>
-        <div class="text-xs text-slate-500 mt-0.5">Anzahl korrekter Antworten: ${q.correctCount}${q.chapter ? ' · Kapitel: ' + q.chapter : ''}</div>
+        <div class="text-xs text-slate-500 mt-0.5">Anzahl korrekter Antworten: ${q.correctCount}${q.chapter ? ' · Kapitel: ' + q.chapter : ''}${q.certificate ? ' · Zertifizierung: ' + q.certificate : ''}</div>
         <div class="mt-2 space-y-1"></div>
       </div>
     `;
@@ -710,6 +721,9 @@ $('fileInput').addEventListener('change', async (e) => {
     box.classList.remove('hidden');
     allQuestions = valid;
     populateChapters(allQuestions);
+    populateCertificates(allQuestions);
+$('chapterFilter').disabled = false;
+$('certificateFilter').disabled = false;
     $('startBtn').disabled = valid.length === 0;
   } catch(err){
     const box = $('validation');
@@ -718,6 +732,7 @@ $('fileInput').addEventListener('change', async (e) => {
     box.classList.remove('hidden');
     $('startBtn').disabled = true;
     $('chapterFilter').disabled = true;
+    $('certificateFilter').disabled = true;
   }
 });
 
@@ -731,16 +746,25 @@ $('startBtn').addEventListener('click', () => {
     return;
   }
 
-  // Kapitel-Filter anwenden
-  const selectedChapter = $('chapterFilter')?.value || 'all';
-  let pool = allQuestions.slice();
-  if(selectedChapter && selectedChapter !== 'all'){
-    pool = pool.filter(q => q.chapter === selectedChapter);
-    if(pool.length === 0){
-      alert('Für das gewählte Kapitel wurden keine Fragen gefunden.');
-      return;
-    }
+  // Zertifizierungs- und Kapitel-Filter anwenden
+const selectedCertificate = $('certificateFilter')?.value || 'all';
+const selectedChapter = $('chapterFilter')?.value || 'all';
+let pool = allQuestions.slice();
+
+if(selectedCertificate && selectedCertificate !== 'all'){
+  pool = pool.filter(q => q.certificate === selectedCertificate);
+  if(pool.length === 0){
+    alert('Für die gewählte Zertifizierung wurden keine Fragen gefunden.');
+    return;
   }
+}
+if(selectedChapter && selectedChapter !== 'all'){
+  pool = pool.filter(q => q.chapter === selectedChapter);
+  if(pool.length === 0){
+    alert('Für das gewählte Kapitel wurden keine Fragen gefunden.');
+    return;
+  }
+}
 
   questions = pool.slice();
   if($('shuffleQuestions').checked) shuffle(questions);
@@ -794,12 +818,14 @@ $('exportBtn')?.addEventListener('click', () => {
       selected: userSelections[i] || [],
       correctCount: questions[i].correctCount,
       chapter: questions[i].chapter || '',
+      certificate: questions[i].certificate || '',
       image: questions[i].image || ''
     })),
     answered: answeredCount,
     timestamp: new Date().toISOString(),
     timeLimitMinutes: MAX_MINUTES,
-    chapterFilter: $('chapterFilter')?.value || 'all'
+    chapterFilter: $('chapterFilter')?.value || 'all',
+    certificateFilter: $('certificateFilter')?.value || 'all'
   };
   download('quiz_result.json', JSON.stringify(report, null, 2));
 });

@@ -1,16 +1,17 @@
 [
   {
-    "question": "14: Das folgende Diagramm soll die Beziehung der Begriffe Usability und User Experience veranschaulichen. Welche zwei Fehler sind in diesem Diagramm enthalten?",
-    "correctCount": 1,
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Kriterien sind Teil der Definition von Usability?",
+    "correctCount": 3,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
-    "image": "images/question_14.png",
+    "image": "",
     "options": [
-      { "text": "Antwort", "isCorrect": true, "explanation": "Explanation", "source": "Referenz" },
-      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
-      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
-      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
-      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" },
-      { "text": "Antwort", "isCorrect": false, "explanation": "Explanation", "source": "Referenz" }
+      { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=10" },
+      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Vollständigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Zufriedenstellung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
     ]
   }
 ]
