@@ -1798,5 +1798,545 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=272"
       }
     ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "41: Welche zwei der folgenden Punkte beschreiben Situationen, in denen die Durchführung einer Fokusgruppe sinnvoll sein kann?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Es ist unklar, wer genau die Interessenvertreter für ein zu entwickelndes interaktives System sind.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Es ist unklar, welche Grundhaltung und welche Befürchtungen die Interessenvertreter gegenüber der Entwicklung des interaktiven Systems haben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Die Usability einer Gestaltungslösung soll evaluiert werden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Erkenntnisse aus Beobachtungen oder Interviews sollen bezüglich ihrer Vollständigkeit und Richtigkeit bewertet werden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interessenvertreter sollen gemeinsam entscheiden, ob ihre Anforderungen ausreichend gut umgesetzt worden sind.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Die Nutzungsanforderungen an das zu entwickelnde interaktive System sollen ermittelt werden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "42: Welche zwei der folgenden Aktivitäten sind NICHT dazu geeignet, den Nutzungskontext für ein interaktives System zu verstehen?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Existierende interaktive Systeme analysieren, die mit dem zu gestaltenden System vergleichbar sind",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personen interviewen, die indirekte Benutzer des interaktiven Systems sind",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Eine Fokusgruppe mit Interessenvertretern des zu gestaltenden interaktiven Systems durchführen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Eine Persona erstellen für eine betroffene Benutzergruppe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Das Verhalten von Benutzern während der Durchführung von Aufgaben beobachten, die durch das zu gestaltende interaktive System unterstützt werden sollen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Lösungsideen für das zu gestaltende interaktive System mit Benutzern diskutieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "43: Welche drei der folgenden Eigenschaften sind NICHT ausschlaggebend für eine korrekte User Journey Map?",
+    "correctCount": 3,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine User Journey Map umfasst alle Touchpoints, die für die User Experience des interaktiven Systems relevant sind.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Eine User Journey Map ist eine Beschreibung von Touchpoints der Benutzer mit dem interaktiven System in Form eines Diagramms.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "User Journey Maps beschreiben entweder aktuell existierende Touchpoints des Benutzers mit dem interaktiven System oder geplante Touchpoints für das zukünftige interaktive System.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Eine User Journey Map ist die Beschreibung der Touchpoints eines bestimmten Benutzers mit dem interaktiven System.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Eine User Journey Map ist so gestaltet, dass die gesamte User Experience der Benutzer über alle relevanten Touchpoints hinweg greifbar wird.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "In einer User Journey Map muss pro Touchpoint angegeben werden, was die Aufgaben der Benutzer an diesem Touchpoint sind und mit welchen interaktiven Systemen die Benutzer hier interagieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "44: Welche drei der folgenden Punkte sind Hauptgründe, warum man in Interviews möglichst immer offene, neutrale Fragen stellen soll?",
+    "correctCount": 3,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Bei offenen Fragen enthalten die Antworten mehr Informationen, was den Ertrag des Interviews steigert.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Offene Fragen sind in der Regel leichter zu verstehen als geschlossene Fragen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Offene Fragen motivieren die interviewte Person eher dazu, ins Reden zu kommen und dadurch eine eventuelle Schüchternheit zu überwinden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Neutrale Fragen sind in der Regel leichter zu verstehen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Neutrale Fragen geben keinen Hinweis auf erwünschte Antworten und beeinflussen deshalb die interviewte Person in ihrer Antwort nicht.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Neutrale Fragen sind eher relevant für die interviewte Person und führen deshalb eher dazu, dass sie auch beantwortet werden können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "45: Welcher eine der folgenden Punkte ist NICHT eine Komponente eines Nutzungskontextes?",
+    "correctCount": 1,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Benutzer",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Ziele der Benutzer",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Aufgaben, die die Benutzer durchführen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Gesetzliche Vorgaben, die bei der Durchführung der Aufgaben zu beachten sind",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Ressourcen, die bei der Benutzung genutzt werden",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Umgebungen, in denen die Benutzung erfolgt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "46: Welche zwei der folgenden Punkte sind Ausschnitte von validen Ist-Szenarien für die Website eines Pizza-Lieferservice?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Thomas bestellt mindestens zweimal pro Woche eine selbst zusammengestellte Pizza bei seinem bevorzugten Pizza-Lieferservice. Hier kann er die Pizza dann 15 Minuten später abholen. Das geht schneller, als sich die Pizza liefern zu lassen. Seine Kombinationen von Zutaten sind im Pizzamenü der Pizzeria nicht als Standardpizza enthalten. Manchmal kommt er beim Anruf durcheinander und vergisst eine Zutat zu nennen, die er eigentlich haben wollte. Das ärgert ihn dann, wenn er später zu Hause die Pizza genießen will.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "1. Pizza-Art auswählen (italienisch oder amerikanisch) 2. Pizzagröße auswählen 3. Auswählen, ob die Pizza hälftig belegt werden soll oder die ganze Pizza gleich 4. Zutaten auswählen (entweder pro Hälfte oder für die ganze Pizza) 5. Zusammengestellte Pizza in den Warenkorb legen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Thomas bestellt oft eine selbst zusammengestellte Pizza beim Pizza-Lieferservice. Die Website, die er dafür nutzt, ist für ihn leicht zu bedienen, auch wenn er die visuelle Gestaltung ziemlich hässlich findet. Einzig bei der Auswahl der Pizza-Art macht er oft einen Fehler. Dass er sich einloggen kann und seine persönlichen Daten wie Adresse und Zahlweise dann schon voreingestellt sind, findet Thomas sehr praktisch.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Thomas bestellt oft eine selbst zusammengestellte Pizza beim Pizza-Lieferservice. Manchmal benutzt er Lieferant A, manchmal Lieferant B. Bei Lieferant A ruft er immer an und muss dann alle Details durchgeben, wobei oft Missverständnisse entstehen, die das Gespräch in die Länge ziehen und es nervig werden lassen. Bei Lieferant B nutzt er gerne die Website zum Bestellen, weil es dann keine Missverständnisse gibt und er in Ruhe aussuchen kann, ohne das Gefühl zu haben, jemandem die Zeit zu stehlen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Zunächst muss man die Pizza-Art (italienisch oder amerikanisch) und die Pizzagröße auswählen. Dann gibt es die Möglichkeit, auszuwählen, ob die Pizza hälftig belegt werden soll. Anschließend wählt man die Zutaten aus (pro Hälfte oder für die ganze Pizza) und legt die zusammengestellte Pizza in den Warenkorb.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Die Website des Pizza-Lieferservice ist für das Bestellen einer selbst zusammengestellten Pizza als ein großes Formular aufgebaut. Das Formular bietet die Möglichkeit, anzugeben, ob die Pizza hälftig belegt werden soll. Je nach Auswahl an dieser Stelle muss anschließend bei jeder ausgewählten Zutat angegeben werden, ob diese auf Hälfte 1, Hälfte 2 oder auf beide Hälften kommen soll. Abschließend wird der Preis für die Pizza angezeigt und der Benutzer kann sie in den Warenkorb legen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "47: Welcher eine der folgenden Punkte beschreibt am besten den Zweck von Personas?",
+    "correctCount": 1,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Personas dienen der Spezifikation von Nutzungsanforderungen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personas werden vom Marketing und vom Management genutzt, um die Wichtigkeit von Marktanforderungen und organisatorischen Anforderungen zu verdeutlichen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personas sind ein wichtiges Hilfsmittel zur Formulierung von Ist-Szenarien und User Journey Maps.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personas werden genutzt, um geeignete Teilnehmer für Usability-Tests zu rekrutieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personas erleichtern es Interessenvertretern, zu verstehen, wer die Benutzer sind, und über ihre Merkmale und Aufgaben zu kommunizieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Personas dienen der Identifikation von Erfordernissen der Benutzer, um daraus Nutzungsanforderungen abzuleiten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "48: Welche zwei der folgenden Eigenschaften definieren ein kontextuelles Interview im Kontrast zu einem allgemeinen Interview?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Das Interview fokussiert sowohl auf den Nutzungskontext als auch auf das zu entwickelnde interaktive System selbst.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Das Interview findet dort statt, wo der Benutzer normalerweise Aufgaben im Zusammenhang mit dem betrachteten interaktiven System ausführt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Die interviewte Person soll sich in den Kontext der Benutzung des interaktiven Systems versetzen, um die Fragen des Interviewers besser beantworten zu können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Das Interview fokussiert ausschließlich auf den Nutzungskontext des interviewten Benutzers.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Das Interview wird immer im Kontext einer ganzen Interviewreihe durchgeführt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Das Interview wird mit mehreren Benutzern durchgeführt, damit diese sich im Kontext gegenseitig anregen und dadurch mehr und bessere Ergebnisse erzielt werden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "49: Eine Pizzeria mit Lieferservice möchte ein IT-System zur Erfassung und Verwaltung aller Bestellungen von Kunden anschaffen, egal ob diese via Website, per Telefon oder in der Pizzeria aufgegeben werden. Sie führen eine Reihe von kontextuellen Interviews durch, um Informationen über den Nutzungskontext der Kunden zu sammeln. Welche zwei der folgenden Aussagen des Interviewers während eines Interviews folgen dem Meister-Schüler-Modell?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Interviewte Person: »Ich finde es schön, wenn ich beim Lieferservice anrufe und die schon an der Nummer erkennen, dass ich es bin.« Interviewer: »Das ist interessant. Warum finden Sie das schön?«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interviewte Person: »Wenn ich Pizza bestelle, möchte ich oft keine Standardpizza, sondern stelle mir den Belag selbst zusammen.« Interviewer: »Das ist doch bestimmt sehr umständlich, oder? Wäre es nicht hilfreich, wenn der Lieferservice eine ausreichend große Auswahl an Pizzavarianten anbietet?«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interviewte Person: »Und wenn die Pizza geliefert wird, ist sie meistens schon kalt.« Interviewer: »Das ist interessant, aber erst mal würde ich gerne wissen, wie lange die Lieferzeit denn maximal sein darf.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interviewte Person: »Meistens rufe ich, so etwa eine Stunde bevor ich essen möchte, beim Lieferservice an, damit …« Interviewer fragt dazwischen: »Wie oft bestellen Sie eigentlich bei einem Lieferservice?«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interviewte Person: »Besonders wichtig ist mir, dass ich Mozzarella und Rucola als Zutat bestellen kann.« Interviewer: »Was hatten Sie auf den letzten drei selbst zusammengestellten Pizzen als Belag drauf?«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Interviewte Person: »Wenn ich länger als 45 Minuten auf die Lieferung warten muss, ist mir das zu lang.« Interviewer: »Wirklich? Die meisten Lieferservices in der Umgebung schaffen es ja nicht mal, innerhalb von 60 Minuten zu liefern.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "50: Welche eine der folgenden Methoden ist NICHT geeignet, um etwas über den Nutzungs- kontext eines Geldautomaten zu erfahren?",
+    "correctCount": 1,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Bankangestellte befragen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Benutzer eines existierenden Geldautomaten befragen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Benutzer während der Bedienung eines existierenden Geldautomaten beobachten",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Usability-Tests mit Geldautomaten von Wettbewerbern durchführen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Usability-Tests mit einem Prototyp eines neuen Geldautomaten durchführen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Den neuen Geldautomaten den Bankkunden mit Hilfe eines Videos demonstrieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "51: Welche zwei der folgenden Aussagen sind Aufgaben?",
+    "correctCount": 2,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Reise buchen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Urlaubsantrag ausfüllen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Dienstreise umbuchen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Diensthandy verloren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Dienstreiseabrechnung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Dienstreiserichtlinie beachten",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "52: Welcher eine Ausdruck charakterisiert die folgende Beschreibung richtig? Elena Montgomery, Human Resources Coordinator, Amino Pharmaceuticals Elena ist 35 Jahre alt. Sie hat keine Kinder und ist unverheiratet, aber hat seit 4 Jahren einen Freund. Ihre Lieblingsbeschäftigungen sind Tango tanzen und herrliche Tapas zubereiten. Sie spricht annehmbar Spanisch. Elena verbringt den größten Teil ihres Tags mit der Bearbeitung aller Formulare, die nötig sind, um Mitarbeiter in der F&E-Abteilung von Amino Pharmaceuticals anzustellen, zu versetzen und zu kündigen. Wenn etwas unvollständig oder unklar ist, nimmt sie sich die Zeit, die Antwort herauszufinden. Sie ist eine Expertin für alle nötigen Formulare und Verfahren. Elenas Ziele: Aufstieg in HR; Exzellenz durch Genauigkeit; helfen; nicht in Rückstand geraten.",
+    "correctCount": 1,
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgabenmodell",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Persona",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Prototyp",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Ist-Szenario",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Benutzergruppenprofil",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      },
+      {
+        "text": "Antwort",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=666"
+      }
+    ]
   }
 ]
