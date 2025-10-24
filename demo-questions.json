@@ -7,11 +7,11 @@
     "image": "",
     "options": [
       { "text": "Barrierefreiheit", "isCorrect": false, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" },
-      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
-      { "text": "Vollständigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
-      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
-      { "text": "Zufriedenstellung", "isCorrect": true, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" },
-      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "Basiswissen Usability und User Experience.pdf, S. 238" }
+      { "text": "Effizienz", "isCorrect": true, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" },
+      { "text": "Vollständigkeit", "isCorrect": false, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" },
+      { "text": "Effektivität", "isCorrect": true, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" },
+      { "text": "Zufriedenstellung", "isCorrect": true, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" },
+      { "text": "Geschwindigkeit", "isCorrect": false, "explanation": "", "source": "documents/Basiswissen Usability und User Experience.pdf#page=2" }
     ]
   }
 
