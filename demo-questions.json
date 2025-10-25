@@ -4096,7 +4096,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "92: Welche zwei der folgenden Personen sind Interessenvertreter, aber KEINE Benutzer einer Autovermietungs-Website? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "question": "Welche zwei der folgenden Personen sind Interessenvertreter, aber KEINE Benutzer einer Autovermietungs-Website? (Quelle der Frage: [UXQB CPUX-F 2023b])",
     "correctCount": 2,
     "chapter": "6: Nutzungsanforderungen festlegen",
     "image": "",
@@ -4136,6 +4136,726 @@
         "isCorrect": true,
         "explanation": "Diese Person hat ein aktives Interesse an der Website (sie ist die Grundlage für die Werbeaktion), ist aber weder Benutzer noch pflegt sie die Website, noch erhält sie ein Ergebnis von ihr. Sie ist also Interessenvertreter, aber kein Benutzer.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Punkte sind Beispiele für UX-bezogene Ergebnisse der Informationsarchitektur?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Festlegung der erlaubten Verwendung von Farben in der Benutzungsschnittstelle",
+        "isCorrect": false,
+        "explanation": "Das ist am ehesten ein möglicher Inhalt eines Styleguide",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Das Datenmodell der Aufgabenobjekte in der Benutzungsschnittstelle des interaktiven Systems",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Die Strukturierung von Gestaltungsregeln in einem Styleguide",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Eine Liste aller Begriffe, die in der Benutzungsschnittstelle auftauchen",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Die Navigationsstruktur für die Dialogboxen, Seiten oder Fenster des interaktiven Systems",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Die Festlegung, bei welchem Touchpoint welche Informationen über das interaktive System dem Benutzer zur Verfügung gestellt werden",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Punkte ist KEIN Beispiel für Benutzerunterstützung?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Anweisungstext in der Benutzungsschnittstelle",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Eine Bedienungsanleitung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Hinweise, die angezeigt werden, um den Benutzer bei der Behebung eines Fehlers zu unterstützen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Die Statusinformation »Das Dokument wurde gespeichert«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Die Beschriftung »Datum« an einem Eingabefeld",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Lehrvideo, wie vorgegangen werden muss, um eine bestimmte Aufgabe mit dem interaktiven System zu erledigen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aspekte sind Teil der Informationsarchitektur? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Gestaltungsregeln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Festlegen des Grafikdesigns",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Die Ausdrücke, die in der Benutzungsschnittstelle für Navigation und Inhalt verwendet werden",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Wireframes",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Die Struktur der Informationen, die dem Benutzer zur Verfügung stehen müssen",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen über User-Interface-Elemente sind korrekt?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Top-Level-Navigation einer Website ist ein Beispiel für ein User-Interface-Element.",
+        "isCorrect": false,
+        "explanation": "Eine Top-Level-Navigation besteht aus mehreren User-Interface-Elementen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "User-Interface-Elemente sind die Komponenten einer Benutzungsschnittstelle, die interaktiv sind.",
+        "isCorrect": false,
+        "explanation": "Es gibt auch nicht interaktive User-Interface- Elemente, zum Beispiel ein Anweisungstext.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Das Standardisieren von User-Interface-Elementen über interaktive Systeme hinweg fördert die Erlernbarkeit für die Benutzer.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "User-Interface-Elemente werden in Form von Gestaltungsregeln definiert.",
+        "isCorrect": false,
+        "explanation": "Gestaltungsregeln legen Details der Gestaltung und des Einsatzes von User-Interface-Elementen fest, sie sind aber nicht identisch mit den User-Interface- Elementen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Ein Tooltip ist ein Beispiel für ein User-Interface-Element.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "User-Interface-Elemente sind Lösungen für häufig auftretende Gestaltungsprobleme.",
+        "isCorrect": false,
+        "explanation": "Ein User-Interface-Element kann ein Bestandteil eines Design Pattern sein, aber nicht alle User- Interface-Elemente sind Design Patterns.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen beschreiben eine Gestaltung eines interaktiven Systems, die den Grundsätzen des ethischen Designs NICHT folgt?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Beim Einwilligungsbanner auf einer Website (auch »Cookie-Banner« genannt) ist die Standardeinstellung beim Bestätigen durch den Benutzer die bzgl. Datenschutz für ihn beste Einstellung. Dies wird auch durch die DSGVO gesetzlich gefordert.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Während der Benutzung einer App wird der Benutzer wiederholt darauf aufmerksam gemacht, was die App alles leisten kann und warum er die App weiterbenutzen sollte.",
+        "isCorrect": false,
+        "explanation": "Für ein Angebot zu werben ist nicht unethisch, wenn auch manchmal nervig.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "In einer Fitness-App kann der Benutzer durch Sport und Bewegung Punkte sammeln und damit Preise gewinnen. Wenn der Benutzer sich nicht genug bewegt, wird er von der App erinnert und es werden keine weiteren Punkte vergeben.",
+        "isCorrect": false,
+        "explanation": "Benutzer haben bei der Verwendung von Fitness-Apps oft das Ziel, sich darin unterstützen zu lassen, neue Verhaltensweisen zu üben, die ihnen schwerfallen. Maßgeblich für das ethische Design eines interaktiven Systems ist, ob die Erfordernisse und Ziele des Benut- zers unterstützt werden. Das ist hier der Fall.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
+      },
+      {
+        "text": "Eine Social-Media-Website bietet dem Benutzer an, einen Newsletter zu abonnieren mit der Formulierung »Abonnieren Sie unseren kostenlosen Newsletter«. Der Benutzer muss zum Abonnieren seinen Namen und seine E-Mail-Adresse angeben sowie wei- tere persönliche Angaben.",
+        "isCorrect": true,
+        "explanation": "Die Verwendung persönlicher Daten ohne Aufklärung des Benutzers ist unethisch.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Eine mobile Zahlungsanwendung zur Benutzung im Restaurant setzt eine Option »Trinkgeld« als Standard. Der Benutzer kann den voreingestellten Trinkgeld-Betrag auswählen oder die Option abwählen.",
+        "isCorrect": true,
+        "explanation": "Die Tatsache, dass der Benutzer explizit die Option abwählen muss, wenn er kein Trinkgeld geben will, führt dazu, dass mehr Benutzer Trinkgeld geben, als sie das sonst tun würden. Aus diesem Grund ist dies als unethisches Design anzusehen. Anmerkung: Ob dies unethisches Design ist, hängt vom Kulturkreis ab, in dem die Zahlungsanwendung verwendet wird. In den USA zum Beispiel ist es üblich, dass immer Trinkgeld gegeben wird. Hier wäre es aufgabenangemessen, die Option »Trink- geld« standardmäßig auszuwählen. In Deutschland, Österreich und der Schweiz ist Trinkgeld freigestellt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Ein Online-Streamingdienst kann einen Monat gratis getestet werden. Der Benutzer wird eine Woche vor Ablauf der Gratis-Zeit informiert und erhält die Möglichkeit, sein Abonnement fortzusetzen, indem er seine Kreditkartendaten zur Bezahlung des Abonnements hinterlegt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "98: Welche zwei der folgenden Aussagen über User-Interface-Spezifikationen sind korrekt?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Zweck einer User-Interface-Spezifikation ist, die Einhaltung aller relevanten Anforderungen überprüfen zu können.",
+        "isCorrect": false,
+        "explanation": "Der Zweck einer User-Interface-Spezifikation ist, eine vollständige Beschreibung des interaktiven Systems bereitzustellen, sodass es von Entwicklern implemen- tiert werden kann.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Eine allgemeingültige Regelung, welche Farbe wofür verwendet werden darf, ist Bestandteil einer User-Interface-Spezifikation.",
+        "isCorrect": false,
+        "explanation": "Regelungen, die über einzelne Produkte hinweg anzuwenden sind, stehen im Styleguide.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Es kann sein, dass eine User-Interface-Spezifikation nur aus einem annotierten Prototyp besteht.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Meldungen (Fehlermeldungen, Warnungen, Hinweise) gehören zur Informations- architektur und nicht zur User-Interface-Spezifikation.",
+        "isCorrect": false,
+        "explanation": "Sämtliche Bestandteile der Benutzerunterstützung (zu der auch alle Meldungen gehören) sind Bestand- teil der User-Interface-Spezifikation.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Welche User-Interface-Elemente wofür verwendet werden dürfen, ist Bestandteil einer User-Interface-Spezifikation.",
+        "isCorrect": false,
+        "explanation": "Regelungen, die über einzelne Produkte hinweg anzuwenden sind, stehen im Styleguide.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Der primäre Adressat einer User-Interface-Spezifikation sind die Entwickler.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Aspekte ist der primäre Fokus von nachhaltigem Design?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Das nachhaltige Erreichen der Ziele der Benutzer durch die Verwendung des interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Das Minimieren des kognitiven Aufwands für die Bedienung des interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "Dies ist ein Teilaspekt von nachhaltigem Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Das Minimieren des Energieaufwands für die Verwendung des interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "Dies ist ein Teilaspekt von nachhaltigem Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
+      },
+      {
+        "text": "Die Vermeidung von Umweltverschmutzung und Energieverschwendung bei der Verwendung des interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "Dies ist ein Teilaspekt von nachhaltigem Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Die dauerhafte Erfüllung aller relevanten Anforderungen durch das interaktive System",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Das Minimieren der erforderlichen Ressourcen für die Nutzung des interaktiven Systems",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt in Bezug auf Storyboards?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Storyboards sind etwas Ähnliches wie Nutzungsszenarien.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Storyboards werden in der Gestaltungsphase erstellt.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Ein Storyboard ist ähnlich einem Kanban-Board, nur dass es keine Arbeitspakete enthält, sondern User Stories.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Ein Storyboard ist eine comicartige Darstellung des Zusammenspiels zwischen einem Benutzer und einem interaktiven System.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Ein Storyboard ist eine umfassende Sammlung aller Nutzungsszenarien für ein zu erstellendes interaktives System.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Storyboards werden von Benutzern im Rahmen von Usability-Evaluierungen erstellt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen über Prototypen und Wireframes sind korrekt?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Wireframe ist ein Bestandteil eines Prototyps.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Ein Prototyp ist eine Form von Wireframe.",
+        "isCorrect": false,
+        "explanation": "Es gibt Prototypen, die aus nur einem Wireframe bestehen, aber nicht jeder Prototyp ist ein Wireframe, z.B. High-Fidelity-Prototypen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Bei der Evaluierung von Prototypen können Informationen über den Nutzungskontext ermittelt werden.",
+        "isCorrect": true,
+        "explanation": "In der Kontextanalyse kann ein Prototyp verwendet werden, um Benutzern zu demonstrieren, was möglich wäre, um basierend auf dieser Motivation anschließend Informationen über den Nutzungskontext einzuholen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Prototypen werden immer nur in der Designphase und der Evaluierungsphase verwendet.",
+        "isCorrect": false,
+        "explanation": "In der Analysephase werden Prototypen zwar selten eingesetzt, aber dies kann durchaus sinnvoll sein, zum Beispiel um interviewten Benutzern zu verdeutlichen, was für interaktive Systeme heutzutage realisierbar wären, und um anschließend über den Nutzungskontext bezüglich zu unterstützender Aufgaben zu sprechen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Prototypen können als Teil der Spezifikation für die Implementierung der Benutzungs- schnittstelle eines interaktiven Systems dienen.",
+        "isCorrect": true,
+        "explanation": "Dies gilt insbesondere für High-Fidelity-Prototypen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      },
+      {
+        "text": "Wireframes zeigen nicht das visuelle Design des interaktiven Systems, wohl aber das exakte Layout von allen UI-Elementen in einem Screen oder einer Seite.",
+        "isCorrect": false,
+        "explanation": "Wireframes zeigen primär das Interaktionsdesign sowie das grobe Layout eines interaktiven Systems. Sie stellen einen sehr frühen, einfachen Low-Fidelity- Prototyp dar. Das exakte Layout wird hier noch nicht adressiert.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Für eine interne Demonstration hat einer Ihrer Kollegen ein neues Bestellsystem auf eini- gen Blättern Papier skizziert. Jedes Blatt stellt einen Screen dar. Der Inhalt der Screens ist handgezeichnet und unvollständig. Ihr Kollege wechselt die Screens, sobald man auf den Button »klickt«, indem man mit einem Bleistift das Blatt berührt. Welcher eine der folgenden Begriffe beschreibt diese Sammlung von Skizzen am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Gestaltungsregel",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Low-Fidelity-Prototyp",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "High-Fidelity-Prototyp",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Wireframe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen beschreiben wichtige Merkmale eines Wireframe?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Wireframe besteht aus Formen wie zum Beispiel Linien, Kästen und Text.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Ein Wireframe beinhaltet Aspekte des visuellen Designs des interaktiven Systems.",
+        "isCorrect": false,
+        "explanation": "Wireframes adressieren üblicherweise nicht das visuelle Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Ein Wireframe zeigt immer das exakte visuelle Design des interaktiven Systems.",
+        "isCorrect": false,
+        "explanation": "In der Regel adressieren Wireframes nicht das genaue visuelle Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Ein Wireframe ist eine Seite / ein Screen in einem Low-Fidelity-Prototyp.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Ein Wireframe beinhaltet Aspekte des Layouts der User-Interface-Elemente.",
+        "isCorrect": false,
+        "explanation": "Wireframes können durchaus Aspekte des Layouts der User-Interface-Elemente enthalten. Dies ist aber kein wichtiges Merkmal eines Wireframe, im Gegensatz zu A und D.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Ein Wireframe zeigt immer das exakte Layout der User-Interface-Elemente.",
+        "isCorrect": false,
+        "explanation": "Wireframes adressieren in der Regel nicht das exakte Layout der User-Interface-Elemente.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Punkte stellen einen Ausschnitt eines validen Nutzungsszena- rios dar für die Website eines Pizza-Lieferservice und die Aufgabe »Artikel bestellen«?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Hanna geht auf die Website des Pizza-Lieferservice und da sie früher schon einmal dort bestellt hat, wird sie direkt mit Namen begrüßt und gebeten, ihr Benutzerpasswort einzugeben. Nachdem sie das getan hat, sieht sie die Artikel aufgelistet, die in ihren letzten Bestellungen enthalten waren, wo auch ihre selbst zusammengestellte Lieb- lingspizza dabei ist. Sie wählt diese aus und freut sich, dass sie nicht den Aufwand treiben muss, die Pizza erneut mühsam zusammenzustellen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "1. Benutzer identifizieren, entweder automatisch oder durch Angabe des Benutzernamens\n2. Benutzer authentifiziert sich durch Eingabe eines Passworts\n3. Artikel der letzten Bestellungen auflisten, neueste zuerst\n4. Benutzer wählt aus der Liste aus und legt pro Artikel die Anzahl fest",
+        "isCorrect": false,
+        "explanation": "Die Darstellung ist nicht in erzählender Form.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Der Benutzer gibt sein Passwort ein. Er sieht dann die Artikel seiner letzten Bestellun- gen in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren. Er kann beliebige Artikel aus der Liste auswählen und diese einfach erneut bestellen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Der Benutzer Nr. 3 gibt Benutzernamen und Passwort ein und bekommt dann die Artikel seiner letzten Bestellungen aufgelistet in der Reihenfolge »Neueste zuerst«. Er verzieht das Gesicht und sagt »Warum kann ich denn nicht meine Lieblingsartikel festlegen? Das wäre doch viel praktischer, als nur die letzten Bestellungen zu sehen, wo ja bestimmte Artikel immer wieder aufgelistet werden. Jetzt muss ich durch die ganze lange Liste durchscrollen, um meine selbst zusammengestellte Pizza zu finden, die ich wieder bestellen möchte!«",
+        "isCorrect": false,
+        "explanation": "Hier handelt es sich nicht um ein Nutzungsszenario, sondern eher um einen Ausschnitt eines Usability-Testberichts.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
+      },
+      {
+        "text": "Der Benutzer wird identifiziert über ein Feld »Benutzername« (wird wenn möglich automatisch vorausgefüllt mittels Nutzung eines Cookies) und authentifiziert über ein Feld »Passwort«. Alternativ kann er sich auch neu registrieren, ein Bestellen ohne Login soll nicht erlaubt sein. Nach Anklicken des Buttons »Los geht’s« und erfolgreicher Prüfung der Login-Daten bekommt der Benutzer die Artikel seiner letzten Bestellun- gen aufgelistet in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren.",
+        "isCorrect": false,
+        "explanation": "Die Beschreibung beschreibt nicht stringent die Interaktion zwischen Benutzer und interaktivem System, sondern beschreibt auch technische Aspekte des interaktiven Systems.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Hanna bestellt mindestens zweimal pro Woche eine selbst zusammengestellte Pizza bei ihrer Lieblingspizzeria. Hier kann sie die Pizza dann 15 Minuten später abholen. Ihre Kombinationen von Zutaten sind im Pizzamenü der Pizzeria nicht als Standard- pizza enthalten. Manchmal kommt sie beim Anruf durcheinander und vergisst eine Zutat zu nennen, die sie eigentlich haben wollte. Das ärgert sie dann, wenn sie später zu Hause die Pizza genießen will.",
+        "isCorrect": false,
+        "explanation": "Hier handelt es sich um ein Ist-Szenario, das den eigentlichen Nutzungskontext beschreibt statt der Nutzung des interaktiven Systems.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Begriffe beschreibt die Abbildung am besten?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "images/question_105.png",
+    "options": [
+      {
+        "text": "Design Pattern",
+        "isCorrect": false,
+        "explanation": "Es fehlt die Problembeschreibung und eine allge- meine Beschreibung der Lösung. Das hier ist höchstens ein Umsetzungsbeispiel eines Design Pattern.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Wireframe",
+        "isCorrect": false,
+        "explanation": "Ein Wireframe ist nur ein einzelner Screen, das hier sind zwei Screens.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Bildschirmaufteilung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "Es wird nicht das Zusammenspiel zwischen Benutzer und interaktivem System dargestellt, sondern nur das interaktive System. Zur Erinnerung: Die Definition von Storyboard lautet: »Eine Folge visueller Bildschirminhalte, die das Zusammenspiel zwischen einem Benutzer und einem interaktiven System veranschaulicht.«",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Low-Fidelity-Prototyp",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Begriffe beschreibt die unten stehende Abbildung am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "images/question_106.png",
+    "options": [
+      {
+        "text": "Design Pattern",
+        "isCorrect": false,
+        "explanation": "Die Abbildung kann kein Design Pattern darstellen. Laut Curriculum ist ein Design Pattern »ein Gestaltungsproblem, eine allgemeine Lösung und Beispiele, wie diese Lösung angewandt werden kann«. Die Fragestellung enthält keine Beschreibung eines Gestaltungsproblems sowie kein Beispiel der Anwendung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Persona",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
+      },
+      {
+        "text": "Wireframe",
+        "isCorrect": true,
+        "explanation": "Die Abbildung entspricht der Definition von Wireframe und Low-Fidelity-Prototyp, wobei Low-Fidelity- Prototyp nicht als Antwortmöglichkeit aufgeführt ist.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt in Bezug auf den Begriff »Card-Sorting«?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Card-Sorting ist eine Methode zum benutzerorientierten Strukturieren von Informationen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Card-Sorting kann sowohl zum Erstellen neuer Navigationsstrukturen als auch zum Verbessern von bestehenden Navigationsstrukturen verwendet werden.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Es werden zwei Arten von Card-Sorting unterschieden: neutral und vordefiniert.",
+        "isCorrect": false,
+        "explanation": "Die Arten von Card-Sorting heißen »offen« und »geschlossen«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Die Teilnehmer an einem Card-Sorting sollten immer Usability Professionals sein.",
+        "isCorrect": false,
+        "explanation": "Antwort E ist richtig.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Die Teilnehmer an einem Card-Sorting sollten immer Benutzer des betreffenden interaktiven Systems sein.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Beim Card-Sorting sind die Karten und deren Beschriftungen immer von einem Usability Professional vorgegeben.",
+        "isCorrect": false,
+        "explanation": "Die Teilnehmer des Card-Sorting dürfen zusätzliche Karten erstellen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "108: Welche drei der folgenden Punkte beschreiben am besten den Unterschied zwischen einem Low-Fidelity-Prototyp und einem High-Fidelity-Prototyp?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Low-Fidelity-Prototypen veranschaulichen immer nur Konzepte, wogegen High- Fidelity-Prototypen weit mehr umfassen.",
+        "isCorrect": false,
+        "explanation": "Auch ein Low-Fidelity-Prototyp kann zum Beispiel Aspekte der visuellen Gestaltung veranschaulichen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Low-Fidelity-Prototypen können mit sehr geringem Aufwand geändert werden, High-Fidelity-Prototypen in der Regel nicht.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Ein High-Fidelity-Prototyp kann als Teil der Spezifikation der Benutzungsschnittstelle dienen, ein Low-Fidelity-Prototyp nicht.",
+        "isCorrect": false,
+        "explanation": "Auch ein Low-Fidelity-Prototyp kann als Teil der Spezifikation der Benutzungsschnittstelle dienen, hier muss dann nur deutlich mehr an anderer Stelle spezifiziert sein, als wenn ein High-Fidelity-Prototyp verfügbar ist.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Ein High-Fidelity-Prototyp ähnelt dem fertigen interaktiven System, ein Low-Fidelity- Prototyp in der Regel nicht.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "High-Fidelity-Prototypen sollten mit dem zu nutzenden technischen Framework abgestimmt sein, damit nicht etwas in dem Prototyp enthalten ist, das gar nicht umsetzbar ist. Bei Low-Fidelity-Prototypen spielt das keine Rolle.",
+        "isCorrect": false,
+        "explanation": "Auch bei Low-Fidelity-Prototypen sollten zum Beispiel nicht User-Interface-Elemente verwendet werden, von denen bereits klar ist, dass sie nicht mit vertretbarem Aufwand technisch umsetzbar sein werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      },
+      {
+        "text": "Sowohl Low-Fidelity- als auch High-Fidelity-Prototypen sollten immer aufgabenorientiert gestaltet sein, also eine sinnvolle Aufgabenerledigung demonstrieren können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
       }
     ]
   }
