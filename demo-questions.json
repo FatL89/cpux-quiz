@@ -5562,7 +5562,7 @@
       {
         "text": "Tagebuch-Studie",
         "isCorrect": false,
-        "explanation": "Tagebuch-Studien sind zwar eine Methode zur Usability-Evaluierung, sie werden aber deutlich seltener verwendet als Usability-Tests und Usability- Inspektionen.",
+        "explanation": "Tagebuch-Studien sind zwar eine Methode zur Usability-Evaluierung, sie werden aber deutlich seltener verwendet als Usability-Tests und Usability-Inspektionen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
       },
       {
@@ -5846,6 +5846,1221 @@
         "isCorrect": false,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Sie wurden angefragt, einen Usability-Test einer Autovermietungs-Website durchzuführen. Welche zwei der folgenden Aufgaben sind am besten geeignet als Testaufgaben für den Usability-Test?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Buchen Sie für ein zu mietendes Auto eine Unfallversicherung dazu.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Teilaufgabe, zu der kein Aufgabenkontext angegeben ist. Dies ist keine gute Usability- Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Stellen Sie sich vor, Sie sind Formel-1-Weltmeister Sebastian Vettel und möchten mit Freunden zum Spaß eine Spritztour in dem schnellsten angebotenen Auto machen. Finden Sie das passendste Auto heraus und mieten Sie es für nächsten Samstag 9:00 bis 21:00 Uhr mit Abholung und Rückgabe in Zürich.",
+        "isCorrect": false,
+        "explanation": "Die Aufgabe ist humoristisch gestellt, was von der reinen Aufgabenerledigung ablenkt. Dies ist keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Sie haben ein Problem mit Ihrem Mietvertrag. Finden Sie auf der Website heraus, wie Sie jemanden erreichen können, der Ihnen weiterhilft.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Mieten Sie gemäß Ihren Bedürfnissen ein Auto für einen Ort Ihrer Wahl und für einen Zeitraum Ihrer Wahl.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Schauen Sie sich die Startseite der Avis-Website an und sagen Sie mir, wie die Seite auf Sie wirkt.",
+        "isCorrect": false,
+        "explanation": "Es wird hier keine Aufgabe gestellt, die ein Benutzer mit der Website durchführen würde, um ein für ihn relevantes Ziel zu erreichen. Dies ist keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Benennen Sie Probleme, die Sie in der Website sehen für die Aufgabe »Eine Reservierung stornieren.«",
+        "isCorrect": false,
+        "explanation": "Es wird hier keine Aufgabe gestellt, die ein Benutzer mit der Website durchführen würde, um ein für ihn relevantes Ziel zu erreichen. Dies ist keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Punkte sind Aussagen, die in der Bewertung eines Usability-Befundes sinnvoll getroffen werden können?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Wie kritisch der Befund ist",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Welche Konsequenzen der Befund im Detail hat",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Auf welche Weise das Usability-Problem behoben werden sollte",
+        "isCorrect": false,
+        "explanation": "Die Bewertung enthält keinerlei Hinweise auf mögliche Lösungen des Problems. Der Befund selbst kann einen Hinweis auf eine mögliche Lösung enthalten, aber nur um das Problem zu illustrieren.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Welche Stakeholder über den Befund benachrichtigt werden müssen",
+        "isCorrect": false,
+        "explanation": "Wer über einen Usability-Befund des Usability-Tests benachrichtigt werden sollte, wird an anderer Stelle entschieden. Dies ist keine angemessene Aussage in der Bewertung eines Usability-Befundes.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Ob es sich aus Sicht des Usability-Experten um ein geringes, ein ernstes oder ein kritisches Problem handelt",
+        "isCorrect": false,
+        "explanation": "Bewertungen von Usability-Befunden werden aus der Sicht der Usability-Testteilnehmer erstellt und nicht aus der Sicht eines Usability-Experten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Die Priorität, mit der das Usability-Problem behoben werden sollte",
+        "isCorrect": false,
+        "explanation": "Die Priorität der Behebung eines Usability-Problems wird an anderer Stelle entschieden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten, was ein Post-Test-Interview ist?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Informationen, die der Moderator den Testteilnehmern vor dem Test zukommen lässt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Die Informationen, die der Moderator den Testteilnehmern nach dem Test zukommen lässt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Das Interview, das vor dem Test stattfindet",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Die Fragen, die der Moderator während des Tests stellt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Das Interview, das unmittelbar nachdem der Testteilnehmer die Abarbeitung der Testaufgaben beendet hat, stattfindet",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      },
+      {
+        "text": "Die Fragen, die der Moderator den Testteilnehmern nach dem Test stellt",
+        "isCorrect": false,
+        "explanation": "Das Post-Test-Interview ist nicht eine Menge von Fragen, sondern eine Aktivität, und zwar eine spezielle Form von Interview.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=310"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aktivitäten gehören zur Vorbereitung oder Planung eines Usability-Tests?\n (Quelle der Frage: [UXQB CPUX 2023b])",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Briefing des Usability-Testteilnehmers über das, was während der Usability-Testsitzung passieren wird",
+        "isCorrect": false,
+        "explanation": "Dies erfolgt im Rahmen der Durchführung des Usability-Tests.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Erstellen des Usability-Test-Leitfadens",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Durchführen des Pre-Test-Interviews",
+        "isCorrect": false,
+        "explanation": "Dies erfolgt im Rahmen der Durchführung des Usability-Tests.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Rekrutierung geeigneter Usability-Testteilnehmer",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Festlegen der zu diskutierenden Themen",
+        "isCorrect": false,
+        "explanation": "In einem Usability-Test wird nicht diskutiert.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Verfassen des Interview-Leitfadens",
+        "isCorrect": false,
+        "explanation": "Dies erfolgt nicht in einem Usability-Test, sondern in einem Interview.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind NICHT korrekt in Bezug auf die Verantwortlichkeiten der beteiligten Personen bei einem Usability-Test?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Testteilnehmerin bewertet das interaktive System auf Grundlage individueller Kriterien.",
+        "isCorrect": true,
+        "explanation": "Die Testteilnehmerin hat die Verantwortung, die Testaufgaben mit dem interaktiven System so gut wie möglich zu erledigen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Der Moderator stellt während der Testdurchführung sicher, dass die Testteilnehmerin alle Testaufgaben vollständig erledigen kann.",
+        "isCorrect": true,
+        "explanation": "Dies ist keine Verantwortlichkeit des Moderators. Es ist kein Problem, wenn die Testteilnehmerin in der zur Verfügung stehenden Zeit nicht alle vorgesehenen Testaufgaben schafft.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Der Beobachter sammelt Informationen, die ihm dabei helfen, bei der Analyse der Testergebnisse zu unterstützen.",
+        "isCorrect": false,
+        "explanation": "Diese Aussage ist korrekt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Die Protokollantin erfasst alle Usability-Probleme, positive Feststellungen und subjektive Äußerungen der Testteilnehmerin, die im Rahmen des Usability-Tests beobachtet wurden und die hilfreich sein können für die Analyse der Befunde.",
+        "isCorrect": false,
+        "explanation": "Diese Aussage ist korrekt. Es ist hilfreich, wenn die Protokollantin nicht versucht, direkt beim Notieren schon Schlüsse zu ziehen, sondern wenn sie erst einmal alles erfasst, was passiert, und die Analyse später im Team durchgeführt wird.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Der Moderator ist NICHT verantwortlich für die Erfassung von Informationen über Usability-Befunde des Usability-Tests.",
+        "isCorrect": false,
+        "explanation": "Diese Aussage ist korrekt, das ist die Verantwortung der Protokollantin. Allerdings ist es manchmal so, dass eine Person in einem Usability-Test sowohl die Rolle des Moderators als auch die Rolle des Protokollanten übernimmt. Dies ist aber möglichst zu vermeiden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      },
+      {
+        "text": "Der Moderator sorgt dafür, dass die Testteilnehmerin bei Usability-Problemen, bei denen die Testteilnehmerin selbstständig nicht mehr weiterkommt, die Aufgabe trotzdem fortsetzen kann und der Usability-Test so möglichst viele Erkenntnisse bringt.",
+        "isCorrect": false,
+        "explanation": "Diese Aussage ist korrekt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=311"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt für einen Usability-Testbericht?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Er sollte den Test-Leitfaden beinhalten.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Er sollte auch positive Usability-Befunde beinhalten.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Jeder Usability-Befund sollte durch einen Screenshot oder ein Bild illustriert werden.",
+        "isCorrect": false,
+        "explanation": "Dies ist nur dann sinnvoll, wenn die Screenshots bzw. Bilder zur Illustration wirklich hilfreich sind. So wie die meisten Berichte wird auch ein Usability-Testbericht im normalen Berufsleben nur dann gelesen, wenn er sich auf das Wesentliche konzentriert.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Zu jedem Usability-Problem sollte erläutert werden, wie das Problem behoben werden sollte.",
+        "isCorrect": false,
+        "explanation": "Zu einem Usability-Problem kann eine Erläuterung beigefügt werden, wie das Problem behoben werden könnte, zwecks Illustration des Problems. Ein Usability-Testbericht ist aber nicht der richtige Ort für Gestaltungsarbeit, d.h., wie ein festgestelltes Usability- Problem behoben werden sollte, wird an anderer Stelle behandelt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Es wird ein Usability-Testbericht pro Testsitzung erstellt.",
+        "isCorrect": false,
+        "explanation": "Es wird ein Usability-Testbericht pro Usability-Test erstellt, der in der Regel mehrere Testsitzungen umfasst.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Er sollte eine Kurzdarstellung beinhalten, was im Rahmen des Usability-Tests gemacht wurde.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen beschreiben den Zweck eines Post-Test-Interviews am besten?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Feststellen, ob der Testteilnehmer mit der Durchführung des Usability-Tests zufrieden ist oder etwas zu beanstanden hat",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Verständnisfragen in Bezug auf aufgetretene Usability-Probleme klären, die während der Durchführung des Usability-Tests nicht geklärt werden konnten",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Ideen des Testteilnehmers sammeln, wie der Usability-Test verbessert werden könnte",
+        "isCorrect": false,
+        "explanation": "Das Post-Test-Interview beschäftigt sich ausschließlich mit den erledigten Aufgaben im Rahmen des Usability-Tests und was der Testteilnehmer dazu zu sagen hat.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Ideen des Testteilnehmers sammeln, wie das interaktive System verbessert werden könnte",
+        "isCorrect": false,
+        "explanation": "Das Post-Test-Interview beschäftigt sich ausschließlich mit den erledigten Aufgaben im Rahmen des Usability-Tests.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Festhalten, was dem Testteilnehmer an dem interaktiven System gefallen oder missfallen hat",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      },
+      {
+        "text": "Festhalten, wie der allgemeine Eindruck des Testteilnehmers zur User Experience des interaktiven Systems ist",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=312"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen charakterisiert am besten einen Usability-Test eines interaktiven Systems?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Befragung von Benutzern über deren Erfahrungen, die sie in einer gerade vorher durchgeführten Benutzung des interaktiven Systems gemacht haben",
+        "isCorrect": false,
+        "explanation": "Dies kann ein Bestandteil eines Usability-Tests sein, dies ist aber nicht das charakterisierende Element.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "Ein repräsentativer Vertreter der zu betrachtenden Benutzergruppe benutzt das interaktive System und wird dabei beobachtet",
+        "isCorrect": false,
+        "explanation": "Erstens sind bei einem Usability-Test in der Regel mehrere Testteilnehmer beteiligt und nicht, wie hier suggeriert, nur einer (ein Test besteht aus einer Reihe von Testsitzungen) und zweitens wird das interaktive System nicht irgendwie benutzt, sondern es müssen vorgegebene Aufgaben ausgeführt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "HCD Professionals führen Testfälle mit dem interaktiven System durch",
+        "isCorrect": false,
+        "explanation": "Die Testteilnehmer in einem Usability-Test sind nicht HCD Professionals, sondern repräsentative Benutzer des interaktiven Systems",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "Benutzer testen das interaktive System, um Usability-Probleme zu erkennen",
+        "isCorrect": false,
+        "explanation": "Die Aussage ist zu unspezifisch, um einen Usability- Test korrekt zu charakterisieren.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "Benutzer führen vorgegebene Aufgaben mit dem interaktiven System aus und werden anschließend dazu befragt",
+        "isCorrect": false,
+        "explanation": "Es kann sein, dass Benutzer nach der Benutzung des interaktiven Systems dazu befragt werden, aber dies ist nicht die beste Charakterisierung eines Usability-Tests. Es fehlt der wichtige Aspekt, dass die Benutzer bei der Durchführung der Aufgaben beobachtet werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "Benutzer führen vorgegebene Aufgaben mit dem interaktiven System aus und werden dabei beobachtet, um Usability-Probleme aufzudecken.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Es soll ein Usability-Test durchgeführt werden für die Website eines Pizza-Lieferservice. Die Testteilnehmer sind potenzielle Kunden des Pizza-Lieferservice.\n Welche zwei der folgenden Aufgaben sind am besten geeignet als Testaufgaben für den Usability-Test?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "»Wählen Sie 5 Zutaten aus, die auf Ihre selbst zusammengestellte Pizza kommen sollen.«",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Teilaufgabe, zu der kein Aufgabenkontext angegeben ist. Dies ist keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "»Stellen Sie sich vor, Sie sind Pizzabäcker und möchten bei der Pizzeria arbeiten. Finden Sie heraus, ob es dort aktuell offene Stellen gibt.«",
+        "isCorrect": false,
+        "explanation": "Dies ist keine sinnvolle Aufgabe für einen potenziellen Kunden des Pizza-Lieferservice, sondern für eine andere Benutzergruppe, nämlich Pizzabäcker oder allgemeiner Köche.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "»Finden Sie heraus, seit wann die Pizzeria bereits existiert.«",
+        "isCorrect": false,
+        "explanation": "Die Aufgabe ist für einen potenziellen Kunden von geringem Interesse, deshalb ist dies keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "»Bestellen Sie eine selbst zusammengestellte Pizza, bei der je eine Hälfte der Pizza mit 3 Zutaten Ihrer Wahl belegt ist. Lassen Sie die Pizza liefern zur Adresse Bahnhofstraße 13, 53123 Bonn und geben Sie an, dass Sie bar zahlen bei Lieferung.«",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "»Beschreiben Sie, welchen Eindruck die Website auf Sie macht bezüglich der Wertigkeit der Pizzeria.«",
+        "isCorrect": false,
+        "explanation": "Die Aufgabe fragt nach der Meinung des Testteilnehmers. In einem Usability-Test ist diese nicht von Belang, sondern es geht um die Erledigung von Aufgaben durch den Benutzer. Deshalb ist dies keine gute Usability-Testaufgabe.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      },
+      {
+        "text": "»Sie haben vor Längerem einmal auf der Website des Pizza-Lieferservice Ihre Lieblingspizza bestellt. Hierzu hatten Sie sich mit dem Login-Namen Hanna.Schmitz und dem Passwort J7T2P8 auf der Website registriert. Nun wollen Sie eine neue Bestellung durchführen, vorher jedoch aus Sicherheitsgründen das alte Passwort gegen ein neues Passwort Ihrer Wahl austauschen. Bitte ändern Sie das Passwort der Benutzerin Hanna.Schmitz auf der Website und bestellen Sie dann die gleiche Pizza wie beim letzten Mal.«",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=313"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen beschreiben zutreffend den Unterschied zwischen einem unmoderierten Usability-Test und einem »normalen« Usability-Test?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein unmoderierter Usability-Test findet nicht in einem Usability-Labor oder am Arbeitsplatz des Benutzers statt, sondern irgendwo anders.",
+        "isCorrect": false,
+        "explanation": "Ein unmoderierter Usability-Test kann auch in einem Usability-Labor oder am Arbeitsplatz stattfinden. Entscheidend ist nur, dass es keinen Moderator gibt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Bei einem normalen Usability-Test gibt es immer einen Moderator.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Bei einem unmoderierten Usability-Test erledigt der Testteilnehmer keine Aufgaben, sondern gibt eine allgemeine Einschätzung ab zu dem interaktiven System.",
+        "isCorrect": false,
+        "explanation": "Bei jeder Form von Usability-Test werden Testaufgaben vom Testteilnehmer erledigt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Bei einem unmoderierten Usability-Test wählt der Testteilnehmer selbst aus, welche Aufgaben er mit dem interaktiven System erledigen will.",
+        "isCorrect": false,
+        "explanation": "Bei jeder Form von Usability-Test werden die Testaufgaben vorgegeben, die der Testteilnehmer erledigen soll.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Bei einem unmoderierten Usability-Test wird die auf Video aufgezeichnete Testsitzung im Nachhinein von HCD Professionals analysiert.",
+        "isCorrect": true,
+        "explanation": "Dies ist etwas, was typischerweise bei einem unmoderierten Usability-Test gemacht wird. Ein »normaler« Usability-Test kann ebenfalls auf Video aufgezeichnet werden, jedoch werden dabei die beobachteten Befunde typischerweise unmittelbar vom Protokollanten dokumentiert und auf dieser Basis analysiert.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Bei einem unmoderierten Usability-Test gibt es keinen Moderator.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Personen wäre auf jeden Fall geeignet, Testteilnehmer bei einem Usability-Test für ein interaktives System zu sein, das grundsätzlich eine Benutzerschulung und eine gewisse Einarbeitungszeit erfordert?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Person, die regelmäßig an Usability-Tests vergleichbarer Systeme teilnimmt",
+        "isCorrect": false,
+        "explanation": "Ausschlaggebend ist, ob der Testteilnehmer ein repräsentativer Vertreter der zu betrachtenden Benutzergruppe ist.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Ein HCD Professional, der mit den zu testenden Aufgaben vertraut ist",
+        "isCorrect": false,
+        "explanation": "Der Testteilnehmer muss ein repräsentativer Vertreter der zu betrachtenden Benutzergruppe sein.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Eine Person, die in das Benutzergruppenprofil der zu betrachtenden Benutzergruppe hineinpasst",
+        "isCorrect": true,
+        "explanation": "Ausschlaggebend ist, ob der Testteilnehmer ein repräsentativer Vertreter der zu betrachtenden Benutzergruppe ist.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Ein professioneller Usability-Testteilnehmer, der viel Erfahrung in der Durchführung von Usability-Tests hat",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Ein möglichst unbedarfter Benutzer des zu testenden interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      },
+      {
+        "text": "Ein HCD Professional, der an der Entwicklung des zu testenden interaktiven Systems nicht beteiligt war und dadurch in dem Usability-Test objektiv ist",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=314"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Merkmale sind am Wichtigsten für die Rekrutierung einzelner Testteilnehmer für einen Usability-Test?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Ob die Person schon einmal an einem Usability-Test teilgenommen hat",
+        "isCorrect": false,
+        "explanation": "Dieses Merkmal ist in der Regel eher irrelevant.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Ob die Person schon einmal an einem Usability-Test bezüglich des zu testenden interaktiven Systems teilgenommen hat",
+        "isCorrect": false,
+        "explanation": "Dieses Merkmal ist im Vergleich zu den Antworten C, D und F weniger relevant.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Welches Wissen bzw. welche Erfahrung die Person bezüglich der unterstützten Aufgaben des zu testenden interaktiven Systems besitzt",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Welche Einstellungen und Interessen die Person gegenüber dem interaktiven System hat",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Ob die Person den Moderator des Usability-Tests kennt",
+        "isCorrect": false,
+        "explanation": "Dieses Merkmal ist in der Regel eher irrelevant.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Ob die Person in das Benutzergruppenprofil der betreffenden Benutzergruppe passt",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aktivitäten sollten im Rahmen der Planung eines Usability-Tests immer durchgeführt werden?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Testteilnehmer rekrutieren",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Einen Usability-Test-Leitfaden schreiben",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Die Aufzeichnung des Usability-Tests in Form von Bildschirmaufzeichnung, Video und/oder Audio vorbereiten",
+        "isCorrect": false,
+        "explanation": "Ein Usability-Test kann auch durchgeführt werden, ohne eine Aufzeichnung zu machen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Mit den Testteilnehmern ein Briefing durchführen",
+        "isCorrect": false,
+        "explanation": "Das Briefing von Testteilnehmern wird nicht im Rahmen der Planung oder Vorbereitung durchgeführt, sondern mit jedem Testteilnehmer einzeln im Rahmen der Durchführung der Usability-Testsitzungen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Den rekrutierten Testteilnehmern die vereinbarte Entschädigung auszahlen",
+        "isCorrect": false,
+        "explanation": "Dies ist keine Planungsaktivität.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Aus einem Probelauf des Usability-Tests antizipierte Usability-Probleme dokumentieren",
+        "isCorrect": false,
+        "explanation": "Man sollte bei einem Usability-Test unvoreingenommen bleiben und während des Usability-Tests objek- tive Usability-Probleme identifizieren.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten, was ein Usability-Test-Leitfaden ist?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Mitschrift des Protokollanten zu dem Usability-Test",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Die Mitschrift der Moderatorin zum Verlauf der Usability-Testsitzung und welche Testaufgabe mit welchem Ergebnis vom Testteilnehmer erledigt wurde",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Die Beschreibung des Zwecks und Umfangs des Usability-Tests mit Angabe des Zeitplans und des Ablaufs",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Die Beschreibung der Testaufgaben, die dem Testteilnehmer ausgehändigt wird, damit er weiß, was er tun soll",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Eine Checkliste, um den Überblick zu behalten über die Fragen des Briefings und des Pre-Test-Interviews, die Usability-Testaufgaben und die Fragen des Post-Test-Interviews",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      },
+      {
+        "text": "Eine Checkliste, um den Überblick zu behalten über die Fragen des Briefings, des Pre-Test-Interviews und des Post-Test-Interviews (die Usability-Testaufgaben stehen nicht im Usability-Test-Leitfaden, sondern im Usability-Testbericht)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=315"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen beschreiben den Zweck eines Pre-Test-Interviews am besten?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Feststellen, ob die Testteilnehmerin möglicherweise überqualifiziert ist für den Usability-Test",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Die Meinung der Testteilnehmerin über das interaktive System herausfinden, um diese mit ihrem Meinungsbild nach dem Usability-Test vergleichen zu können",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Die Testteilnehmerin informieren über den Zweck des Usability-Tests und was sie nun erwarten wird",
+        "isCorrect": false,
+        "explanation": "Dies geschieht nicht im Pre-Test-Interview, sondern im vorangehenden Briefing.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Sicherstellen, dass die rekrutierte Testteilnehmerin tatsächlich in das Benutzergruppenprofil der Benutzergruppe passt",
+        "isCorrect": true,
+        "explanation": "Anders formuliert: Feststellen, ob die Testteilnehmerin wirklich zur betreffenden Benutzergruppe gehört.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Informationen über den spezifischen Hintergrund und die Vorerfahrung der Testteilnehmerin sammeln, die später dabei helfen, die Testergebnisse zutreffend zu bewerten",
+        "isCorrect": true,
+        "explanation": "Vor allem interessant sind Informationen über Vorerfahrungen der Testteilnehmerin mit dem interaktiven System oder ähnlichen interaktiven Systemen sowie deren Erfahrung mit dem Fachgebiet, aus dem die Testaufgaben stammen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Die Testteilnehmerin mit der Situation und dem Moderator vertraut machen, damit sie keine Angst hat, im Usability-Test die Wahrheit zu sagen",
+        "isCorrect": false,
+        "explanation": "Das mag durchaus ein wünschenswerter Nebeneffekt eines gut gemachten Pre-Test-Interviews sein, aber die Antworten D und E beschreiben den Sinn eines Pre-Test-Interviews am besten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Begriffe ist KEINE typische Bewertung eines Usability-Befundes?\n(Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Positiver Befund (sollte erhalten bleiben)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Geringes Problem (spürbarer Mehraufwand)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Ernstes Problem (erheblicher Mehraufwand)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Kritisches Problem (die Aufgabe konnte nicht erledigt werden)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Essenzielles Problem (muss unabhängig von den Kosten behoben werden)",
+        "isCorrect": true,
+        "explanation": "Der Begriff »Essenzielles Problem (muss unabhängig von den Kosten behoben werden)« ist im Curriculum nicht aufgeführt. Außerdem überschreitet der Zusatz »muss unabhängig von den Kosten behoben werden« den Verantwortungsbereich des HCD Professionals.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      },
+      {
+        "text": "Katastrophales Problem (existenzielle Bedrohung)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=316"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Punkte sind gute Argumente dafür, positive Usability-Befunde in einen Usability-Testbericht mit aufzunehmen?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Bericht wird sonst nicht ernst genommen.",
+        "isCorrect": false,
+        "explanation": "Ob ein Bericht ernst genommen wird, hängt nicht davon ab, ob positive Usability-Befunde enthalten sind. Hier sind andere Eigenschaften des Berichts wichtig, zum Beispiel dass der Bericht eine klare Beschreibung enthält, was gemacht wurde, dass die Berichtsdarstellung neutral bleibt und keine diffamierenden Äußerungen enthält und dass alle Befunde sich ausschließlich auf die Usability des interaktiven Systems im Zusammenhang mit den bearbeiteten Testaufgaben beziehen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Damit die Adressaten des Usability-Testberichts die Usability-Probleme besser akzeptieren.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Damit Dinge nicht geändert oder entfernt werden, die gut funktionieren.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Damit der Bericht nicht durch eine einseitige Ergebnisdarstellung statistisch verfälscht wird.",
+        "isCorrect": false,
+        "explanation": "Die statistische Validität eines Usability-Testberichts ist nicht davon abhängig, ob auch positive Usability-Befunde enthalten sind oder nicht. Es geht ja nicht um eine Ermittlung des Grads der erreichten Usability, sondern um die Identifikation von Usability-Befunden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Um nachzuweisen, dass die verwendete Testmethodik korrekt angewandt wurde.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Um nachzuweisen, dass die Testteilnehmer das interaktive System verstanden haben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Es wurde ein Usability-Test zu der Website eines Pizza-Lieferservice durchgeführt. Welche drei der folgenden Aussagen stellen valide Usability-Befunde dar, die möglicherweise in dem Usability-Test identifiziert wurden?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Werbung auf der Startseite für einen lokal ansässigen Dienstleister ist irritierend.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Beim Zusammenstellen einer individuellen Pizza ist es schwer zu erkennen, welche Zutaten aus der Liste möglicher Zutaten bereits ausgewählt sind.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "80% der Testteilnehmer hatten die Website zuvor schon einmal benutzt.",
+        "isCorrect": false,
+        "explanation": "Dies ist keine Aussage über die Usability der Website und hat nichts mit der Erledigung der Usability-Testaufgaben zu tun. Dementsprechend ist es kein valider Usability-Befund des Usability-Tests.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Die meisten Benutzer kamen mit dem Zusammenstellen einer individuellen Pizza gut zurecht.",
+        "isCorrect": true,
+        "explanation": "Auch positive Erkenntnisse zur Usability des interaktiven Systems sind Usability-Befunde.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Keiner der Benutzer hat irgendeinen Kommentar zu dem unterhaltsamen Begrüßungstext auf der Startseite gemacht.",
+        "isCorrect": false,
+        "explanation": "So eine Feststellung kann für die Gestaltung der User Experience der Website sehr interessant sein, das hat aber keine Relevanz für die Usability der Website. Deshalb handelt es sich hier nicht um einen Usability-Befund.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      },
+      {
+        "text": "Die Preise für extra Pizza-Zutaten wurden von den meisten Benutzern als zu hoch empfunden.",
+        "isCorrect": false,
+        "explanation": "Hier geht es um eine Meinung der Benutzer, die keinen Usability-Befund darstellt. Usability-Befunde sollten sich ausschließlich auf die Usability des interaktiven Systems bei der Erledigung der Testaufgaben beziehen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=317"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten, was ein Usability-Labor ist?\n\n(Hinweis: Das hier behandelte Thema ist nicht prüfungsrelevant.)",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Räumlichkeiten, die speziell für die Durchführung von Usability-Tests oder Fokusgruppen ausgestattet sind",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Zwei Räume, die durch einen Einwegspiegel getrennt sind, wo in dem einen Raum ein Usability-Test stattfindet und in dem anderen Raum Beobachter und Protokollanten sitzen und den Test beobachten",
+        "isCorrect": false,
+        "explanation": "Die Beschreibung ist zu spezifisch, es gibt Usability-Labore, die nicht genau so eingerichtet sind.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Ein separater, ruhiger Raum, der für die Durchführung von Usability-Tests reserviert ist",
+        "isCorrect": false,
+        "explanation": "Die Beschreibung ist zu unspezifisch, ein Usability-Labor ist nicht einfach nur ein separater Besprechungsraum.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Räumlichkeiten, in denen Prototypen für interaktive Systeme entwickelt und getestet werden",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Räumlichkeiten, in denen Diskussionen und Befragungen mit Benutzern zu interaktiven Systemen durchgeführt werden",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Räumlichkeiten, in denen ein interaktives System entwickelt werden soll, von der Analyse über die Anforderungsspezifikation und die Gestaltung bis zur Evaluierung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Punkte beschreiben Zwecke, denen eine Benutzerbefragung dienen kann?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Effektivität eines interaktiven Systems ermitteln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Verstehen, wie ein interaktives System tatsächlich benutzt wird",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die Effizienz eines interaktiven Systems ermitteln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die Zufriedenstellung von Benutzern mit einem interaktiven System ermitteln",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die Vermarktung eines interaktiven Systems unterstützen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Informationen über den Nutzungskontext eines interaktiven Systems sammeln",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten eine »Usability-Inspektion«?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Meeting, bei dem Designer ein Brainstorming durchführen, um Ideen für ein neues interaktives System zu generieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die Evaluierung eines Storyboards",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die Überprüfung eines interaktiven Systems, bei der Reviewer potenzielle Nutzungsprobleme identifizieren",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Ist dasselbe wie ein Usability-Test",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Ist dasselbe wie eine Fokusgruppe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      },
+      {
+        "text": "Die heuristische Evaluierung eines interaktiven Systems",
+        "isCorrect": false,
+        "explanation": "»Heuristische Evaluierung« ist eine Variante einer Usability-Inspektion, neben der es auch andere Varianten gibt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=318"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Christina möchte die Zufriedenstellung von Benutzern bezüglich der Website eines Pizza-Lieferservice ermitteln. Welche eine der folgenden Aktivitäten ist am besten hierfür geeignet?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Usability-Test",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Ein Post-Test-Interview",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Eine Usability-Inspektion",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Eine Benutzerbefragung",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Eine Beobachtung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Ein Briefing",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Sie machen eine Usability-Inspektion einer neuen Autovermietungs-Website. Welcher eine der folgenden Befunde ist NICHT passend für diese Inspektion?",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "»Auf der Homepage fehlt ein »Reservierung stornieren«-Button.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "»Die animierte Werbung auf der rechten Seite der Homepage geht mir auf die Nerven.«",
+        "isCorrect": false,
+        "explanation": "Eine solche (persönliche) Bewertung der Website ist im Rahmen einer Usability-Inspektion akzeptabel.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "»Die Mietpreise sind zu hoch.«",
+        "isCorrect": true,
+        "explanation": "Der Befund hat nichts mit der Usability der Website zu tun. Deshalb ist das kein passender Befund für eine Usability-Inspektion.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "»Technische Ausdrücke wie CDW, Collision Damage Waiver, sind gut erklärt.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "»Ich fand es schwer herauszufinden, wie hoch die Gesamtkosten für die Miete waren.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "»Die visuelle Gestaltung der Website wirkt veraltet und wenig vertrauenerweckend.«",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Ihr Team ist verantwortlich für die Wartung einer Autovermietungs-Website. Das Management hat Sie beauftragt, eine quantitative Benutzerbefragung durchzuführen, die eine Vorstellung darüber liefern soll, wie zufriedengestellt die Benutzer mit der Usability der Website sind. Jede Aussage müssen die Benutzer mit »1 – völlige Ablehnung« bis »5 – völlige Zustimmung« bewerten. Welche drei der folgenden Aussagen sind geeignet für solch eine Benutzerbefragung?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Mietkosten für das Auto auf dieser Website sind vernünftig.",
+        "isCorrect": false,
+        "explanation": "Die Aussage betrifft nicht die Usability der Website.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Die Website hat schöne Farben.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Es ist einfach, ein Auto auf dieser Website zu mieten.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Ich fand es nicht unkompliziert, mich auf dieser Website zurechtzufinden.",
+        "isCorrect": false,
+        "explanation": "Die Aussage enthält eine doppelte Negation, was bei solchen Befragungen dringend vermieden werden muss, da es sonst fraglich ist, ob die Beantwortenden die Aussage richtig verstanden haben.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Die inhärente Vertikalstrukturierung der Website ist angenehm zu verwenden.",
+        "isCorrect": false,
+        "explanation": "Die Aussage benutzt Begriffe, die nicht als bekannt vorausgesetzt werden können.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      },
+      {
+        "text": "Die Website sieht unprofessionell aus.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=319"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen über Usability-Inspektionen sind korrekt?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "In einer Usability-Inspektion identifiziert ein HCD Professional Usability-Probleme und stellt diese in einem Usability-Evaluierungsbericht dar.",
+        "isCorrect": false,
+        "explanation": "Erstens ist der Evaluator in einer Usability-Inspektion nicht notwendigerweise ein HCD Professional (es kann auch ein Fachexperte sein) und zweitens werden in einer Usability-Inspektion keine tatsächlichen Usability-Probleme identifiziert, sondern potenzielle Usability-Probleme. (Das ist wichtig zu unterscheiden!)",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Eine Usability-Inspektion wird immer von mehreren Evaluatoren durchgeführt.",
+        "isCorrect": false,
+        "explanation": "Eine Usability-Inspektion kann auch von einem einzelnen Evaluator durchgeführt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Der Evaluator in einer Usability-Inspektion kann ein HCD Professional oder ein Fachexperte sein.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Das Inspektionskriterium einer Usability-Inspektion ist analog zu einem Usability-Test immer eine Menge von Testaufgaben, die der Evaluator versucht mit dem interaktiven System abzuarbeiten.",
+        "isCorrect": false,
+        "explanation": "Das Inspektionskriterium können Testaufgaben sein, aber auch zum Beispiel eine Menge einzuhaltender Gestaltungsregeln oder eine Menge zu erfüllender Nutzungsanforderungen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Die Inspektionskriterien für eine Usability-Inspektion können eine Menge einzuhaltender Gestaltungsregeln sein.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Befunde eines Evaluators bei einer Usability-Inspektion beruhen auf Vorerfahrungen zu Usability-Problemen bei anderen interaktiven Systemen und dem Wissen über Gestaltungsregeln und Nutzungsanforderungen.",
+        "isCorrect": true,
+        "explanation": "Dies ist korrekt, unabhängig davon, ob der Evaluator ein HCD Professional oder ein Fachexperte ist.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": " Welche drei der folgenden Punkte sind bei der Entwicklung eines Fragebogens für eine Benutzerbefragung zu beachten?\n\n(Hinweis: Das hier behandelte Thema ist nicht prüfungsrelevant.)",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Fragebogen sollte vor der Verwendung mittels Usability-Test geprüft werden.",
+        "isCorrect": true,
+        "explanation": " über den Nutzungskontext gehen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Der Fragebogen sollte sich ausschließlich auf die Usability oder User Experience des interaktiven Systems beziehen.",
+        "isCorrect": false,
+        "explanation": "Es kann in einem Fragebogen auch um das Sammeln von Informationen",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Die Beantwortung des Fragebogens sollte voraussichtlich nicht länger als 60 Minuten dauern.",
+        "isCorrect": false,
+        "explanation": "Es gibt keine konkrete Empfehlung zum Umfang eines Fragebogens.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Der Fragebogen sollte nicht mehr als 30 Fragen beinhalten.",
+        "isCorrect": false,
+        "explanation": "Es gibt keine konkrete Empfehlung zum Umfang eines Fragebogens.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Der Fragebogen sollte zu jeder Zeit dem Benutzer deutlich machen, wie viele Fragen bereits beantwortet wurden und wie viele Fragen noch beantwortet werden müssen.",
+        "isCorrect": true,
+        "explanation": "Das gilt sowohl für elektronische als auch für Papier- Fragebögen. So kann bei einem Papier-Fragebogen bei jeder Frage die aktuelle Fragenummer und die Gesamtanzahl an Fragen angegeben sein (z.B. »Frage 3 von 10«).",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      },
+      {
+        "text": "Der Fragebogen sollte am Anfang zutreffend angeben, wie lange die Beantwortung voraussichtlich dauern wird.",
+        "isCorrect": true,
+        "explanation": "Das gilt sowohl für elektronische als auch für Papier- Fragebögen. So kann bei einem Papier-Fragebogen auf der ersten Seite ein Hinweis auf die übliche benötigte Zeitdauer für das Ausfüllen gegeben werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Daniela soll eine Benutzerbefragung durchführen, mit der die Zufriedenstellung von Benutzern bezüglich der Website eines Pizza-Lieferservice ermittelt werden soll. Welche drei der folgenden Fragen sind für den Fragebogen sinnvoll verwendbar?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "»Wie oft haben Sie schon eine Website zum Bestellen einer Pizza verwendet?«",
+        "isCorrect": false,
+        "explanation": "Die Frage ist irrelevant für die Zufriedenstellung der Benutzer bezüglich der Website.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
+      },
+      {
+        "text": "»Wie könnten wir die Website des Pizza-Lieferservice verbessern?«",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
+      },
+      {
+        "text": "»Fanden Sie den Teil der Website für das Bestellen von selbst zusammengestellten Pizzen verständlich und leicht zu bedienen?«",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um eine Suggestivfrage, die bei Befragungen zu vermeiden sind.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
+      },
+      {
+        "text": "»Auf einer Skala von 1 bis 5 (1 = Stimme überhaupt nicht zu«, 3 = »Neutral«, 5 = »Stimme voll zu«), wie sehr stimmen Sie mit folgender Aussage überein: Die Website macht auf mich einen hochwertigen und gepflegten Eindruck.«",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
+      },
+      {
+        "text": "»Würden Sie einem Freund empfehlen, die Website zum Bestellen von Pizzen zu verwenden?«",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
+      },
+      {
+        "text": "»Wie viele Pizza-Varianten sollte eine Pizzeria aus Ihrer Sicht in ihrem Menü anbieten?«",
+        "isCorrect": false,
+        "explanation": "Die Frage ist irrelevant für die Zufriedenstellung der Benutzer bezüglich der Website.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
       }
     ]
   }
