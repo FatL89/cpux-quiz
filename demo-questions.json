@@ -3463,5 +3463,680 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
       }
     ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt formulierte Erfordernisse in Bezug auf das interaktive System Verkehrsampel?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Fußgänger muss wissen, ob die Fußgängerampel grün ist, um gefahrlos über die Straße gehen zu können.",
+        "isCorrect": false,
+        "explanation": "Ein Erfordernis muss immer unabhängig von irgend- einer Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist bereits vorgegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Die Fußgängerin muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrs- teilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.«",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Die Fußgängerin muss wissen, ob heraneilende Fahrzeuge anhalten werden, um entscheiden zu können, ob sie die Straße überquert oder stehen bleibt.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Der Autofahrer muss wissen, wie lange er noch legal die Kreuzung passieren darf, um entscheiden zu können, ob er seine Geschwindigkeit erhöhen und schnell noch über die Kreuzung fahren soll oder abbremsen soll.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Die Autofahrerin muss wissen, ob sie beim Abbiegen nach links mit Gegenverkehr oder mit Fußgängern auf der Zielstraße rechnen muss.",
+        "isCorrect": false,
+        "explanation": "Das zu erreichende Ziel ist nicht genannt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Der Fußgänger muss vor Betreten der Straße wissen, wie lange er noch Zeit hat, die Straße gefahrlos zu überqueren, um zu entscheiden, ob er die Straße überquert oder stehen bleibt.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Der Autofahrer muss in der Lage sein, bei jeder Art der Sonneneinstrahlung die legale Überquerbarkeit der Kreuzung zu erkennen.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich nicht um ein Erfordernis, sondern um eine Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind NICHT korrekt in Bezug auf qualitative Nutzungsanforderungen?",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Nutzungsanforderungen werden aus Erfordernissen abgeleitet.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Nutzungsanforderungen beschreiben die Gestaltung der Benutzungsschnittstelle so wie sie vom Benutzer gebraucht wird.",
+        "isCorrect": true,
+        "explanation": "Nutzungsanforderungen beschreiben keine Lösungs- merkmale, sondern das, was der Benutzer am inter- aktiven System erkennen, auswählen oder eingeben können muss.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "In der Formulierung einer Nutzungsanforderung sollte immer die erforderliche Interaktion mit einem interaktiven System spezifiziert sein.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Eine Nutzungsanforderung muss immer so formuliert sein, dass objektiv überprüft werden kann, ob sie eingehalten wird oder nicht.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Nutzungsanforderungen können basierend auf Usability-Tests mit dem neu gestalte- ten interaktiven System angepasst oder ergänzt werden.",
+        "isCorrect": false,
+        "explanation": "Diese Aussage ist korrekt, das Ergebnis eines Usability-Tests kann die Erkenntnis liefern, dass eine Nutzungsanforderung geändert werden muss.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      },
+      {
+        "text": "Die Grundlage der Formulierung von Nutzungsanforderungen ist immer eine Nutzungskontextanalyse.",
+        "isCorrect": true,
+        "explanation": "Die Grundlage kann auch ein Usability-Test sein.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen über Erfordernisse und Nutzungsanforderungen sind korrekt?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erfordernisse werden aus Nutzungsanforderungen abgeleitet.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Nutzungsanforderungen werden aus Erfordernissen abgeleitet.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Erfordernisse sind eine spezifische Form von Nutzungsanforderungen, die sich direkt aus den Zielen der Benutzer ableiten lassen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Erfordernisse sind immer unabhängig von irgendeiner Lösung, wogegen Nutzungs- anforderungen die Basis für eine Lösung sind.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Erfordernisse und Nutzungsanforderungen haben keine Beziehung zueinander, sie dienen parallel als Maßgabe für die Entwicklung erfolgreicher Lösungen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Erfordernisse beziehen sich primär auf das, was im Nutzungskontext erforderlich ist, wogegen Nutzungsanforderungen sich primär auf die notwendige Interaktion des Benutzers mit einem interaktiven System beziehen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Im Folgenden werden Aussagen zu Interessenvertretern einer Verkehrsampel gemacht. Welche drei der folgenden Aussagen sind korrekt?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Produktentwicklerin, die den Fußgängerknopf der Verkehrsampel technisch umsetzt, hat vorrangig Marktanforderungen an die Gestaltung der Verkehrsampel.",
+        "isCorrect": false,
+        "explanation": "Eine Produktentwicklerin hat keine Marktanforde- rungen (die hat ein Käufer oder Kaufentscheider), sondern Systemanforderungen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Ein Bürger, der an der Verkehrsampel die Straße überqueren will, hat vorrangig organisatorische Anforderungen an die Gestaltung der Verkehrsampel.",
+        "isCorrect": false,
+        "explanation": "Der Bürger hat vorrangig Erfordernisse beim Über- queren der Straße, die zu Nutzungsanforderungen an die Ampel führen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Der Gesetzgeber hat vorrangig Marktanforderungen für den Einsatz von Verkehrs- ampeln.",
+        "isCorrect": false,
+        "explanation": "Der Gesetzgeber hat vorrangig gesetzliche Anfor- derungen für den Einsatz von Verkehrsampeln.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Für ein Baby in einem Kinderwagen, das von einem Erwachsenen bei einer Fußgängerampel über die Straße geschoben wird, können sich Nutzungs- anforderungen an die Gestaltung der Verkehrsampel ergeben.",
+        "isCorrect": true,
+        "explanation": "Es können sich Nutzungsanforderungen ergeben, die sich auf Erfordernisse des Babys beziehen, zum Beispiel, dass die Signalisierung der Grünphase für Fußgänger nicht zu laut sein darf, um Babys und kleine Kinder nicht zu erschrecken.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Ein Wartungsmitarbeiter, der defekte Verkehrsampeln repariert, hat vor allem organisatorische Anforderungen bei der Durchführung der Wartung zu beachten.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      },
+      {
+        "text": "Die Amtsperson, die die Finanzierung von Verkehrsampeln verantwortet, stellt Anforderungen hinsichtlich der zulässigen Kosten der Verkehrsampel.",
+        "isCorrect": true,
+        "explanation": "Die Amtsperson, die die Finanzierung von Verkehrs- ampeln verantwortet, kann organisatorische Anfor- derungen hinsichtlich der maximal zulässigen Kosten haben.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Bei welchen drei der folgenden Aussagen handelt es sich um eine Kombination von einem Erfordernis und einer Nutzungsanforderung, bei der die Nutzungsanforderung aus dem Erfordernis ableitbar ist?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, welche Zutaten zum Belegen einer selbst zusam- mengestellten Pizza verfügbar sind, um sich seine Pizza zusammenstellen zu können.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Website des Pizza-Lieferservice die verfügbaren Zutaten überblicken können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      },
+      {
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, wann die Pizzabestellung bei ihm eintreffen wird, um entscheiden zu können, ob er die Bestellung durchführen möchte oder nicht.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Website des Pizza-Lieferservice den voraussichtlichen Lieferzeitpunkt seiner Bestellung erkennen können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      },
+      {
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, welche Zahlungsmöglichkeiten verfügbar sind, um entscheiden zu können, ob er die Bestellung mit einem der angebotenen Zahlungsmittel durchführen möchte oder nicht.\n <b>Nutzungsanforderung: </b>Der Kunde muss auf der Website als Zahlungsmittel die Details seiner Kreditkarte eingeben können.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um ein Erfordernis und eine Nutzungsanforderung, allerdings kann die genannte Nutzungsanforderung nicht aus dem genannten Erfordernis abgeleitet werden. Eine ableitbare Nutzungsanforderung wäre zum Beispiel: »Der Benutzer muss auf der Website die verfügbaren Zahlungsmöglichkeiten erkennen können.« Ein Erfordernis, aus dem die Nutzungsanforderung ableitbar ist, wäre zum Beispiel: »Der Benutzer muss die Details seiner Kreditkarte wissen, um die Bestel- lung mit der Kreditkarte bezahlen zu können.«",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      },
+      {
+        "text": "<b>Erfordernis: </b>DDer Kunde muss die Bestellung im Überblick prüfen können, bevor er die Bestellung abschließend auslöst.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Webseite vor dem Kauf die Zutaten für jede bestellte Pizza überblicken können.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich nicht um ein korrektes Erfordernis, weil das zu erreichende Ziel nicht angegeben ist. Ein entsprechendes korrekt formuliertes Erfordernis wäre zum Beispiel: »Der Benutzer muss die Bestel- lung im Überblick prüfen können, um sicher ent- scheiden zu können, ob die Bestellung korrekt ist und er sie auslösen möchte.«",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      },
+      {
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, bei welchem Pizza-Lieferservice er gerade bestellt, um sicherzustellen, dass der Pizza-Lieferservice die Pizza in der erwarteten Qualität liefert.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf jeder Seite der Website des Pizza- Lieferservice das Logo und den Namen des Pizza-Lieferservice erkennen können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      },
+      {
+        "text": "<b>Erfordernis:</b> Der Kunde muss vor dem Kauf wissen, welche Zahlungsmöglichkeiten verfügbar sind, um entscheiden zu können, ob er die Bestellung durchführen möchte oder nicht.\n <b>Nutzungsanforderung:</b> Als Zahlungsmittel müssen »Barzahlung bei Lieferung«, »PayPal« und »Kreditkarte« angeboten werden.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um eine Systemanforderung statt einer korrekt formulierten Nutzungsanforderung, da sie keine Aussage darüber trifft, was der Benutzer genau feststellen, erkennen, verstehen, auswählen oder eingeben können muss.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt in Bezug auf die Unterschiede zwischen Marktanforderungen, organisatorischen Anforderungen und Nutzungsanforderungen?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Zielsetzung von Marktanforderungen ist, Geschäftschancen, Absatz und Nutzen für das Unternehmen zu maximieren. Damit können Marktanforderungen durchaus organisatorischen Anforderungen oder Nutzungsanforderungen entgegenstehen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Organisatorische Anforderungen sowie Marktanforderungen können sich aus gesetzlichen Anforderungen ergeben, Nutzungsanforderungen hingegen nicht.",
+        "isCorrect": false,
+        "explanation": "Auch Nutzungsanforderungen können sich aus gesetzlichen Anforderungen ergeben. Beispiel einer Nutzungsanforderung, die sich aus einer gesetzlichen Anforderung ergibt: »Der Benutzer muss auf der Website, bevor er eine Bestellung abschließt, explizit einen Hinweis auf die Widerrufs- möglichkeit erkennen können.«",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Organisatorische Anforderungen sind immer Anforderungen an die Benutzer, aus denen sich dann Anforderungen an das interaktive System ergeben können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Nutzungsanforderungen sind immer Anforderungen an die Nutzung des interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Marktanforderungen werden oft auch »kaufentscheidende Nutzungsanforderungen« genannt.",
+        "isCorrect": false,
+        "explanation": "Den Begriff »kaufentscheidende Nutzungsanforde- rungen« gibt es nicht. Marktanforderungen werden oft auch »Kunden- anforderungen« genannt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Organisatorische Anforderungen ergeben sich immer aus Marktanforderungen.",
+        "isCorrect": false,
+        "explanation": "Organisatorische Anforderungen können sich aus Marktanforderungen ergeben, das müssen sie aber nicht zwingend.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen über qualitative und quantitative Nutzungs- anforderungen sind korrekt?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Quantitative Nutzungsanforderungen können für eine Usability-Evaluierung genutzt werden, qualitative Nutzungsanforderungen dagegen nicht, diese werden nur für die Steuerung der Lösungsgestaltung genutzt.",
+        "isCorrect": false,
+        "explanation": "Beide Arten von Nutzungsanforderungen können für eine Usability-Evaluierung genutzt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Sowohl qualitative als auch quantitative Nutzungsanforderungen beziehen sich auf die Interaktion des Benutzers mit dem interaktiven System.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Qualitative Nutzungsanforderungen werden aus Erfordernissen abgeleitet, quantitative Nutzungsanforderungen führen zu Erfordernissen.",
+        "isCorrect": false,
+        "explanation": "Erfordernisse werden nicht aus quantitativen Nutzungsanforderungen hergeleitet.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "In einem Usability-Test kann nur die Erfüllung von qualitativen Nutzungsanforderungen geprüft werden, die Erfüllung von quantitativen Nutzungsanforderungen wird durch Benutzerbefragungen geprüft.",
+        "isCorrect": false,
+        "explanation": "Die Erfüllung von beiden Arten von Nutzungsanforderungen kann in einem Usability-Test geprüft werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Sowohl qualitative als auch quantitative Nutzungsanforderungen bilden die Grundlage für die Gestaltung des interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      },
+      {
+        "text": "Qualitative Nutzungsanforderungen werden in erster Linie zur Steuerung der Lösungsgestaltung genutzt, quantitative Nutzungsanforderungen in erster Linie als Akzeptanzkriterien.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen stellen Erfordernisse dar?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Account Manager muss das tägliche Abrechnungsprotokoll erstellen können, basierend auf der Anzahl der erhaltenen Rechnungen und deren Beträgen.",
+        "isCorrect": false,
+        "explanation": "Der »um«-Teil fehlt, also der Zweck.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Der Autofahrer muss wissen, was die aktuelle Höchstgeschwindigkeit ist, um sicher und regelgerecht zu fahren.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Die Laborantin muss die Reihenfolge der Messaufträge in einer Arbeitsliste frei bestimmen können, um die Messaufträge abarbeiten zu können.",
+        "isCorrect": false,
+        "explanation": "Der Bedingungsteil ist nicht »wissen« oder »haben« oder »Kompetenz besitzen«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Der Account Manager muss wissen, wie viele Rechnungen erhalten wurden und in welcher Höhe, um das tägliche Abrechnungsprotokoll erstellen zu können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Der Koch muss einen hitzebeständigen Behälter (z.B. eine Pfanne) verfügbar haben, um auf dem Herd ein Steak braten zu können.",
+        "isCorrect": true,
+        "explanation": "Dies ist ein Ressourcen-Erfordernis, der Agierende muss also etwas »verfügbar haben«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Die Fußgängerin muss wissen, ob die Fußgängerampel grün ist, um gefahrlos über die Straße gehen zu können.",
+        "isCorrect": false,
+        "explanation": "Ein Erfordernis muss immer unabhängig von irgend- einer Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist angegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Der Fußgänger muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrs- teilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.« Dies kann durch ein grünes Licht, aber auch zum Beispiel durch ein akustisches Signal oder das Vibrieren eines Schalters angezeigt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der unten stehenden Begriffe beschreibt die folgende Aussage am besten? 80% der Benutzer, die die Autovermietungs-Website schon mindestens zweimal genutzt haben, müssen in der Lage sein, am Flughafen Frankfurt ein Auto für zwei Tage ab morgen 09.00 Uhr zu mieten. Benutzer müssen die Aufgabe in weniger als 5 Minuten erledigen können. (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Low-Fidelity-Prototyp-Anforderung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Usability-Testaufgabe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Erfordernis",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Quantitative Nutzungsanforderung",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      },
+      {
+        "text": "Qualitative Nutzungsanforderung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind gültige Nutzungsanforderungen für eine Autovermietungs-Website (im Gegensatz zu organisatorischen Anforderungen und Marktanforderungen)?",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Benutzer, die das System zum ersten Mal benutzen, müssen im Durchschnitt in der Lage sein, ein Auto innerhalb von 10 Minuten zu mieten.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Das Firmenlogo muss in der oberen linken Ecke jeder Webseite erscheinen.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Marktanforderung, sie unterstützt die Assoziation der Website mit den Werten des Unter- nehmens mittels Corporate Design.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Die Website muss mindestens so benutzbar sein wie die der zwei stärksten Wettbewerber.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Marktanforderung, sie unterstützt die Erfolgsaussichten des Produkts am Markt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Der Benutzer muss ein Hilfesystem verfügbar haben.",
+        "isCorrect": false,
+        "explanation": "Dies ist am ehesten eine Marktanforderung, sie unter- stützt die Erfolgsaussichten des Produkts am Markt. Für eine Nutzungsanforderung ist die Formulierung viel zu vage.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Wenn der Benutzer beruflich ein Auto mietet, muss er das Unternehmen angeben, in dessen Namen er mietet.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine organisatorische Anforderung, eine Anforderung an das Verhalten des Benutzers. Es ist hier offengelassen, wie der Mietende diese Anforde- rung erfüllt, z.B. könnte er das Unternehmen beim Abholen des Autos dem Mitarbeiter nennen und der schreibt dies auf. Dann würde die organisatorische Anforderung nicht zu einer Nutzungsanforderung für die Website führen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Benutzer müssen auswählen können, dass die Reservierung storniert wird.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen über Erfordernisse sind richtig?",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erfordernisse werden immer aus Sicht des Benutzers formuliert.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Erfordernisse sind Teil der Informationsarchitektur.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Erfordernisse sind immer quantifiziert.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Die Erfordernisse für eine Benutzergruppe können sich von den Erfordernissen für eine andere Benutzergruppe im gleichen Nutzungskontext unterscheiden.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Erfordernisse sind identisch mit Benutzerzielen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      },
+      {
+        "text": "Erfordernisse werden verwendet, um gute Fehlermeldungen zu formulieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind Nutzungsanforderungen an die Website eines Pizza-Lieferservice?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Benutzer muss auf der Website auswählen können, ob er eine italienische Pizza oder eine amerikanische Pizza bestellen möchte.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine qualitative Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Die Website muss in der Lage sein, bis zu 30 Benutzer gleichzeitig eine Bestellung zusammenstellen zu lassen.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich nicht um eine Nutzungsanforderung, sondern um eine Systemanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Falls der Benutzer auf der Website ausgewählt hat, dass seine Pizza aus zwei unterschiedlich belegten Hälften bestehen soll, muss er anschließend für jede Zutat auswählen können, ob sie auf Hälfte 1 oder auf Hälfte 2 oder auf beide Hälften kommen soll.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine qualitative Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Der Benutzer muss wissen, wie viele Zutaten er maximal für eine selbst zusammengestellte Pizza auswählen darf, um eine bestellbare Pizza zusammenstellen zu können.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich nicht um eine Nutzungsanforderung, sondern um ein Erfordernis.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Die Website muss von Benutzern als »einfach zu benutzen« bewertet werden.",
+        "isCorrect": false,
+        "explanation": "Die Anforderung ist zu unspezifisch und damit nicht verifizierbar.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "95% der Benutzer der Website müssen eine selbst zusammengestellte Pizza ohne Fehler bestellen können.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine quantitative Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "90: Welche drei der folgenden Aussagen sind Marktanforderungen oder organisatorische Anforderungen, im Gegensatz zu Nutzungsanforderungen?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Benutzer müssen im Laden vor der Kaufentscheidung ohne Konsultation eines Verkäufers verstanden haben, wie das Produkt funktioniert.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine Marktanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Bevor der Benutzer auf Rechnung bestellen kann, muss er in den fünf vorherigen Bestellungen immer korrekt bezahlt haben.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine organisatorische Anforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Der Benutzer muss vor Auslösen einer Bestellung auswählen können, dass er mindestens 18 Jahre alt ist.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um eine Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Der Benutzer muss mindestens 18 Jahre alt sein, damit er bestellen darf.",
+        "isCorrect": true,
+        "explanation": "Es handelt sich um eine organisatorische Anforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Der Benutzer muss auf der Website jederzeit erkennen können, zu welchem Unternehmen die Website gehört.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um eine Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Der Benutzer muss vor der Anzeige des Gesamtbetrags seiner Bestellung seine Adresse eingeben können, damit ihm die Versandkosten korrekt angezeigt werden.",
+        "isCorrect": false,
+        "explanation": "Es handelt sich um eine Nutzungsanforderung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "91: Welche drei der folgenden Aussagen über Erfordernisse sind korrekt?",
+    "correctCount": 3,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erfordernisse sind Voraussetzungen, die gegeben sein müssen, damit der Benutzer ein bestimmtes Ziel erreichen kann.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Erfordernisse sind Voraussetzungen, die hilfreich sind, damit der Benutzer sein Ziel erreichen kann.",
+        "isCorrect": false,
+        "explanation": "Erfordernisse sind nicht nur hilfreich, sondern zwingend notwendig zu erfüllen, damit der Benutzer sein Ziel erreichen kann.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Erfordernisse werden ausschließlich mittels Interviews, Beobachtungen oder Benutzerbefragungen identifiziert.",
+        "isCorrect": false,
+        "explanation": "Erfordernisse können auch basierend auf Usability- Evaluierungen identifiziert werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Erfordernisse werden aus Nutzungsanforderungen abgeleitet.",
+        "isCorrect": false,
+        "explanation": "Es ist umgekehrt, Nutzungsanforderungen werden aus Erfordernissen abgeleitet.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Erfordernisse sind immer unabhängig von irgendeiner Lösung.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      },
+      {
+        "text": "Erfordernisse dienen dazu, Nutzungsanforderungen korrekt und umfassend spezifizieren zu können.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "92: Welche zwei der folgenden Personen sind Interessenvertreter, aber KEINE Benutzer einer Autovermietungs-Website? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Trainer, der den Mitarbeitern eines Callcenters beibringt, wie man die Auto- vermietungs-Website benutzt",
+        "isCorrect": false,
+        "explanation": "Dies ist ein sekundärer Benutzer.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Mitarbeiter des Callcenters, der auf der Autovermietungs-Website für einen Kunden eine Reservierung vornimmt",
+        "isCorrect": false,
+        "explanation": "Dies ist ein primärer Benutzer.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Designer, der die Benutzungsschnittstelle der Autovermietungs-Website gestaltet",
+        "isCorrect": true,
+        "explanation": "Dies ist ein Interessenvertreter. Er hat ein aktives Interesse am interaktiven System, weil er es entworfen hat, aber er nutzt es nicht als primärer, sekundärer oder indirekter Benutzer.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Kontoadministrator, der eine E-Mail-Rechnung für eine Reservierung auf der Autovermietungs-Website bekommt",
+        "isCorrect": false,
+        "explanation": "Dies ist ein indirekter Benutzer, der mit einer Ausgabe des Systems arbeitet.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Kunde, der über einen Mitarbeiter im Callcenter eine Reservierung auf der Autovermietungs-Website vornehmen lässt",
+        "isCorrect": false,
+        "explanation": "Dies ist ein indirekter Benutzer.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      },
+      {
+        "text": "Ein Mitarbeiter im Marketing, der über die Autovermietungs-Website eine Werbeaktion mit »10% Rabatt auf die Kfz-Versicherung« laufen lässt, die für alle Benutzer gilt, die direkt über die Website ein Auto reservieren",
+        "isCorrect": true,
+        "explanation": "Diese Person hat ein aktives Interesse an der Website (sie ist die Grundlage für die Werbeaktion), ist aber weder Benutzer noch pflegt sie die Website, noch erhält sie ein Ergebnis von ihr. Sie ist also Interessenvertreter, aber kein Benutzer.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
+      }
+    ]
   }
 ]
