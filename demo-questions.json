@@ -618,7 +618,7 @@
       {
         "text": "Usability betrachtet nicht die gesamte Zufriedenstellung, so wie es User Experience tut, sondern nur die Zufriedenstellung, die im direkten Zusammenhang mit der Aufgabenerledigung steht.",
         "isCorrect": true,
-        "explanation": "In dem Diagramm muss bei »Tatsächliche Benutzung« der Bereich »Zufriedenstellung« in zwei Teile eingeteilt sein. Im Teil für User Experience ist ein weiterer Teil explizit für Usability. Die korrekte Darstellung gemäß CPUX-F-Curriculum sieht folgen- dermaßen aus: (Bild fehlt) Begründung: Es gibt Aspekte der Zufriedenstellung während der Benutzung, die nichts mit der Usability zu tun haben, dennoch aber die User Experience beeinflussen. Beispiele: schwer annehmbare Nutzungsbedingungen (bspw. fehlender Datenschutz), überhöhte Kosten für die Nutzung.",
+        "explanation": "In dem Diagramm muss bei »Tatsächliche Benutzung« der Bereich »Zufriedenstellung« in zwei Teile eingeteilt sein. Im Teil für User Experience ist ein weiterer Teil explizit für Usability. Die korrekte Darstellung gemäß CPUX-F-Curriculum sieht folgendermaßen aus: (Bild fehlt) Begründung: Es gibt Aspekte der Zufriedenstellung während der Benutzung, die nichts mit der Usability zu tun haben, dennoch aber die User Experience beeinflussen. Beispiele: schwer annehmbare Nutzungsbedingungen (bspw. fehlender Datenschutz), überhöhte Kosten für die Nutzung.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=262"
       },
       {
@@ -1833,7 +1833,7 @@
       {
         "text": "Interessenvertreter sollen gemeinsam entscheiden, ob ihre Anforderungen ausreichend gut umgesetzt worden sind.",
         "isCorrect": false,
-        "explanation": "Hier handelt es sich um eine durchzuführende Evalu- ierung. Hierfür sind Fokusgruppen nicht geeignet.",
+        "explanation": "Hier handelt es sich um eine durchzuführende Evaluierung. Hierfür sind Fokusgruppen nicht geeignet.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=273"
       },
       {
@@ -1872,7 +1872,7 @@
       {
         "text": "Eine Persona erstellen für eine betroffene Benutzergruppe",
         "isCorrect": true,
-        "explanation": "Eine Persona erstellen ist eine Aktivität, die im Rah- men der Phase »Den Nutzungskontext verstehen und festlegen« durchgeführt wird. Sie dient aber nicht der Analyse des Nutzungskontextes, sondern der Doku- mentation / Spezifikation des Nutzungskontextes.",
+        "explanation": "Eine Persona erstellen ist eine Aktivität, die im Rahmen der Phase »Den Nutzungskontext verstehen und festlegen« durchgeführt wird. Sie dient aber nicht der Analyse des Nutzungskontextes, sondern der Dokumentation / Spezifikation des Nutzungskontextes.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=273"
       },
       {
@@ -1884,7 +1884,7 @@
       {
         "text": "Lösungsideen für das zu gestaltende interaktive System mit Benutzern diskutieren",
         "isCorrect": true,
-        "explanation": "Sich mit den Meinungen von Benutzern über Gestal- tungsideen auseinanderzusetzen ist nicht geeignet, um etwas über den Nutzungskontext zu erfahren.",
+        "explanation": "Sich mit den Meinungen von Benutzern über Gestaltungsideen auseinanderzusetzen ist nicht geeignet, um etwas über den Nutzungskontext zu erfahren.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=273"
       }
     ]
@@ -1905,7 +1905,7 @@
       {
         "text": "Eine User Journey Map ist eine Beschreibung von Touchpoints der Benutzer mit dem interaktiven System in Form eines Diagramms.",
         "isCorrect": true,
-        "explanation": "Eine User Journey Map muss nicht zwingend als Dia- gramm umgesetzt sein. Es kann auch eine Tabelle sein.",
+        "explanation": "Eine User Journey Map muss nicht zwingend als Diagramm umgesetzt sein. Es kann auch eine Tabelle sein.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=273"
       },
       {
@@ -1929,7 +1929,7 @@
       {
         "text": "In einer User Journey Map muss pro Touchpoint angegeben werden, was die Aufgaben der Benutzer an diesem Touchpoint sind und mit welchen interaktiven Systemen die Benutzer hier interagieren.",
         "isCorrect": true,
-        "explanation": "Es gibt keine Detailvorgaben, wie ein einzelner Touch- point in einer User Journey Map beschrieben wird.",
+        "explanation": "Es gibt keine Detailvorgaben, wie ein einzelner Touchpoint in einer User Journey Map beschrieben wird.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=274"
       }
     ]
@@ -2007,7 +2007,7 @@
       {
         "text": "Gesetzliche Vorgaben, die bei der Durchführung der Aufgaben zu beachten sind",
         "isCorrect": true,
-        "explanation": "Gesetzliche Vorgaben müssen bei der Gestaltung von Lösungen beachtet werden Diese können unter anderem auch im Rahmen der Nutzungskontext- analyse bekannt werden. Sie sind aber nicht Bestand- teil des Nutzungskontextes, sondern Bestandteil sonstiger Stakeholder-Anforderungen.",
+        "explanation": "Gesetzliche Vorgaben müssen bei der Gestaltung von Lösungen beachtet werden Diese können unter anderem auch im Rahmen der Nutzungskontextanalyse bekannt werden. Sie sind aber nicht Bestandteil des Nutzungskontextes, sondern Bestandteil sonstiger Stakeholder-Anforderungen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=274"
       },
       {
@@ -2034,31 +2034,31 @@
       {
         "text": "Thomas bestellt mindestens zweimal pro Woche eine selbst zusammengestellte Pizza bei seinem bevorzugten Pizza-Lieferservice. Hier kann er die Pizza dann 15 Minuten später abholen. Das geht schneller, als sich die Pizza liefern zu lassen. Seine Kombinationen von Zutaten sind im Pizzamenü der Pizzeria nicht als Standardpizza enthalten. Manchmal kommt er beim Anruf durcheinander und vergisst eine Zutat zu nennen, die er eigentlich haben wollte. Das ärgert ihn dann, wenn er später zu Hause die Pizza genießen will.",
         "isCorrect": true,
-        "explanation": "Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um eine Aufgabe zu erledigen. Die eigentliche Nutzung eines interaktiven Systems steht nicht im Vordergrund, sondern der Nutzungs- kontext selbst.",
+        "explanation": "Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um eine Aufgabe zu erledigen. Die eigentliche Nutzung eines interaktiven Systems steht nicht im Vordergrund, sondern der Nutzungskontext selbst.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=275"
       },
       {
         "text": "1. Pizza-Art auswählen (italienisch oder amerikanisch) 2. Pizzagröße auswählen 3. Auswählen, ob die Pizza hälftig belegt werden soll oder die ganze Pizza gleich 4. Zutaten auswählen (entweder pro Hälfte oder für die ganze Pizza) 5. Zusammengestellte Pizza in den Warenkorb legen",
         "isCorrect": false,
-        "explanation": "Es handelt sich nicht um eine erzählende, textuelle Beschreibung des Vorgehens, sondern um eine stich- punktartige Aufzählung. Auch wird hier nicht das Vorgehen eines bestimmten Benutzers beschrieben, sondern die generellen Teilaufgaben der Aufgabe.",
+        "explanation": "Es handelt sich nicht um eine erzählende, textuelle Beschreibung des Vorgehens, sondern um eine stichpunktartige Aufzählung. Auch wird hier nicht das Vorgehen eines bestimmten Benutzers beschrieben, sondern die generellen Teilaufgaben der Aufgabe.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=275"
       },
       {
         "text": "Thomas bestellt oft eine selbst zusammengestellte Pizza beim Pizza-Lieferservice. Die Website, die er dafür nutzt, ist für ihn leicht zu bedienen, auch wenn er die visuelle Gestaltung ziemlich hässlich findet. Einzig bei der Auswahl der Pizza-Art macht er oft einen Fehler. Dass er sich einloggen kann und seine persönlichen Daten wie Adresse und Zahlweise dann schon voreingestellt sind, findet Thomas sehr praktisch.",
         "isCorrect": false,
-        "explanation": "Es handelt sich nicht um eine Beschreibung des Vorgehens, das der Benutzer anwendet, um eine Aufgabe zu erledigen. Deshalb ist dies kein Ist-Szenario, wohl aber handelt es sich um Informationen über den Nutzungskontext, die hilfreich sind für die Anfor- derungsspezifikation und die Lösungsgestaltung.",
+        "explanation": "Es handelt sich nicht um eine Beschreibung des Vorgehens, das der Benutzer anwendet, um eine Aufgabe zu erledigen. Deshalb ist dies kein Ist-Szenario, wohl aber handelt es sich um Informationen über den Nutzungskontext, die hilfreich sind für die Anforderungsspezifikation und die Lösungsgestaltung.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=275"
       },
       {
         "text": "Thomas bestellt oft eine selbst zusammengestellte Pizza beim Pizza-Lieferservice. Manchmal benutzt er Lieferant A, manchmal Lieferant B. Bei Lieferant A ruft er immer an und muss dann alle Details durchgeben, wobei oft Missverständnisse entstehen, die das Gespräch in die Länge ziehen und es nervig werden lassen. Bei Lieferant B nutzt er gerne die Website zum Bestellen, weil es dann keine Missverständnisse gibt und er in Ruhe aussuchen kann, ohne das Gefühl zu haben, jemandem die Zeit zu stehlen.",
         "isCorrect": true,
-        "explanation": "Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um die Aufgabe zu erledigen. Die eigentliche Nutzung eines interaktiven Systems steht nicht im Vordergrund, sondern der Nutzungs- kontext selbst.",
+        "explanation": "Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um die Aufgabe zu erledigen. Die eigentliche Nutzung eines interaktiven Systems steht nicht im Vordergrund, sondern der Nutzungskontext selbst.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=275"
       },
       {
         "text": "Zunächst muss man die Pizza-Art (italienisch oder amerikanisch) und die Pizzagröße auswählen. Dann gibt es die Möglichkeit, auszuwählen, ob die Pizza hälftig belegt werden soll. Anschließend wählt man die Zutaten aus (pro Hälfte oder für die ganze Pizza) und legt die zusammengestellte Pizza in den Warenkorb.",
         "isCorrect": false,
-        "explanation": "Diese Beschreibung ist ein Ausschnitt eines Nutzungs- szenarios und nicht eines Ist-Szenarios. Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um ein interaktives System zu benutzen. Die eigentliche Nutzung des interaktiven Systems steht im Vordergrund, nicht der Nutzungs- kontext, wie es bei Ist-Szenarios der Fall ist.",
+        "explanation": "Diese Beschreibung ist ein Ausschnitt eines Nutzungsszenarios und nicht eines Ist-Szenarios. Es handelt sich um eine erzählende, textuelle Beschreibung des Vorgehens, die ein bestimmter Benutzer anwendet, um ein interaktives System zu benutzen. Die eigentliche Nutzung des interaktiven Systems steht im Vordergrund, nicht der Nutzungskontext, wie es bei Ist-Szenarios der Fall ist.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=275"
       },
       {
@@ -2206,7 +2206,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche eine der folgenden Methoden ist NICHT geeignet, um etwas über den Nutzungs- kontext eines Geldautomaten zu erfahren?",
+    "question": "Welche eine der folgenden Methoden ist NICHT geeignet, um etwas über den Nutzungskontext eines Geldautomaten zu erfahren?",
     "correctCount": 1,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -2238,7 +2238,7 @@
       {
         "text": "Usability-Tests mit einem Prototyp eines neuen Geldautomaten durchführen",
         "isCorrect": false,
-        "explanation": "Usability-Probleme in einem Usability-Test können neben Verbesserungspotenzialen der getesteten Lösung auch neue Erkenntnisse über den Nutzungs- kontext ergeben.",
+        "explanation": "Usability-Probleme in einem Usability-Test können neben Verbesserungspotenzialen der getesteten Lösung auch neue Erkenntnisse über den Nutzungskontext ergeben.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=277"
       },
       {
@@ -2341,7 +2341,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche eine der folgenden Aussagen beschreibt am genauesten, was eine Benutzer- gruppe ist?",
+    "question": "Welche eine der folgenden Aussagen beschreibt am genauesten, was eine Benutzergruppe ist?",
     "correctCount": 1,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -2482,7 +2482,7 @@
     "image": "",
     "options": [
       {
-        "text": "Fokussierte Informationen von einer Gruppe von Benutzern in einer Usability- Testsitzung sammeln",
+        "text": "Fokussierte Informationen von einer Gruppe von Benutzern in einer Usability-Testsitzung sammeln",
         "isCorrect": false,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=279"
@@ -2506,7 +2506,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=279"
       },
       {
-        "text": "Ein tieferes Verständnis ausgewählter Themen und wichtiger Fragen des Nutzungs- kontexts aus verschiedenen Blickwinkeln gewinnen",
+        "text": "Ein tieferes Verständnis ausgewählter Themen und wichtiger Fragen des Nutzungskontexts aus verschiedenen Blickwinkeln gewinnen",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=279"
@@ -2547,13 +2547,13 @@
       {
         "text": "Die Anzahl der angekommenen Waren prüfen",
         "isCorrect": true,
-        "explanation": "Dies ist eine Teilaufgabe in der Aufgabe »Eine Waren- lieferung annehmen«.",
+        "explanation": "Dies ist eine Teilaufgabe in der Aufgabe »Eine Warenlieferung annehmen«.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=279"
       },
       {
         "text": "Rechnung zur Lieferung auf Richtigkeit geprüft",
         "isCorrect": true,
-        "explanation": "Dies ist das Ziel, das durch die Durchführung der Auf- gabe »Rechnung zur Lieferung prüfen« erreicht wird.",
+        "explanation": "Dies ist das Ziel, das durch die Durchführung der Aufgabe »Rechnung zur Lieferung prüfen« erreicht wird.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=279"
       },
       {
@@ -2617,7 +2617,7 @@
     "image": "",
     "options": [
       {
-        "text": "Rita besucht die Autovermietungs-Website, um einen Kleinwagen zu mieten. Sie ver- gleicht die Autos, die an ihren Reisedaten verfügbar sind, und wählt das Auto aus, das ihr am besten gefällt. Sie reserviert das Auto für die Abholung am Tag vor ihrer Reise.",
+        "text": "Rita besucht die Autovermietungs-Website, um einen Kleinwagen zu mieten. Sie vergleicht die Autos, die an ihren Reisedaten verfügbar sind, und wählt das Auto aus, das ihr am besten gefällt. Sie reserviert das Auto für die Abholung am Tag vor ihrer Reise.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=280"
@@ -2635,19 +2635,19 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=280"
       },
       {
-        "text": "Bei der Anmietung eines Autos müssen die Kunden wissen, welche Fahrzeuge zu den von ihnen ausgewählten Terminen verfügbar sind, damit sie eine gezielte Entschei- dung treffen können.",
+        "text": "Bei der Anmietung eines Autos müssen die Kunden wissen, welche Fahrzeuge zu den von ihnen ausgewählten Terminen verfügbar sind, damit sie eine gezielte Entscheidung treffen können.",
         "isCorrect": false,
         "explanation": "Dies ist ein Erfordernis.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=280"
       },
       {
-        "text": "Bei der Anmietung eines Autos müssen die Kunden das gewünschte Datum aus- wählen können, damit die Website die verfügbaren Fahrzeuge anzeigen kann.",
+        "text": "Bei der Anmietung eines Autos müssen die Kunden das gewünschte Datum auswählen können, damit die Website die verfügbaren Fahrzeuge anzeigen kann.",
         "isCorrect": false,
         "explanation": "Dies ist eine Nutzungsanforderung.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=280"
       },
       {
-        "text": "Rita kann Auto fahren, besitzt aber kein Auto. Rita besucht am Wochenende gelegent- lich ihren Bruder in Lübeck. Diese Reise mit dem Zug zu machen, ist ihr zu teuer und die Busfahrt dauert ihr zu lange. Daher mietet sie normalerweise ein Auto.",
+        "text": "Rita kann Auto fahren, besitzt aber kein Auto. Rita besucht am Wochenende gelegentlich ihren Bruder in Lübeck. Diese Reise mit dem Zug zu machen, ist ihr zu teuer und die Busfahrt dauert ihr zu lange. Daher mietet sie normalerweise ein Auto.",
         "isCorrect": false,
         "explanation": "Dies ist die Beschreibung einer Persona. Es beschreibt nicht, wie ein Benutzer derzeit eine oder mehrere Aufgaben im aktuellen Nutzungskontext erledigt.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=280"
@@ -2737,7 +2737,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=281"
       },
       {
-        "text": "Eine User Journey Map dient der Identifikation aller interaktiven Systeme, die betrach- tet und eventuell neu gestaltet werden müssen, um die User Experience umfassend verbessern zu können.",
+        "text": "Eine User Journey Map dient der Identifikation aller interaktiven Systeme, die betrachtet und eventuell neu gestaltet werden müssen, um die User Experience umfassend verbessern zu können.",
         "isCorrect": false,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=281"
@@ -2746,7 +2746,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geld- automaten zu kontrollieren und ggf. bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "question": "Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geldautomaten zu kontrollieren und ggf. bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
     "correctCount": 1,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -2856,7 +2856,7 @@
       {
         "text": "Die Formulierung der Fragen immer gleich halten, um eine Vergleichbarkeit aller Interviews in einer Interviewreihe zu erreichen",
         "isCorrect": false,
-        "explanation": "Eine Vergleichbarkeit von Interviews ist kein zu errei- chendes Ziel. Dies kann bei Befragungen relevant sein.",
+        "explanation": "Eine Vergleichbarkeit von Interviews ist kein zu erreichendes Ziel. Dies kann bei Befragungen relevant sein.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=282"
       },
       {
@@ -2926,7 +2926,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche drei der folgenden Punkte sind Beobachtungen, die sich im Kontext der Benut- zung einer Verkehrsampel auf die Umgebung beziehen?",
+    "question": "Welche drei der folgenden Punkte sind Beobachtungen, die sich im Kontext der Benutzung einer Verkehrsampel auf die Umgebung beziehen?",
     "correctCount": 3,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -2946,7 +2946,7 @@
       {
         "text": "Der Knopf an einer Verkehrsampel wird von Fußgängern oft mehrfach gedrückt.",
         "isCorrect": false,
-        "explanation": "Diese Beobachtung bezieht sich auf die Durchfüh- rung der Aufgabe »Straße überqueren« und nicht auf die Umgebung.",
+        "explanation": "Diese Beobachtung bezieht sich auf die Durchführung der Aufgabe »Straße überqueren« und nicht auf die Umgebung.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=282"
       },
       {
@@ -2964,7 +2964,7 @@
       {
         "text": "Die meisten Kraftwagenfahrer geben nicht Gas, wenn die Verkehrsampel von Grün auf Gelb springt, sondern bremsen ab.",
         "isCorrect": false,
-        "explanation": "Diese Beobachtung bezieht sich auf die Durchfüh- rung der Aufgabe »Kraftwagen fahren« und nicht auf die Umgebung.",
+        "explanation": "Diese Beobachtung bezieht sich auf die Durchführung der Aufgabe »Kraftwagen fahren« und nicht auf die Umgebung.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=282"
       }
     ]
@@ -3222,7 +3222,7 @@
       {
         "text": "Nutzungsanforderungen",
         "isCorrect": true,
-        "explanation": "Nutzungsanforderungen werden nicht im Nutzungs- kontext erhoben, sondern im Rahmen der Aktivität »Nutzungsanforderungen festlegen« aus Erforder- nissen abgeleitet. Erfordernisse wiederum werden ebenfalls im Rahmen der Aktivität »Nutzungsanfor- derungen festlegen« im erhobenen Nutzungskontext identifiziert.",
+        "explanation": "Nutzungsanforderungen werden nicht im Nutzungskontext erhoben, sondern im Rahmen der Aktivität »Nutzungsanforderungen festlegen« aus Erfordernissen abgeleitet. Erfordernisse wiederum werden ebenfalls im Rahmen der Aktivität »Nutzungsanforderungen festlegen« im erhobenen Nutzungskontext identifiziert.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=284"
       },
       {
@@ -3241,7 +3241,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche drei der folgenden Fragestellungen sind geeignet, um sie in einem kontextuellen Interview mit einem Benutzer zu besprechen bezüglich der Benutzung eines Geldauto- maten einer Bank?",
+    "question": "Welche drei der folgenden Fragestellungen sind geeignet, um sie in einem kontextuellen Interview mit einem Benutzer zu besprechen bezüglich der Benutzung eines Geldautomaten einer Bank?",
     "correctCount": 3,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -3306,23 +3306,23 @@
       {
         "text": "Die Persona-Beschreibung muss immer aussagen, welche Ziele der Benutzer bei der Benutzung des betrachteten interaktiven Systems verfolgt.",
         "isCorrect": true,
-        "explanation": "Erinnern Sie sich an die Definition von »Persona«: »Eine Beschreibung eines konstruierten, aber realisti- schen Benutzers und was dieser bei der Benutzung eines interaktiven Systems beabsichtigt.«",
+        "explanation": "Erinnern Sie sich an die Definition von »Persona«: »Eine Beschreibung eines konstruierten, aber realistischen Benutzers und was dieser bei der Benutzung eines interaktiven Systems beabsichtigt.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=285"
       },
       {
-        "text": "Es müssen immer enthalten sein: Ein Foto, Vor- und Nachname, Alter, Ziele und Wünsche, aktuelle Probleme, Informationen über wesentliches Wissen im Themenfeld des interaktiven Systems und die Benennung des interaktiven Systems selbst.",
+        "text": "Es müssen immer enthalten sein: Ein Foto, Vorund Nachname, Alter, Ziele und Wünsche, aktuelle Probleme, Informationen über wesentliches Wissen im Themenfeld des interaktiven Systems und die Benennung des interaktiven Systems selbst.",
         "isCorrect": false,
-        "explanation": "Eine Persona-Beschreibung enthält nicht das inter- aktive System selbst.",
+        "explanation": "Eine Persona-Beschreibung enthält nicht das interaktive System selbst.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=285"
       },
       {
         "text": "Pro Benutzergruppe wird immer nur eine Persona erstellt.",
         "isCorrect": false,
-        "explanation": "Es kann mehrere Personas für eine Benutzergruppe geben, die sich dann markant voneinander unter- scheiden, trotzdem aber zur selben Benutzergruppe gehören.",
+        "explanation": "Es kann mehrere Personas für eine Benutzergruppe geben, die sich dann markant voneinander unterscheiden, trotzdem aber zur selben Benutzergruppe gehören.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=285"
       },
       {
-        "text": "Die Persona muss erstellt werden auf Basis empirisch ermittelter Daten über mindes- tens fünf verschiedene reale Benutzer.",
+        "text": "Die Persona muss erstellt werden auf Basis empirisch ermittelter Daten über mindestens fünf verschiedene reale Benutzer.",
         "isCorrect": false,
         "explanation": "Eine solche konkrete Anforderung zum Umfang der empirisch ermittelten Daten gibt es für Personas nicht.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=285"
@@ -3406,7 +3406,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=286"
       },
       {
-        "text": "Ein Mensch, der ein interaktives System benutzt oder von der Benutzung des inter- aktiven Systems beeinflusst wird",
+        "text": "Ein Mensch, der ein interaktives System benutzt oder von der Benutzung des interaktiven Systems beeinflusst wird",
         "isCorrect": false,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=286"
@@ -3435,7 +3435,7 @@
       {
         "text": "Wie zufrieden sind Sie mit der neuen Buchungswebsite für das Hotel Zeta in Brüssel?",
         "isCorrect": false,
-        "explanation": "Dies ist eine geschlossene Frage, die sich auf die Zufriedenheit mit einer bestimmten Website konzen- triert. Damit ist sie weniger gut geeignet, etwas über den Nutzungskontext zu erfahren, als die Antworten A und D.",
+        "explanation": "Dies ist eine geschlossene Frage, die sich auf die Zufriedenheit mit einer bestimmten Website konzentriert. Damit ist sie weniger gut geeignet, etwas über den Nutzungskontext zu erfahren, als die Antworten A und D.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=286"
       },
       {
@@ -3474,7 +3474,7 @@
       {
         "text": "Der Fußgänger muss wissen, ob die Fußgängerampel grün ist, um gefahrlos über die Straße gehen zu können.",
         "isCorrect": false,
-        "explanation": "Ein Erfordernis muss immer unabhängig von irgend- einer Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist bereits vorgegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Die Fußgängerin muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrs- teilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.«",
+        "explanation": "Ein Erfordernis muss immer unabhängig von irgendeiner Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist bereits vorgegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Die Fußgängerin muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrsteilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
       },
       {
@@ -3525,7 +3525,7 @@
       {
         "text": "Nutzungsanforderungen beschreiben die Gestaltung der Benutzungsschnittstelle so wie sie vom Benutzer gebraucht wird.",
         "isCorrect": true,
-        "explanation": "Nutzungsanforderungen beschreiben keine Lösungs- merkmale, sondern das, was der Benutzer am inter- aktiven System erkennen, auswählen oder eingeben können muss.",
+        "explanation": "Nutzungsanforderungen beschreiben keine Lösungsmerkmale, sondern das, was der Benutzer am interaktiven System erkennen, auswählen oder eingeben können muss.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
       },
       {
@@ -3541,7 +3541,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
       },
       {
-        "text": "Nutzungsanforderungen können basierend auf Usability-Tests mit dem neu gestalte- ten interaktiven System angepasst oder ergänzt werden.",
+        "text": "Nutzungsanforderungen können basierend auf Usability-Tests mit dem neu gestalteten interaktiven System angepasst oder ergänzt werden.",
         "isCorrect": false,
         "explanation": "Diese Aussage ist korrekt, das Ergebnis eines Usability-Tests kann die Erkenntnis liefern, dass eine Nutzungsanforderung geändert werden muss.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=287"
@@ -3580,7 +3580,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
       },
       {
-        "text": "Erfordernisse sind immer unabhängig von irgendeiner Lösung, wogegen Nutzungs- anforderungen die Basis für eine Lösung sind.",
+        "text": "Erfordernisse sind immer unabhängig von irgendeiner Lösung, wogegen Nutzungsanforderungen die Basis für eine Lösung sind.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
@@ -3609,23 +3609,23 @@
       {
         "text": "Eine Produktentwicklerin, die den Fußgängerknopf der Verkehrsampel technisch umsetzt, hat vorrangig Marktanforderungen an die Gestaltung der Verkehrsampel.",
         "isCorrect": false,
-        "explanation": "Eine Produktentwicklerin hat keine Marktanforde- rungen (die hat ein Käufer oder Kaufentscheider), sondern Systemanforderungen.",
+        "explanation": "Eine Produktentwicklerin hat keine Marktanforderungen (die hat ein Käufer oder Kaufentscheider), sondern Systemanforderungen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
       },
       {
         "text": "Ein Bürger, der an der Verkehrsampel die Straße überqueren will, hat vorrangig organisatorische Anforderungen an die Gestaltung der Verkehrsampel.",
         "isCorrect": false,
-        "explanation": "Der Bürger hat vorrangig Erfordernisse beim Über- queren der Straße, die zu Nutzungsanforderungen an die Ampel führen.",
+        "explanation": "Der Bürger hat vorrangig Erfordernisse beim Überqueren der Straße, die zu Nutzungsanforderungen an die Ampel führen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
       },
       {
-        "text": "Der Gesetzgeber hat vorrangig Marktanforderungen für den Einsatz von Verkehrs- ampeln.",
+        "text": "Der Gesetzgeber hat vorrangig Marktanforderungen für den Einsatz von Verkehrsampeln.",
         "isCorrect": false,
-        "explanation": "Der Gesetzgeber hat vorrangig gesetzliche Anfor- derungen für den Einsatz von Verkehrsampeln.",
+        "explanation": "Der Gesetzgeber hat vorrangig gesetzliche Anforderungen für den Einsatz von Verkehrsampeln.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
       },
       {
-        "text": "Für ein Baby in einem Kinderwagen, das von einem Erwachsenen bei einer Fußgängerampel über die Straße geschoben wird, können sich Nutzungs- anforderungen an die Gestaltung der Verkehrsampel ergeben.",
+        "text": "Für ein Baby in einem Kinderwagen, das von einem Erwachsenen bei einer Fußgängerampel über die Straße geschoben wird, können sich Nutzungsanforderungen an die Gestaltung der Verkehrsampel ergeben.",
         "isCorrect": true,
         "explanation": "Es können sich Nutzungsanforderungen ergeben, die sich auf Erfordernisse des Babys beziehen, zum Beispiel, dass die Signalisierung der Grünphase für Fußgänger nicht zu laut sein darf, um Babys und kleine Kinder nicht zu erschrecken.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
@@ -3639,7 +3639,7 @@
       {
         "text": "Die Amtsperson, die die Finanzierung von Verkehrsampeln verantwortet, stellt Anforderungen hinsichtlich der zulässigen Kosten der Verkehrsampel.",
         "isCorrect": true,
-        "explanation": "Die Amtsperson, die die Finanzierung von Verkehrs- ampeln verantwortet, kann organisatorische Anfor- derungen hinsichtlich der maximal zulässigen Kosten haben.",
+        "explanation": "Die Amtsperson, die die Finanzierung von Verkehrsampeln verantwortet, kann organisatorische Anforderungen hinsichtlich der maximal zulässigen Kosten haben.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=288"
       }
     ]
@@ -3652,7 +3652,7 @@
     "image": "",
     "options": [
       {
-        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, welche Zutaten zum Belegen einer selbst zusam- mengestellten Pizza verfügbar sind, um sich seine Pizza zusammenstellen zu können.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Website des Pizza-Lieferservice die verfügbaren Zutaten überblicken können.",
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, welche Zutaten zum Belegen einer selbst zusammengestellten Pizza verfügbar sind, um sich seine Pizza zusammenstellen zu können.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Website des Pizza-Lieferservice die verfügbaren Zutaten überblicken können.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
@@ -3666,17 +3666,17 @@
       {
         "text": "<b>Erfordernis:</b> Der Kunde muss wissen, welche Zahlungsmöglichkeiten verfügbar sind, um entscheiden zu können, ob er die Bestellung mit einem der angebotenen Zahlungsmittel durchführen möchte oder nicht.\n <b>Nutzungsanforderung: </b>Der Kunde muss auf der Website als Zahlungsmittel die Details seiner Kreditkarte eingeben können.",
         "isCorrect": false,
-        "explanation": "Es handelt sich um ein Erfordernis und eine Nutzungsanforderung, allerdings kann die genannte Nutzungsanforderung nicht aus dem genannten Erfordernis abgeleitet werden. Eine ableitbare Nutzungsanforderung wäre zum Beispiel: »Der Benutzer muss auf der Website die verfügbaren Zahlungsmöglichkeiten erkennen können.« Ein Erfordernis, aus dem die Nutzungsanforderung ableitbar ist, wäre zum Beispiel: »Der Benutzer muss die Details seiner Kreditkarte wissen, um die Bestel- lung mit der Kreditkarte bezahlen zu können.«",
+        "explanation": "Es handelt sich um ein Erfordernis und eine Nutzungsanforderung, allerdings kann die genannte Nutzungsanforderung nicht aus dem genannten Erfordernis abgeleitet werden. Eine ableitbare Nutzungsanforderung wäre zum Beispiel: »Der Benutzer muss auf der Website die verfügbaren Zahlungsmöglichkeiten erkennen können.« Ein Erfordernis, aus dem die Nutzungsanforderung ableitbar ist, wäre zum Beispiel: »Der Benutzer muss die Details seiner Kreditkarte wissen, um die Bestellung mit der Kreditkarte bezahlen zu können.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
       },
       {
         "text": "<b>Erfordernis: </b>DDer Kunde muss die Bestellung im Überblick prüfen können, bevor er die Bestellung abschließend auslöst.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Webseite vor dem Kauf die Zutaten für jede bestellte Pizza überblicken können.",
         "isCorrect": false,
-        "explanation": "Es handelt sich nicht um ein korrektes Erfordernis, weil das zu erreichende Ziel nicht angegeben ist. Ein entsprechendes korrekt formuliertes Erfordernis wäre zum Beispiel: »Der Benutzer muss die Bestel- lung im Überblick prüfen können, um sicher ent- scheiden zu können, ob die Bestellung korrekt ist und er sie auslösen möchte.«",
+        "explanation": "Es handelt sich nicht um ein korrektes Erfordernis, weil das zu erreichende Ziel nicht angegeben ist. Ein entsprechendes korrekt formuliertes Erfordernis wäre zum Beispiel: »Der Benutzer muss die Bestellung im Überblick prüfen können, um sicher entscheiden zu können, ob die Bestellung korrekt ist und er sie auslösen möchte.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
       },
       {
-        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, bei welchem Pizza-Lieferservice er gerade bestellt, um sicherzustellen, dass der Pizza-Lieferservice die Pizza in der erwarteten Qualität liefert.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf jeder Seite der Website des Pizza- Lieferservice das Logo und den Namen des Pizza-Lieferservice erkennen können.",
+        "text": "<b>Erfordernis:</b> Der Kunde muss wissen, bei welchem Pizza-Lieferservice er gerade bestellt, um sicherzustellen, dass der Pizza-Lieferservice die Pizza in der erwarteten Qualität liefert.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf jeder Seite der Website des PizzaLieferservice das Logo und den Namen des Pizza-Lieferservice erkennen können.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
@@ -3705,7 +3705,7 @@
       {
         "text": "Organisatorische Anforderungen sowie Marktanforderungen können sich aus gesetzlichen Anforderungen ergeben, Nutzungsanforderungen hingegen nicht.",
         "isCorrect": false,
-        "explanation": "Auch Nutzungsanforderungen können sich aus gesetzlichen Anforderungen ergeben. Beispiel einer Nutzungsanforderung, die sich aus einer gesetzlichen Anforderung ergibt: »Der Benutzer muss auf der Website, bevor er eine Bestellung abschließt, explizit einen Hinweis auf die Widerrufs- möglichkeit erkennen können.«",
+        "explanation": "Auch Nutzungsanforderungen können sich aus gesetzlichen Anforderungen ergeben. Beispiel einer Nutzungsanforderung, die sich aus einer gesetzlichen Anforderung ergibt: »Der Benutzer muss auf der Website, bevor er eine Bestellung abschließt, explizit einen Hinweis auf die Widerrufsmöglichkeit erkennen können.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
       },
       {
@@ -3723,7 +3723,7 @@
       {
         "text": "Marktanforderungen werden oft auch »kaufentscheidende Nutzungsanforderungen« genannt.",
         "isCorrect": false,
-        "explanation": "Den Begriff »kaufentscheidende Nutzungsanforde- rungen« gibt es nicht. Marktanforderungen werden oft auch »Kunden- anforderungen« genannt.",
+        "explanation": "Den Begriff »kaufentscheidende Nutzungsanforderungen« gibt es nicht. Marktanforderungen werden oft auch »Kundenanforderungen« genannt.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=290"
       },
       {
@@ -3736,7 +3736,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche drei der folgenden Aussagen über qualitative und quantitative Nutzungs- anforderungen sind korrekt?",
+    "question": "Welche drei der folgenden Aussagen über qualitative und quantitative Nutzungsanforderungen sind korrekt?",
     "correctCount": 3,
     "chapter": "6: Nutzungsanforderungen festlegen",
     "image": "",
@@ -3819,7 +3819,7 @@
       {
         "text": "Die Fußgängerin muss wissen, ob die Fußgängerampel grün ist, um gefahrlos über die Straße gehen zu können.",
         "isCorrect": false,
-        "explanation": "Ein Erfordernis muss immer unabhängig von irgend- einer Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist angegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Der Fußgänger muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrs- teilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.« Dies kann durch ein grünes Licht, aber auch zum Beispiel durch ein akustisches Signal oder das Vibrieren eines Schalters angezeigt werden.",
+        "explanation": "Ein Erfordernis muss immer unabhängig von irgendeiner Lösung formuliert sein. Das ist hier nicht der Fall, die Lösung der Anzeige der Überquerbarkeit der Straße durch ein grünes Licht ist angegeben. Ein korrektes Erfordernis wäre zum Beispiel: »Der Fußgänger muss wissen, ob innerhalb der nächsten 15 Sekunden alle auf der Straße fahrenden Verkehrsteilnehmer den Überweg freihalten werden, um gefahrlos über die Straße gehen zu können.« Dies kann durch ein grünes Licht, aber auch zum Beispiel durch ein akustisches Signal oder das Vibrieren eines Schalters angezeigt werden.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=291"
       }
     ]
@@ -3885,7 +3885,7 @@
       {
         "text": "Das Firmenlogo muss in der oberen linken Ecke jeder Webseite erscheinen.",
         "isCorrect": false,
-        "explanation": "Dies ist eine Marktanforderung, sie unterstützt die Assoziation der Website mit den Werten des Unter- nehmens mittels Corporate Design.",
+        "explanation": "Dies ist eine Marktanforderung, sie unterstützt die Assoziation der Website mit den Werten des Unternehmens mittels Corporate Design.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
       },
       {
@@ -3897,13 +3897,13 @@
       {
         "text": "Der Benutzer muss ein Hilfesystem verfügbar haben.",
         "isCorrect": false,
-        "explanation": "Dies ist am ehesten eine Marktanforderung, sie unter- stützt die Erfolgsaussichten des Produkts am Markt. Für eine Nutzungsanforderung ist die Formulierung viel zu vage.",
+        "explanation": "Dies ist am ehesten eine Marktanforderung, sie unterstützt die Erfolgsaussichten des Produkts am Markt. Für eine Nutzungsanforderung ist die Formulierung viel zu vage.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
       },
       {
         "text": "Wenn der Benutzer beruflich ein Auto mietet, muss er das Unternehmen angeben, in dessen Namen er mietet.",
         "isCorrect": false,
-        "explanation": "Dies ist eine organisatorische Anforderung, eine Anforderung an das Verhalten des Benutzers. Es ist hier offengelassen, wie der Mietende diese Anforde- rung erfüllt, z.B. könnte er das Unternehmen beim Abholen des Autos dem Mitarbeiter nennen und der schreibt dies auf. Dann würde die organisatorische Anforderung nicht zu einer Nutzungsanforderung für die Website führen.",
+        "explanation": "Dies ist eine organisatorische Anforderung, eine Anforderung an das Verhalten des Benutzers. Es ist hier offengelassen, wie der Mietende diese Anforderung erfüllt, z.B. könnte er das Unternehmen beim Abholen des Autos dem Mitarbeiter nennen und der schreibt dies auf. Dann würde die organisatorische Anforderung nicht zu einer Nutzungsanforderung für die Website führen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=292"
       },
       {
@@ -4071,7 +4071,7 @@
       {
         "text": "Erfordernisse werden ausschließlich mittels Interviews, Beobachtungen oder Benutzerbefragungen identifiziert.",
         "isCorrect": false,
-        "explanation": "Erfordernisse können auch basierend auf Usability- Evaluierungen identifiziert werden.",
+        "explanation": "Erfordernisse können auch basierend auf UsabilityEvaluierungen identifiziert werden.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=293"
       },
       {
@@ -4102,7 +4102,7 @@
     "image": "",
     "options": [
       {
-        "text": "Ein Trainer, der den Mitarbeitern eines Callcenters beibringt, wie man die Auto- vermietungs-Website benutzt",
+        "text": "Ein Trainer, der den Mitarbeitern eines Callcenters beibringt, wie man die Autovermietungs-Website benutzt",
         "isCorrect": false,
         "explanation": "Dies ist ein sekundärer Benutzer.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=294"
@@ -4290,7 +4290,7 @@
       {
         "text": "User-Interface-Elemente sind die Komponenten einer Benutzungsschnittstelle, die interaktiv sind.",
         "isCorrect": false,
-        "explanation": "Es gibt auch nicht interaktive User-Interface- Elemente, zum Beispiel ein Anweisungstext.",
+        "explanation": "Es gibt auch nicht interaktive User-InterfaceElemente, zum Beispiel ein Anweisungstext.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
       },
       {
@@ -4302,7 +4302,7 @@
       {
         "text": "User-Interface-Elemente werden in Form von Gestaltungsregeln definiert.",
         "isCorrect": false,
-        "explanation": "Gestaltungsregeln legen Details der Gestaltung und des Einsatzes von User-Interface-Elementen fest, sie sind aber nicht identisch mit den User-Interface- Elementen.",
+        "explanation": "Gestaltungsregeln legen Details der Gestaltung und des Einsatzes von User-Interface-Elementen fest, sie sind aber nicht identisch mit den User-InterfaceElementen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
       },
       {
@@ -4314,7 +4314,7 @@
       {
         "text": "User-Interface-Elemente sind Lösungen für häufig auftretende Gestaltungsprobleme.",
         "isCorrect": false,
-        "explanation": "Ein User-Interface-Element kann ein Bestandteil eines Design Pattern sein, aber nicht alle User- Interface-Elemente sind Design Patterns.",
+        "explanation": "Ein User-Interface-Element kann ein Bestandteil eines Design Pattern sein, aber nicht alle UserInterface-Elemente sind Design Patterns.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
       }
     ]
@@ -4341,11 +4341,11 @@
       {
         "text": "In einer Fitness-App kann der Benutzer durch Sport und Bewegung Punkte sammeln und damit Preise gewinnen. Wenn der Benutzer sich nicht genug bewegt, wird er von der App erinnert und es werden keine weiteren Punkte vergeben.",
         "isCorrect": false,
-        "explanation": "Benutzer haben bei der Verwendung von Fitness-Apps oft das Ziel, sich darin unterstützen zu lassen, neue Verhaltensweisen zu üben, die ihnen schwerfallen. Maßgeblich für das ethische Design eines interaktiven Systems ist, ob die Erfordernisse und Ziele des Benut- zers unterstützt werden. Das ist hier der Fall.",
+        "explanation": "Benutzer haben bei der Verwendung von Fitness-Apps oft das Ziel, sich darin unterstützen zu lassen, neue Verhaltensweisen zu üben, die ihnen schwerfallen. Maßgeblich für das ethische Design eines interaktiven Systems ist, ob die Erfordernisse und Ziele des Benutzers unterstützt werden. Das ist hier der Fall.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=295"
       },
       {
-        "text": "Eine Social-Media-Website bietet dem Benutzer an, einen Newsletter zu abonnieren mit der Formulierung »Abonnieren Sie unseren kostenlosen Newsletter«. Der Benutzer muss zum Abonnieren seinen Namen und seine E-Mail-Adresse angeben sowie wei- tere persönliche Angaben.",
+        "text": "Eine Social-Media-Website bietet dem Benutzer an, einen Newsletter zu abonnieren mit der Formulierung »Abonnieren Sie unseren kostenlosen Newsletter«. Der Benutzer muss zum Abonnieren seinen Namen und seine E-Mail-Adresse angeben sowie weitere persönliche Angaben.",
         "isCorrect": true,
         "explanation": "Die Verwendung persönlicher Daten ohne Aufklärung des Benutzers ist unethisch.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
@@ -4353,7 +4353,7 @@
       {
         "text": "Eine mobile Zahlungsanwendung zur Benutzung im Restaurant setzt eine Option »Trinkgeld« als Standard. Der Benutzer kann den voreingestellten Trinkgeld-Betrag auswählen oder die Option abwählen.",
         "isCorrect": true,
-        "explanation": "Die Tatsache, dass der Benutzer explizit die Option abwählen muss, wenn er kein Trinkgeld geben will, führt dazu, dass mehr Benutzer Trinkgeld geben, als sie das sonst tun würden. Aus diesem Grund ist dies als unethisches Design anzusehen. Anmerkung: Ob dies unethisches Design ist, hängt vom Kulturkreis ab, in dem die Zahlungsanwendung verwendet wird. In den USA zum Beispiel ist es üblich, dass immer Trinkgeld gegeben wird. Hier wäre es aufgabenangemessen, die Option »Trink- geld« standardmäßig auszuwählen. In Deutschland, Österreich und der Schweiz ist Trinkgeld freigestellt.",
+        "explanation": "Die Tatsache, dass der Benutzer explizit die Option abwählen muss, wenn er kein Trinkgeld geben will, führt dazu, dass mehr Benutzer Trinkgeld geben, als sie das sonst tun würden. Aus diesem Grund ist dies als unethisches Design anzusehen. Anmerkung: Ob dies unethisches Design ist, hängt vom Kulturkreis ab, in dem die Zahlungsanwendung verwendet wird. In den USA zum Beispiel ist es üblich, dass immer Trinkgeld gegeben wird. Hier wäre es aufgabenangemessen, die Option »Trinkgeld« standardmäßig auszuwählen. In Deutschland, Österreich und der Schweiz ist Trinkgeld freigestellt.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
       },
       {
@@ -4374,7 +4374,7 @@
       {
         "text": "Der Zweck einer User-Interface-Spezifikation ist, die Einhaltung aller relevanten Anforderungen überprüfen zu können.",
         "isCorrect": false,
-        "explanation": "Der Zweck einer User-Interface-Spezifikation ist, eine vollständige Beschreibung des interaktiven Systems bereitzustellen, sodass es von Entwicklern implemen- tiert werden kann.",
+        "explanation": "Der Zweck einer User-Interface-Spezifikation ist, eine vollständige Beschreibung des interaktiven Systems bereitzustellen, sodass es von Entwicklern implementiert werden kann.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
       },
       {
@@ -4390,9 +4390,9 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
       },
       {
-        "text": "Meldungen (Fehlermeldungen, Warnungen, Hinweise) gehören zur Informations- architektur und nicht zur User-Interface-Spezifikation.",
+        "text": "Meldungen (Fehlermeldungen, Warnungen, Hinweise) gehören zur Informationsarchitektur und nicht zur User-Interface-Spezifikation.",
         "isCorrect": false,
-        "explanation": "Sämtliche Bestandteile der Benutzerunterstützung (zu der auch alle Meldungen gehören) sind Bestand- teil der User-Interface-Spezifikation.",
+        "explanation": "Sämtliche Bestandteile der Benutzerunterstützung (zu der auch alle Meldungen gehören) sind Bestandteil der User-Interface-Spezifikation.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=296"
       },
       {
@@ -4531,7 +4531,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
       },
       {
-        "text": "Prototypen können als Teil der Spezifikation für die Implementierung der Benutzungs- schnittstelle eines interaktiven Systems dienen.",
+        "text": "Prototypen können als Teil der Spezifikation für die Implementierung der Benutzungsschnittstelle eines interaktiven Systems dienen.",
         "isCorrect": true,
         "explanation": "Dies gilt insbesondere für High-Fidelity-Prototypen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
@@ -4539,14 +4539,14 @@
       {
         "text": "Wireframes zeigen nicht das visuelle Design des interaktiven Systems, wohl aber das exakte Layout von allen UI-Elementen in einem Screen oder einer Seite.",
         "isCorrect": false,
-        "explanation": "Wireframes zeigen primär das Interaktionsdesign sowie das grobe Layout eines interaktiven Systems. Sie stellen einen sehr frühen, einfachen Low-Fidelity- Prototyp dar. Das exakte Layout wird hier noch nicht adressiert.",
+        "explanation": "Wireframes zeigen primär das Interaktionsdesign sowie das grobe Layout eines interaktiven Systems. Sie stellen einen sehr frühen, einfachen Low-FidelityPrototyp dar. Das exakte Layout wird hier noch nicht adressiert.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=297"
       }
     ]
   },
   {
     "certificate": "CPUX-F",
-    "question": "Für eine interne Demonstration hat einer Ihrer Kollegen ein neues Bestellsystem auf eini- gen Blättern Papier skizziert. Jedes Blatt stellt einen Screen dar. Der Inhalt der Screens ist handgezeichnet und unvollständig. Ihr Kollege wechselt die Screens, sobald man auf den Button »klickt«, indem man mit einem Bleistift das Blatt berührt. Welcher eine der folgenden Begriffe beschreibt diese Sammlung von Skizzen am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "question": "Für eine interne Demonstration hat einer Ihrer Kollegen ein neues Bestellsystem auf einigen Blättern Papier skizziert. Jedes Blatt stellt einen Screen dar. Der Inhalt der Screens ist handgezeichnet und unvollständig. Ihr Kollege wechselt die Screens, sobald man auf den Button »klickt«, indem man mit einem Bleistift das Blatt berührt. Welcher eine der folgenden Begriffe beschreibt diese Sammlung von Skizzen am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
     "correctCount": 1,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
@@ -4636,13 +4636,13 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Welche zwei der folgenden Punkte stellen einen Ausschnitt eines validen Nutzungsszena- rios dar für die Website eines Pizza-Lieferservice und die Aufgabe »Artikel bestellen«?",
+    "question": "Welche zwei der folgenden Punkte stellen einen Ausschnitt eines validen Nutzungsszenarios dar für die Website eines Pizza-Lieferservice und die Aufgabe »Artikel bestellen«?",
     "correctCount": 2,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
     "options": [
       {
-        "text": "Hanna geht auf die Website des Pizza-Lieferservice und da sie früher schon einmal dort bestellt hat, wird sie direkt mit Namen begrüßt und gebeten, ihr Benutzerpasswort einzugeben. Nachdem sie das getan hat, sieht sie die Artikel aufgelistet, die in ihren letzten Bestellungen enthalten waren, wo auch ihre selbst zusammengestellte Lieb- lingspizza dabei ist. Sie wählt diese aus und freut sich, dass sie nicht den Aufwand treiben muss, die Pizza erneut mühsam zusammenzustellen.",
+        "text": "Hanna geht auf die Website des Pizza-Lieferservice und da sie früher schon einmal dort bestellt hat, wird sie direkt mit Namen begrüßt und gebeten, ihr Benutzerpasswort einzugeben. Nachdem sie das getan hat, sieht sie die Artikel aufgelistet, die in ihren letzten Bestellungen enthalten waren, wo auch ihre selbst zusammengestellte Lieblingspizza dabei ist. Sie wählt diese aus und freut sich, dass sie nicht den Aufwand treiben muss, die Pizza erneut mühsam zusammenzustellen.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
@@ -4654,7 +4654,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
       },
       {
-        "text": "Der Benutzer gibt sein Passwort ein. Er sieht dann die Artikel seiner letzten Bestellun- gen in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren. Er kann beliebige Artikel aus der Liste auswählen und diese einfach erneut bestellen.",
+        "text": "Der Benutzer gibt sein Passwort ein. Er sieht dann die Artikel seiner letzten Bestellungen in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren. Er kann beliebige Artikel aus der Liste auswählen und diese einfach erneut bestellen.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
@@ -4666,13 +4666,13 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=298"
       },
       {
-        "text": "Der Benutzer wird identifiziert über ein Feld »Benutzername« (wird wenn möglich automatisch vorausgefüllt mittels Nutzung eines Cookies) und authentifiziert über ein Feld »Passwort«. Alternativ kann er sich auch neu registrieren, ein Bestellen ohne Login soll nicht erlaubt sein. Nach Anklicken des Buttons »Los geht’s« und erfolgreicher Prüfung der Login-Daten bekommt der Benutzer die Artikel seiner letzten Bestellun- gen aufgelistet in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren.",
+        "text": "Der Benutzer wird identifiziert über ein Feld »Benutzername« (wird wenn möglich automatisch vorausgefüllt mittels Nutzung eines Cookies) und authentifiziert über ein Feld »Passwort«. Alternativ kann er sich auch neu registrieren, ein Bestellen ohne Login soll nicht erlaubt sein. Nach Anklicken des Buttons »Los geht’s« und erfolgreicher Prüfung der Login-Daten bekommt der Benutzer die Artikel seiner letzten Bestellungen aufgelistet in der Reihenfolge »Neueste zuerst«, auch selbst zusammengestellte Pizzen, wenn welche dabei waren.",
         "isCorrect": false,
         "explanation": "Die Beschreibung beschreibt nicht stringent die Interaktion zwischen Benutzer und interaktivem System, sondern beschreibt auch technische Aspekte des interaktiven Systems.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
       },
       {
-        "text": "Hanna bestellt mindestens zweimal pro Woche eine selbst zusammengestellte Pizza bei ihrer Lieblingspizzeria. Hier kann sie die Pizza dann 15 Minuten später abholen. Ihre Kombinationen von Zutaten sind im Pizzamenü der Pizzeria nicht als Standard- pizza enthalten. Manchmal kommt sie beim Anruf durcheinander und vergisst eine Zutat zu nennen, die sie eigentlich haben wollte. Das ärgert sie dann, wenn sie später zu Hause die Pizza genießen will.",
+        "text": "Hanna bestellt mindestens zweimal pro Woche eine selbst zusammengestellte Pizza bei ihrer Lieblingspizzeria. Hier kann sie die Pizza dann 15 Minuten später abholen. Ihre Kombinationen von Zutaten sind im Pizzamenü der Pizzeria nicht als Standardpizza enthalten. Manchmal kommt sie beim Anruf durcheinander und vergisst eine Zutat zu nennen, die sie eigentlich haben wollte. Das ärgert sie dann, wenn sie später zu Hause die Pizza genießen will.",
         "isCorrect": false,
         "explanation": "Hier handelt es sich um ein Ist-Szenario, das den eigentlichen Nutzungskontext beschreibt statt der Nutzung des interaktiven Systems.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
@@ -4689,7 +4689,7 @@
       {
         "text": "Design Pattern",
         "isCorrect": false,
-        "explanation": "Es fehlt die Problembeschreibung und eine allge- meine Beschreibung der Lösung. Das hier ist höchstens ein Umsetzungsbeispiel eines Design Pattern.",
+        "explanation": "Es fehlt die Problembeschreibung und eine allgemeine Beschreibung der Lösung. Das hier ist höchstens ein Umsetzungsbeispiel eines Design Pattern.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=299"
       },
       {
@@ -4752,7 +4752,7 @@
       {
         "text": "Wireframe",
         "isCorrect": true,
-        "explanation": "Die Abbildung entspricht der Definition von Wireframe und Low-Fidelity-Prototyp, wobei Low-Fidelity- Prototyp nicht als Antwortmöglichkeit aufgeführt ist.",
+        "explanation": "Die Abbildung entspricht der Definition von Wireframe und Low-Fidelity-Prototyp, wobei Low-FidelityPrototyp nicht als Antwortmöglichkeit aufgeführt ist.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
       },
       {
@@ -4816,13 +4816,13 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "108: Welche drei der folgenden Punkte beschreiben am besten den Unterschied zwischen einem Low-Fidelity-Prototyp und einem High-Fidelity-Prototyp?",
+    "question": "Welche drei der folgenden Punkte beschreiben am besten den Unterschied zwischen einem Low-Fidelity-Prototyp und einem High-Fidelity-Prototyp?",
     "correctCount": 3,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
     "options": [
       {
-        "text": "Low-Fidelity-Prototypen veranschaulichen immer nur Konzepte, wogegen High- Fidelity-Prototypen weit mehr umfassen.",
+        "text": "Low-Fidelity-Prototypen veranschaulichen immer nur Konzepte, wogegen HighFidelity-Prototypen weit mehr umfassen.",
         "isCorrect": false,
         "explanation": "Auch ein Low-Fidelity-Prototyp kann zum Beispiel Aspekte der visuellen Gestaltung veranschaulichen.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
@@ -4840,7 +4840,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
       },
       {
-        "text": "Ein High-Fidelity-Prototyp ähnelt dem fertigen interaktiven System, ein Low-Fidelity- Prototyp in der Regel nicht.",
+        "text": "Ein High-Fidelity-Prototyp ähnelt dem fertigen interaktiven System, ein Low-FidelityPrototyp in der Regel nicht.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
@@ -4852,10 +4852,1000 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
       },
       {
-        "text": "Sowohl Low-Fidelity- als auch High-Fidelity-Prototypen sollten immer aufgabenorientiert gestaltet sein, also eine sinnvolle Aufgabenerledigung demonstrieren können.",
+        "text": "Sowohl Low-Fidelityals auch High-Fidelity-Prototypen sollten immer aufgabenorientiert gestaltet sein, also eine sinnvolle Aufgabenerledigung demonstrieren können.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=300"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Begriff »mentales Modell« am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Beschreibung eines fiktiven, aber realistischen Benutzers und was er bei der Verwendung eines interaktiven Systems zu tun beabsichtigt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Eine Beschreibung der Teilaufgaben innerhalb einer Aufgabe, die ausgeführt werden müssen, um die Ziele des Benutzers zu erreichen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Das Ergebnis des Denkprozesses einer Person darüber, wie etwas in der realen Welt funktioniert",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Ein kostengünstiges, einfaches Modell eines Designs oder Konzepts, das dazu dient, Rückmeldungen von Benutzern und anderen Interessenvertretern in frühen Phasen der Entwicklung einzuholen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Informationen, die einen Benutzer dabei unterstützen, mit einem interaktiven System zu interagieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Ein Datenmodell, das abbildet, was die Teilnehmer nach einer Usability-Testsitzung über das interaktive System dachten",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "110: Welche drei der folgenden Aussagen über Design Patterns sind korrekt?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Design Pattern ist eine Lösung eines häufig auftretenden Gestaltungsproblems in einem bestimmten Nutzungskontext.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Ein Design Pattern besteht aus der Beschreibung eines Gestaltungsproblems und der Beschreibung einer allgemeinen Lösung.",
+        "isCorrect": false,
+        "explanation": "Es fehlt die dritte wichtige Komponente eines Design Pattern, nämlich Anwendungsbeispiele.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Wenn ein Design Pattern und eine Gestaltungsregel sich widersprechen, dann sollte man dem Design Pattern folgen und nicht der Gestaltungsregel.",
+        "isCorrect": false,
+        "explanation": "Gestaltungsregeln sind Instruktionen, die einzuhalten sind. Wenn ein Design Pattern genutzt werden soll und dieses einer Gestaltungsregel widerspricht, dann muss die Gestaltungsregel geändert werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Ein Tooltipp (mit entsprechenden Erläuterungen dazu) ist ein Beispiel für ein Design Pattern.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Der Einsatz von Design Patterns für die Lösungsgestaltung garantiert eine gute Usability der Lösung.",
+        "isCorrect": false,
+        "explanation": "Ein Design Pattern hat nicht per se eine gute Usability. Es sollte immer geprüft werden, ob die Qualität eines Design Pattern durch Usability-Tests validiert wurde.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Der Einsatz von Design Patterns beschleunigt den Prozess der Lösungsgestaltung.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Auf einer Website zum Buchen von Hotelzimmern für Geschäftsreisen gibt es ein Eingabefeld für den Anreisetag. Bei Auswahl des Feldes wird ein Kalender angezeigt, bei dem der aktuelle Tag vorausgewählt ist und der Benutzer diesen bestätigen oder einen anderen Tag im Kalender auswählen kann.\n\n Welches eine der Interaktionsprinzipien wurde mit dieser Entscheidung vornehmlich umgesetzt?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgabenangemessenheit",
+        "isCorrect": false,
+        "explanation": "Die Hervorhebung des aktuellen Tags dient nicht vorrangig als Default zur Auswahl des Anreisetags. Dies ist eine eher unwahrscheinliche Voreinstellung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Fehlerrobustheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Selbstbeschreibungsfähigkeit",
+        "isCorrect": true,
+        "explanation": "Die Anzeige des aktuellen Tags dient als Orientierungshilfe, um sich im Kalender schneller orientieren zu können.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=301"
+      },
+      {
+        "text": "Erlernbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Steuerbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen verdeutlichen am besten den Unterschied zwischen Interaktionsprinzipien und Gestaltungsregeln?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Interaktionsprinzipien sind allgemeingültige Gestaltungsziele, deren Beachtung immer zu einer besseren Usability führt. Sie geben Leitplanken vor, um die sich ein Lösungsgestalter kümmern sollte, enthalten darüber hinaus aber keine Einschränkungen für die Gestaltung.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Interaktionsprinzipien sind allgemeine Gestaltungsvorgaben, die bei der Lösungsgestaltung angewandt werden sollten, um eine gute Usability zu erreichen.",
+        "isCorrect": false,
+        "explanation": "Interaktionsprinzipien sind keine Gestaltungsvorgaben, sondern allgemeingültige Ziele, die keine Detaileinschränkungen für die Gestaltung enthalten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Interaktionsprinzipien bieten eine allgemeine Orientierung, was beachtet werden sollte, um eine gute Usability zu erreichen. Je nach den Details der Lösungsgestaltung kann es aber auch Sinn machen, ein Interaktionsprinzip nicht zu befolgen.",
+        "isCorrect": false,
+        "explanation": "Es ist immer sinnvoll, Interaktionsprinzipien zu beachten, da sie allgemeingültig sind.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Gestaltungsregeln sind Empfehlungen für die Gestaltung von Lösungen, die spezifisch sind für eine bestimmte Technologie oder Domäne. Sie lassen dem Gestalter Interpretationsspielraum, um die kontextspezifischen Anforderungen an die zu gestaltende Lösung optimal erfüllen zu können.",
+        "isCorrect": false,
+        "explanation": "Gestaltungsregeln sind nicht nur Empfehlungen, sondern auch oft konkrete Vorgaben für die Gestaltung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Gestaltungsregeln sind konkrete Vorgaben oder spezifische Empfehlungen zur Gestaltung von Lösungen, die vor allem dazu dienen, Konsistenz zu erreichen und Diskussionen um Gestaltungsvarianten abzukürzen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Gestaltungsregeln sind konkrete Vorgaben für die Gestaltung von Lösungen, die dem Gestalter keinen Interpretationsspielraum lassen. Hierdurch wird automatisch eine gute Usability der Lösung sichergestellt.",
+        "isCorrect": false,
+        "explanation": "Die Beachtung von Gestaltungsregeln ist kein Garant für eine gute Usability. Es kommt immer auf den Nutzungskontext an.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Viele Anwendungen bieten eine Undo-Funktion an, mit der Aktionen, die keinen unwiderruflichen Effekt haben, durch den Benutzer rückgängig gemacht werden können. Welche drei der folgenden Interaktionsprinzipien werden durch eine Undo-Funktion am ehesten NICHT unterstützt?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgabenangemessenheit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Fehlerrobustheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Selbstbeschreibungsfähigkeit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Erlernbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Steuerbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen verdeutlicht die Wichtigkeit von Gestaltungsregeln? (Quelle der Frage: [UXQB CPUX-F 2023b]",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Gestaltungsregeln sichern die Umsetzung der menschzentrierten Gestaltung, indem sie primären Benutzern ermöglichen, direkt an der Gestaltung teilzunehmen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Der unspezifische Charakter von Gestaltungsregeln gibt Designern die Freiheit, User-Interface-Elemente nach ihrem Belieben zu implementieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Der spezifische Charakter von Gestaltungsregeln ermöglicht es Designern, die gleichen User-Interface-Elemente konsistent zu implementieren",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=302"
+      },
+      {
+        "text": "Gestaltungsregeln ermöglichen es Designern, sich Unterschiede im Aussehen und Verhalten von Benutzungsschnittstellen innerhalb einer Organisation einfallen zu lassen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Gestaltungsregeln zielen in erster Linie darauf ab, die Verantwortung für die Gestaltung von Benutzungsschnittstellen auf das gesamte Designteam zu verteilen, anstatt dem User Interface Designer die alleinige Verantwortung zu überlassen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Gestaltungsregeln werden in Usability-Inspektionen verwendet, um festzustellen, ob ein Design den organisatorischen Anforderungen entspricht oder nicht.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Punkte sind Heuristiken, im Gegensatz zu Interaktionsprinzipien und Gestaltungsregeln?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Das interaktive System muss so gestaltet sein, dass Fehler des Benutzers von vornherein vermieden werden.",
+        "isCorrect": true,
+        "explanation": "Diese Empfehlung ist spezifischer als das Interaktionsprinzip »Robustheit gegen Benutzungsfehler« und gleichzeitig keine detaillierte Gestaltungsregel.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Der Benutzer sollte die Interaktion mit dem interaktiven System nach eigenem Ermessen starten und seine Richtung und Geschwindigkeit beeinflussen können.",
+        "isCorrect": false,
+        "explanation": "Dies ist die Definition des Interaktionsprinzips »Steuerbarkeit«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Fehlermeldungen müssen immer gut sichtbar im oberen Viertel des Bildschirms in einem eigenen Bereich dargestellt werden, der die volle Breite des Bildschirms einnimmt.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Gestaltungsregel.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Der Benutzer sollte zu jeder Zeit klar erkennen können, was der aktuelle Systemstatus ist und welchen Einfluss dieser auf die aktuellen Handlungsmöglichkeiten des interaktiven Systems hat.",
+        "isCorrect": true,
+        "explanation": "Diese Empfehlung ist spezifischer als das Interaktionsprinzip »Selbstbeschreibungsfähigkeit« und gleichzeitig keine detaillierte Gestaltungsregel.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Eine bestimmte Information soll im interaktiven System durchgängig in gleicher Weise entsprechend der Erwartung des Benutzers präsentiert werden.",
+        "isCorrect": true,
+        "explanation": "Dies ist die Definition des Begriffs »Konsistenz« und als Heuristik anzusehen. Konsistenz ist kein Interaktionsprinzip, sondern ein Aspekt bei der Umsetzung des Interaktionsprinzips »Erwartungskonformität«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Alle im interaktiven System verwendeten Farben müssen in der Palette der erlaubten Farben des Unternehmens enthalten sein.",
+        "isCorrect": false,
+        "explanation": "Dies ist eine Gestaltungsregel.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Eine Fachanwendung für Bankangestellte verwendet Fachausdrücke wie »elektronischer Zahlungsverkehr« und »Terminund Spareinlagen«. Auf welchem einen der folgenden Interaktionsprinzipien basiert diese Entscheidung vornehmlich?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgabenangemessenheit",
+        "isCorrect": false,
+        "explanation": "Das Interaktionsprinzip »Aufgabenangemessenheit« betrifft in erster Linie den Interaktionsablauf sowie die Interaktionsmöglichkeiten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Selbstbeschreibungsfähigkeit",
+        "isCorrect": false,
+        "explanation": "Zur Erinnerung: Selbstbeschreibungsfähigkeit umfasst Aspekte wie »Wo bin ich«, »Was kann ich hier tun« und »Wie kann ich etwas hier tun«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Steuerbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Fehlerrobustheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": true,
+        "explanation": "Vornehmlich ist hier das Interaktionsprinzip »Erwartungskonformität« zugrunde gelegt, im Sinne von »die Sprache des Benutzers sprechen«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      },
+      {
+        "text": "Konsistenz",
+        "isCorrect": false,
+        "explanation": "Konsistenz ist kein Interaktionsprinzip, sondern eine Gestaltungsempfehlung zur Umsetzung von Erwartungskonformität.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=303"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Punkte sind Dinge, die häufig eintreten, wenn die Gestaltung eines interaktiven Systems ohne Gestaltungsregeln oder Styleguide erfolgt?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Lösungsgestaltung dauert länger.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Die Lösungsgestaltung geht schneller.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Die Analyse des Nutzungskontextes muss deutlich umfangreicher ausfallen.",
+        "isCorrect": false,
+        "explanation": "Der erforderliche Umfang der Anforderungsanalyse ist unabhängig davon, ob Gestaltungregeln für die Lösungsgestaltung verfügbar sind oder nicht.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Die Konsistenz der gestalteten Lösung ist niedriger.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Bei der Lösungsgestaltung gibt es weniger Aufwand für Diskussionen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Bei der Lösungsgestaltung gibt es mehr Aufwand für Diskussionen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Bei einer komplexeren Website mit vielen Seiten wird auf jeder Seite immer an der gleichen Stelle eine Breadcrumb-Navigation angezeigt, d.h. eine Textzeile, die dem Benutzer anzeigt, an welcher Stelle er sich innerhalb der Website befindet. Der Breadcrumb zeigt den Navigationspfad von der Startseite über Zwischenseiten bis zur aktuellen Seite an. Welches eine der Interaktionsprinzipien wurde mit dieser Entscheidung primär umgesetzt?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgabenangemessenheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Fehlerrobustheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Selbstbeschreibungsfähigkeit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Erlernbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": false,
+        "explanation": "Die Entscheidung wurde nicht primär wegen der Erwartungskonformität getroffen, sondern um die Selbstbeschreibungsfähigkeit zu erhöhen. Natürlich führt die konsistente Platzierung auch zur Absicherung der Erwartungskonformität, aber das ist sekundär in Relation zur Selbstbeschreibungsfähigkeit.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Steuerbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind NICHT korrekt in Bezug auf den Begriff »mentales Modell«?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Mentale Modelle entstehen vor allem durch gemachte Erfahrungen, Training und erteilte Instruktionen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Die Erstellung von mentalen Modellen ist eine Technik zur Entwicklung von innovativen Gestaltungslösungen für interaktive Systeme.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Mentale Modelle können beeinflusst werden durch Erwartungen, die durch die Benutzung ähnlicher Systeme entstehen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Mentale Modelle haben immer etwas mit Benutzungsschnittstellen zu tun.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Ein mentales Modell zu einem interaktiven System existiert bereits, bevor das interaktive System das erste Mal benutzt wird.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      },
+      {
+        "text": "Das mentale Modell, das ein Benutzer zu einem interaktiven System hat, sollte wenn möglich vollständig und widerspruchsfrei sein.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=304"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Punkte sind Affordances eines Holzstuhls, d.h., welches sind Dinge, zu denen ein Holzstuhl auffordert?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Sich draufsetzen",
+        "isCorrect": true,
+        "explanation": "Die Sitzfläche bietet sich von der Höhe und Größe her dafür an, sich auf sie zu setzen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Sich draufsetzen und damit kippeln (auf den hinteren Stuhlbeinen balancieren)",
+        "isCorrect": false,
+        "explanation": "Das ist etwas, was man mit einem Holzstuhl machen kann, aber er fordert nicht dazu auf.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Etwas darauf ablegen, das nicht auf dem Boden liegen soll",
+        "isCorrect": true,
+        "explanation": "Die Sitzfläche bietet sich von der Höhe und Größe her dafür an, etwas auf ihr abzulegen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Sich draufstellen, um eine höhere Reichweite zu haben",
+        "isCorrect": true,
+        "explanation": "Die Gestaltung der Sitzfläche in Kombination mit der Lage der Stuhlbeine des Holzstuhls suggeriert, dass es sicher ist, sich auf ihn zu stellen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Ihn an einen anderen Ort verschieben",
+        "isCorrect": false,
+        "explanation": "Das ist etwas, was man mit einem Holzstuhl machen kann, aber er fordert nicht dazu auf.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Ihn zerschlagen und als Brennholz verwenden",
+        "isCorrect": false,
+        "explanation": "Das ist etwas, was man mit einem Holzstuhl machen kann, aber er fordert nicht dazu auf.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Begriff »Design Pattern« am besten? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Sammlung von Buttons in verschiedenen Formen und Farben für die Verwendung auf einer Website",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Eine Sammlung von Personas mit sehr ähnlichen Merkmalen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Eine Sammlung von Benutzergruppen mit sehr ähnlichen Merkmalen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Eine Sammlung von 4 bis 8 Icons, die in einer festen Reihenfolge auf dem Screen angeordnet sind",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Ein Ansatz zur Lösung einer Aufgabe in einem gegebenen Nutzungskontext; der Ansatz muss in mehreren Usability-Testsitzungen beobachtet worden sein",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Eine Lösung eines häufig auftretenden Gestaltungsproblems in einem gegebenen Nutzungskontext, die ein Gestaltungsproblem, eine allgemeine Lösung und Beispiele für deren Anwendung beschreibt",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind korrekt in Bezug auf Interaktionsprinzipien?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Interaktionsprinzipien sind allgemeine Ziele für die Gestaltung von gebrauchstauglichen interaktiven Systemen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Interaktionsprinzipien sind spezifischer als Heuristiken.",
+        "isCorrect": false,
+        "explanation": "Es ist umgekehrt, Heuristiken sind spezifischer als Interaktionsprinzipien.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Interaktionsprinzipien und Heuristiken sind dasselbe.",
+        "isCorrect": false,
+        "explanation": "Heuristiken sind spezifischer als Interaktionsprinzipien.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Interaktionsprinzipien sind unabhängig von der spezifischen Implementierung eines interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Interaktionsprinzipien sind allgemeingültig und gelten nicht nur für eine spezifische Technologie.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      },
+      {
+        "text": "Interaktionsprinzipien sind nicht allgemeingültig, sie gelten nur für IT-Systeme.",
+        "isCorrect": false,
+        "explanation": "Antwort E ist korrekt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=305"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Begriffe bezeichnen Interaktionsprinzipien?",
+    "correctCount": 3,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Erlernbarkeit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Verifizierbarkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Fehlerrobustheit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Konsistenz",
+        "isCorrect": false,
+        "explanation": "Dies ist ein Teilaspekt des Interaktionsprinzips »Erwartungskonformität«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Funktionale Angemessenheit",
+        "isCorrect": false,
+        "explanation": "Dies ist ein Teilaspekt des Interaktionsprinzips »Aufgabenangemessenheit«. Ein anderer Teilaspekt ist z.B. »Ein- und Ausgaben sind der Aufgabe angemessen«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Methoden werden häufig zur Usability-Evaluierung eingesetzt? (Quelle der Frage: [UXQB CPUX-F 2023b])",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Kontextuelles Interview",
+        "isCorrect": false,
+        "explanation": "Dies ist keine Methode zur Usability-Evaluierung, sondern zur Nutzungskontextanalyse.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Unmoderierter Usability-Test",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Fokusgruppen",
+        "isCorrect": false,
+        "explanation": "Dies ist keine Methode zur Usability-Evaluierung, sondern zur Nutzungskontextanalyse.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Tagebuch-Studie",
+        "isCorrect": false,
+        "explanation": "Tagebuch-Studien sind zwar eine Methode zur Usability-Evaluierung, sie werden aber deutlich seltener verwendet als Usability-Tests und Usability- Inspektionen.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Erstellung von Storyboards",
+        "isCorrect": false,
+        "explanation": "Dies ist keine Methode zur Usability-Evaluierung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Usability-Inspektion",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Aussagen sind NICHT korrekt in Bezug auf Usability-Evaluierungen?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Usability-Evaluierungen sind eine der wichtigsten Aktivitäten in der menschzentrierten Gestaltung.",
+        "isCorrect": true,
+        "explanation": "Alle Aktivitäten in der menschzentrierten Gestaltung sind wichtig. Die »relative Wichtigkeit« einer menschzentrierten Gestaltungsaktivität hängt vom Projektkontext ab.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Usability-Evaluierungen müssen immer unter Einbeziehung von echten Benutzern durchgeführt werden.",
+        "isCorrect": true,
+        "explanation": "Usability-Inspektionen werden in der Regel ohne Einbeziehung von Benutzern durchgeführt.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Usability-Evaluierungen sollten so früh wie möglich im Prozess der menschzentrierten Gestaltung durchgeführt werden",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "In der menschzentrierten Gestaltung ist es zwingend erforderlich, dass eine UsabilityEvaluierung durchgeführt wird.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=306"
+      },
+      {
+        "text": "Wenn das Ergebnis einer Usability-Evaluierung zeigt, dass nicht alle Nutzungsanforderungen erfüllt sind, dann muss die Lösungsgestaltung immer im Rahmen einer weiteren Iteration angepasst werden.",
+        "isCorrect": true,
+        "explanation": "Die Lösungsgestaltung muss nicht zwingend angepasst werden, wenn das Ergebnis einer Usability-Evaluierung zeigt, dass nicht alle Nutzungsanforderungen erfüllt sind. Es kann zum Beispiel sein, dass aufgrund einer Usability-Evaluierung die UX-Ergebnisse aus der Analysephase überprüft und korrigiert werden, wodurch sich manche spezifizierte Nutzungsanforderungen als weniger wichtig erweisen und auf der anderen Seite bisher unbekannte Nutzungsanforderungen entdeckt werden. Anschließend wird das unveränderte interaktive System gemäß den geänderten Kriterien erneut evaluiert.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Wenn das Ergebnis einer Usability-Evaluierung zeigt, dass nicht alle Nutzungsanforderungen erfüllt sind, dann kann das für jedes beliebige erarbeitete UX-Ergebnis dazu führen, das dieses angepasst werden muss.",
+        "isCorrect": false,
+        "explanation": "Die Aussage ist korrekt. Diese Aussage umgekehrt ausgedrückt wäre: Es gibt kein UX-Ergebnis, das niemals aufgrund einer Usability-Evaluierung geändert werden muss.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "In CPUX-F werden drei grundlegend unterschiedliche Usability-Evaluierungsmethoden dargelegt: Usability-Test, Usability-Inspektion und Benutzerbefragung. Welche drei der folgenden Punkte beschreiben vorrangige Unterscheidungsmerkmale zwischen den genannten Usability-Evaluierungsmethoden?",
+    "correctCount": 0,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Usability-Inspektionen werden in der Regel ohne Einbeziehung von Benutzern durchgeführt, bei Usability-Tests und Benutzerbefragungen sind immer Benutzer involviert.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Benutzerbefragungen beziehen sich immer auf ein fertiges interaktives System oder einen High-Fidelity-Prototyp. Usability-Tests und Inspektionen hingegen können sich auch auf einen Low-Fidelity-Prototyp beziehen.",
+        "isCorrect": false,
+        "explanation": "Eine Benutzerbefragung kann sich auch auf einen Low-Fidelity-Prototyp beziehen, zum Beispiel wenn die Befragung nach einem Usability-Test mit dem Low-Fidelity-Prototyp durchgeführt wird.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Benutzerbefragungen beschäftigen sich vorrangig mit dem subjektiven Erleben des Benutzers (Zufriedenstellung und weitere Aspekte von User Experience) mit einem interaktiven System. Usability-Tests und Usability-Inspektionen beschäftigen sich vorrangig mit der Effektivität und Effizienz des interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Usability-Tests ermitteln objektive Daten über Usability-Probleme eines interaktiven Systems, Usability-Inspektionen nicht.",
+        "isCorrect": true,
+        "explanation": "Usability-Inspektionen können vom Evaluator antizipierte Usability-Probleme aufgrund verletzter Inspektionskriterien ermitteln. Nur Usability-Tests ermitteln objektive Daten über tatsächliche Usability-Probleme.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Die Grundlage einer Benutzerbefragung sind Erfahrungen, die die befragten Benutzer in der Vergangenheit mit dem interaktiven System gemacht haben. Die Grundlage für Usability-Tests ist die Beobachtung der tatsächlichen Nutzung. Die Grundlage für eine Inspektion ist die Erfahrung des Evaluators mit vergleichbaren interaktiven Systemen.",
+        "isCorrect": false,
+        "explanation": "Die Grundlage für eine Inspektion sind Inspektionskriterien, mit denen das interaktive System verglichen wird.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      },
+      {
+        "text": "Ein Usability-Test kann nur mithilfe eines fertigen interaktiven Systems oder eines High-Fidelity-Prototyps durchgeführt werden. Usability-Inspektionen und Benutzerbefragungen erfordern dies nicht.",
+        "isCorrect": false,
+        "explanation": "Usability-Tests können genauso wie Usability-Inspektionen und Benutzerbefragungen auch mithilfe eines Low-Fidelity-Prototyps durchgeführt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=307"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Argumente unterstützen am besten die Aussage, dass Interviews und Fokusgruppen ungeeignet sind für eine Usability-Evaluierung?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Fokusgruppen und Interviews werden typischerweise mit Fachexperten durchgeführt und nicht mit Benutzern. Dementsprechend ist es nicht sinnvoll, diese Methoden für eine Usability-Evaluierung einzusetzen.",
+        "isCorrect": false,
+        "explanation": "Usability-Evaluierungen können sowohl von Fachexperten ohne Einbeziehung von Benutzern als auch mit Benutzern durchgeführt werden.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Der Fokus eines Interviews ist üblicherweise nicht das interaktive System selbst, sondern der Nutzungskontext des interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Für eine Usability-Evaluierung mittels Interviews müsste man sehr viele Interviews durchführen. Dies ist sehr zeitaufwendig.",
+        "isCorrect": false,
+        "explanation": "Der Zeitaufwand ist kein spezifischer Grund, warum Interviews und Fokusgruppen ungeeignet sind. Siehe die drei korrekten Antworten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Durch eine Fokusgruppe sammelt man vorrangig Information über die Meinungen und Einstellungen der Fokusgruppenteilnehmer gegenüber einem interaktiven System, die nur bedingt aussagefähig sind für die Usability des interaktiven Systems.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Für eine Usability-Evaluierung mittels Fokusgruppen müsste man sehr viele Fokusgruppen durchführen. Dies ist sehr zeitaufwendig.",
+        "isCorrect": false,
+        "explanation": "Der Zeitaufwand ist kein spezifischer Grund, warum Interviews und Fokusgruppen ungeeignet sind. Siehe die drei korrekten Antworten.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Selbst wenn die Teilnehmer einer Fokusgruppe Benutzer sind und diese kurz zuvor das interaktive System benutzt haben und die Diskussion der Fokusgruppe auf die Zufriedenstellung der Benutzer konzentriert bleibt, ist die Methode ungeeignet als Usability-Evaluierung, weil die Teilnehmer der Fokusgruppe sich gegenseitig beeinflussen und es so schwierig ist, reproduzierbar Usability-Probleme zu identifizieren.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche drei der folgenden Punkte sind Varianten von Usability-Evaluierungen?",
+    "correctCount": 3,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Benutzerbefragung",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Kontextuelles Interview",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Usability-Inspektion",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Usability-Test",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Beobachtung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Fokusgruppe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Punkte beschreiben NICHT einen möglichen Zweck einer Usability-Evaluierung in der menschzentrierten Gestaltung?",
+    "correctCount": 2,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Feststellen, ob ein interaktives System bestimmte formale Kriterien bezüglich der Usability erfüllt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Feststellen, in welchem Ausmaß ein interaktives System gebrauchstauglich ist.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Feststellen, ob ein interaktives System aktuellen Trends im User-Interface-Design entspricht.",
+        "isCorrect": true,
+        "explanation": "Aktuelle Trends im User-Interface-Design erhöhen nicht immer die Usability von interaktiven Systemen. Sie können irreführend sein als Maßstab für eine Usability-Evaluierung.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Feststellen, ob ein interaktives System im Vergleich zu einem Referenzsystem für Benutzer zufriedenstellender ist oder nicht.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=308"
+      },
+      {
+        "text": "Feststellen, ob ein interaktives System alle spezifizierten Nutzungsanforderungen erfüllt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Feststellen, dass ein interaktives System frei von Usability-Problemen ist.",
+        "isCorrect": true,
+        "explanation": "Es ist nicht möglich, die vollständige Freiheit von Usability-Problemen nachzuweisen, da die Variabilität im Nutzungskontext im Rahmen einer Usability-Evaluierung nicht vollständig betrachtet werden kann. Zudem setzt eine Usability-Evaluierung, die zum Ziel hat, die Abwesenheit jeglicher Usability-Probleme nachzuweisen, die testenden Personen unter Druck, »keine Usability-Probleme finden zu dürfen«.",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten den Begriff »formative Usability-Evaluierung«?\n(Hinweis: Das hier behandelte Thema – formative versus summative Usability-Evaluierung – ist nicht prüfungsrelevant.)",
+    "correctCount": 1,
+    "chapter": "8: Gestaltungslösungen evaluieren",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Usability-Evaluierung, die ein interaktives System gegen formale Kriterien prüft, die unabhängig vom Nutzungskontext einzuhalten sind.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Eine Usability-Evaluierung, deren Ergebnisse dazu dienen, das interaktive System zu verbessern.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Ein Usability-Test, der so gestaltet ist, dass die Ergebnisse statistisch ausgewertet werden können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Eine standardisierte Benutzerbefragung. Ein Beispiel ist der SUS (System Usability Scale).",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Eine Usability-Evaluierung, die gegen Ende der Gestaltung den erreichten Grad der Usability feststellen soll.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
+      },
+      {
+        "text": "Eine Usability-Evaluierung, die zu Beginn der Gestaltung den Grad der Usability eines zu verbessernden interaktiven Systems ermittelt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/Basiswissen Usability und User Experience.pdf#page=309"
       }
     ]
   }
