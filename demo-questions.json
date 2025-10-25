@@ -5627,7 +5627,7 @@
   {
     "certificate": "CPUX-F",
     "question": "In CPUX-F werden drei grundlegend unterschiedliche Usability-Evaluierungsmethoden dargelegt: Usability-Test, Usability-Inspektion und Benutzerbefragung. Welche drei der folgenden Punkte beschreiben vorrangige Unterscheidungsmerkmale zwischen den genannten Usability-Evaluierungsmethoden?",
-    "correctCount": 0,
+    "correctCount": 3,
     "chapter": "8: Gestaltungslösungen evaluieren",
     "image": "",
     "options": [
