@@ -1576,7 +1576,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "36: Welche drei der folgenden Planungsaktivitäten sind besonders hilfreich, um ein Projekt vor Beginn der inhaltlichen Projektarbeit gezielt gemäß menschzentrierter Gestaltung vorzubereiten?",
+    "question": "Welche drei der folgenden Planungsaktivitäten sind besonders hilfreich, um ein Projekt vor Beginn der inhaltlichen Projektarbeit gezielt gemäß menschzentrierter Gestaltung vorzubereiten?",
     "correctCount": 3,
     "chapter": "4: Planung einer menschzentrierten Gestaltung",
     "image": "",
@@ -3196,7 +3196,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "72: Welche zwei der folgenden Dinge werden NICHT bei der Erhebung des Nutzungskontextes identifiziert, um sie für die weitere menschzentrierte Gestaltung verwenden zu können?",
+    "question": "Welche zwei der folgenden Dinge werden NICHT bei der Erhebung des Nutzungskontextes identifiziert, um sie für die weitere menschzentrierte Gestaltung verwenden zu können?",
     "correctCount": 2,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -4906,7 +4906,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "110: Welche drei der folgenden Aussagen über Design Patterns sind korrekt?",
+    "question": "Welche drei der folgenden Aussagen über Design Patterns sind korrekt?",
     "correctCount": 3,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
@@ -6984,7 +6984,7 @@
       {
         "text": "Der Fragebogen sollte vor der Verwendung mittels Usability-Test geprüft werden.",
         "isCorrect": true,
-        "explanation": " über den Nutzungskontext gehen.",
+        "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=320"
       },
       {
