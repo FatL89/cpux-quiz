@@ -624,7 +624,7 @@
       {
         "text": "Es gibt keine Überlappung von Usability und User Experience, Usability umfasst nur die Effektivität und Effizienz und nicht die Zufriedenstellung. Letzteres wird nur in der User Experience betrachtet.",
         "isCorrect": false,
-        "explanation": "Explanation",
+        "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=262"
       }
     ]
@@ -1074,7 +1074,7 @@
       {
         "text": "Personas für wichtige Benutzergruppen erstellen, um so im Unternehmen Empathie für die User Experience zu erreichen",
         "isCorrect": false,
-        "explanation": "Explanation",
+        "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=266"
       }
     ]
@@ -1216,7 +1216,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "28: Welche zwei der folgenden Aussagen sind Unterscheidungsmerkmale zwischen den HCD-Reifestufen 1 »Ausgeführt« und 2 »Gemanagt«?",
+    "question": "Welche zwei der folgenden Aussagen sind Unterscheidungsmerkmale zwischen den HCD-Reifestufen 1 »Ausgeführt« und 2 »Gemanagt«?",
     "correctCount": 2,
     "chapter": "3: Menschzentrierte Gestaltung",
     "image": "",
@@ -1332,7 +1332,7 @@
       {
         "text": "Den Nutzungskontext verstehen",
         "isCorrect": true,
-        "explanation": "ExplIn der Beschreibung steht, dass »mit dem Nutzungskontext abgeglichen« wird. Dies entspricht nicht vollständig dem Grundsatz »Den Nutzungskontext verstehen«. Außerdem werden die »Benutzer nach ihren Anforderungen gefragt«, was darauf hindeutet, dass vermutlich keine angemessene Nutzungskontextanalyse erfolgt ist.anation",
+        "explanation": "In der Beschreibung steht, dass »mit dem Nutzungskontext abgeglichen« wird. Dies entspricht nicht vollständig dem Grundsatz »Den Nutzungskontext verstehen«. Außerdem werden die »Benutzer nach ihren Anforderungen gefragt«, was darauf hindeutet, dass vermutlich keine angemessene Nutzungskontextanalyse erfolgt ist.",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=268"
       },
       {
