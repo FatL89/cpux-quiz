@@ -7063,5 +7063,455 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=321"
       }
     ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "1: Welcher eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Engagement des Managements für Usability und menschzentrierte Gestaltung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Interesse des Managements an Innovationen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Analyse von Konkurrenzprodukten, um mögliche Fallstricke zu verstehen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Einbeziehung der Benutzer während des gesamten Gestaltungsprozesses",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Regelmäßige Vorführungen des entstehenden interaktiven Systems vor Benutzern",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Genaue Zeitpläne zur Erreichung von Usability-Meilensteinen, sodass der Fortschritt überwacht werden kann",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "2: Die folgende Abbildung zeigt den Zusammenhang zwischen den Aktivi- täten der menschzentrierten Gestaltung. Welche zwei Fehler sind in der Abbildung enthalten?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "images/test_question_2.png",
+    "options": [
+      {
+        "text": "Die Aktivität „Management stimmt den Nutzungsanforderungen zu“ fehlt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Aktivität „Prototypen erstellen“ fehlt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Aktivität „Festlegen von menschzentrierten Funktionen“ fehlt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Statt „Festlegen der Nutzungsanforderungen“ sollte in der entsprechenden Aktivität „Festlegen der Nutzungsanforderungen, die den Nutzungskontext erfüllen” stehen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Es fehlt einer der grau schraffierten Pfeile, der eine Iteration kennzeichnen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Aktivität „Evaluieren der Gestaltungslösung gegen organisatorische Anforderungen” sollte „Evaluieren der Gestaltungslösung gegen Nutzungsanforderungen“ lauten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "3: Welche zwei der folgenden HCD-Ergebnisse werden während der Aktivität „Verstehen und Festlegen des Nutzungskontextes“ erzeugt?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Erfordernisse",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Usability-Testbericht",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Personas",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Ist-Szenarien",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Nutzungsanforderungen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Low-Fidelity-Prototyp",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "4: Eine Hotelbuchungs-Website bietet den Benutzern keine Möglichkeit, eine Reservierung zu stornieren. Eine Analyse des Nutzungskontextes zeigt aber, dass Benutzer diese Funktion benötigen. Welcher eine Aspekt der Usability wird von dieser Website verletzt?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Barrierefreiheit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Vollständigkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Effizienz",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Effektivität",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Zufriedenstellung",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Geschwindigkeit",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "5: Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Der Text auf einer Website ist klein und hat einen zu geringen Kontrast zum Hintergrund, so dass Benutzer mit einer Sehbehin-derung ihn nicht lesen können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Das Aussehen und die Qualität der Blumen, die über die Website eines Blumenhändlers bestellt wurden, unterscheiden sich erheb-lich von den Bildern auf der Website.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobil-telefon, die sie über Datenroaming-Gebühren informiert.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Auf der Website eines Hotels können die Benutzer die Buchung eines teuren Hotelzimmers stornieren, aber sie finden nicht her-aus, wie das geht.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Benutzer geben spontan an, dass ihnen das Aussehen der Startseite einer Hotelwebsite nicht gefällt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öff-nen können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "6: Hinsichtlich der Website einer Fluggesellschaft, welche zwei der folgenden Aspekte beeinflussen die User Experience, nicht aber die Usability?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Bilder auf der Website sind ansprechend.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Gepäckkosten bleiben verborgen, bis der Benutzer seinen Namen eingegeben hat.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Es ist möglich, ein Ticket zu stornieren und einen Teil des Geldes rückerstattet zu bekommen, aber alle Benutzer haben Schwierigkeiten herauszufinden, wie sie die Rückerstattung erhalten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Benutzer empfinden die Preise auf der Website als ziemlich hoch.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Flughafensuche ist nicht fehlertolerant. Zum Beispiel wird bei einer Suche nach 'Strassbourg' nicht 'Strasbourg' vorgeschlagen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Nach dem Flug ärgern sich die Benutzer über unerwünschte Marketing-E-Mails der Fluggesellschaft.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "7: Welche zwei der folgenden Komponenten sind für den Autofahrer Teil der Benutzungsschnittstelle eines Autos?",
+    "correctCount": 2,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Lenkrad",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Batterie",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Motor",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Türgriff",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Auspuff",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bremsscheibe",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "8: Welche eine der folgenden Aussagen ist KEIN menschzentriertes Qualitätsziel für einen Geldautomaten der nächsten Generation?",
+    "correctCount": 1,
+    "chapter": "3: Menschzentrierte Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Benutzer müssen in der Lage sein, Geld doppelt so schnell wie bisher abzuheben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Benutzer müssen ein Gefühl der absoluten Privatsphäre haben, wenn sie den Geldautomaten benutzen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Benutzer müssen in der Lage sein, den Namen des Geldautomatenherstellers doppelt so schnell zu erkennen wie bisher.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Blinde Benutzer müssen in der Lage sein, ohne fremde Hilfe Geld abzuheben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Die Benutzer müssen in der Lage sein, mit jeder gültigen nationalen oder internationalen Bankkarte Geld abzuheben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Benutzer, die eine Quittung anfordern, müssen diese verstehen können.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "9: Welche eine der folgenden Methoden ist NICHT geeignet, um den Nutzungskontext eines Geldautomaten zu bestimmen?",
+    "correctCount": 1,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Idee für den neuen Geldautomaten repräsentativen Bankkunden zeigen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bankangestellte am Bankschalter interviewen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Benutzer eines aktuellen Geldautomaten interviewen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Benutzer bei der Nutzung des aktuellen Geldautomaten beobachten",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Usability-Tests mit Geldautomaten von Wettbewerbern durchführen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Durchführung von Fokusgruppen zu Erfordernissen, die zukünftige Geldautomaten erfüllen müssen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "10: Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geldautomaten zu kontrollieren und gegebenenfalls bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten?",
+    "correctCount": 1,
+    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "image": "",
+    "options": [
+      {
+        "text": "Thomas ist kein Benutzer des Geldautomaten, da er kein Geld abhebt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Thomas ist primärer Benutzer des Geldautomaten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Thomas ist sekundärer Benutzer des Geldautomaten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Thomas ist ein indirekter Benutzer des Geldautomaten.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Thomas ist ein Interessenvertreter für den Geldautomaten, aber kein Benutzer.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Thomas ist Benutzer des Geldautomaten, aber kein Interessenvertreter.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
   }
 ]
