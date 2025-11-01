@@ -1891,7 +1891,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "43: Welche drei der folgenden Eigenschaften sind NICHT ausschlaggebend für eine korrekte User Journey Map?",
+    "question": "Welche drei der folgenden Eigenschaften sind NICHT ausschlaggebend für eine korrekte User Journey Map?",
     "correctCount": 3,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
@@ -2386,7 +2386,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "54: Welche drei der folgenden Punkte sind Teilaufgaben und keine Aufgaben?",
+    "question": "Welche drei der folgenden Punkte sind Teilaufgaben und keine Aufgaben?",
     "correctCount": 3,
     "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
