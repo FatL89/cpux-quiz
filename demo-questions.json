@@ -7066,7 +7066,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "1: Welcher eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
+    "question": "Welcher eine der folgenden Aspekte ist Bestandteil der menschzentrierten Gestaltung?",
     "correctCount": 1,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
@@ -7074,7 +7074,7 @@
       {
         "text": "Engagement des Managements für Usability und menschzentrierte Gestaltung",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Engagement ist hilfreich, aber Engagement ist oft ein Lippenbekenntnis und kein echtes Commitment.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7091,14 +7091,14 @@
       },
       {
         "text": "Die Einbeziehung der Benutzer während des gesamten Gestaltungsprozesses",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Ist in der Einleitung zu Kapitel 1 des Curriculums aufgeführt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Regelmäßige Vorführungen des entstehenden interaktiven Systems vor Benutzern",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist hilfreich, wenn das sich entwickelnde System nicht nur vorgeführt, sondern auch mit den Benutzern diskutiert wird.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7111,7 +7111,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "2: Die folgende Abbildung zeigt den Zusammenhang zwischen den Aktivi- täten der menschzentrierten Gestaltung. Welche zwei Fehler sind in der Abbildung enthalten?",
+    "question": "Die folgende Abbildung zeigt den Zusammenhang zwischen den Aktivi- täten der menschzentrierten Gestaltung. Welche zwei Fehler sind in der Abbildung enthalten?",
     "correctCount": 2,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "images/test_question_2.png",
@@ -7142,21 +7142,21 @@
       },
       {
         "text": "Es fehlt einer der grau schraffierten Pfeile, der eine Iteration kennzeichnen.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe Abbildung 1 im Curriculum",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Aktivität „Evaluieren der Gestaltungslösung gegen organisatorische Anforderungen” sollte „Evaluieren der Gestaltungslösung gegen Nutzungsanforderungen“ lauten.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe Abbildung 1 im Curriculum",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       }
     ]
   },
   {
     "certificate": "CPUX-F",
-    "question": "3: Welche zwei der folgenden HCD-Ergebnisse werden während der Aktivität „Verstehen und Festlegen des Nutzungskontextes“ erzeugt?",
+    "question": "Welche zwei der folgenden HCD-Ergebnisse werden während der Aktivität „Verstehen und Festlegen des Nutzungskontextes“ erzeugt?",
     "correctCount": 2,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
@@ -7175,14 +7175,14 @@
       },
       {
         "text": "Personas",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe Abbildung 1 im Curriculum",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Ist-Szenarien",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe Abbildung 1 im Curriculum",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7201,7 +7201,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "4: Eine Hotelbuchungs-Website bietet den Benutzern keine Möglichkeit, eine Reservierung zu stornieren. Eine Analyse des Nutzungskontextes zeigt aber, dass Benutzer diese Funktion benötigen. Welcher eine Aspekt der Usability wird von dieser Website verletzt?",
+    "question": "Eine Hotelbuchungs-Website bietet den Benutzern keine Möglichkeit, eine Reservierung zu stornieren. Eine Analyse des Nutzungskontextes zeigt aber, dass Benutzer diese Funktion benötigen. Welcher eine Aspekt der Usability wird von dieser Website verletzt?",
     "correctCount": 1,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
@@ -7215,7 +7215,7 @@
       {
         "text": "Vollständigkeit",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Vollständigkeit ist gemäß der Definition im Curriculum kein Aspekt der Usability.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7226,8 +7226,8 @@
       },
       {
         "text": "Effektivität",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe Beispiel 1 in der Definition von Effektivität",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7246,7 +7246,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "5: Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
+    "question": "Welche zwei der folgenden Antwortmöglichkeiten nennen ein gültiges Beispiel für die Vermeidung von Schäden durch die Benutzung?",
     "correctCount": 2,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
@@ -7254,36 +7254,36 @@
       {
         "text": "Der Text auf einer Website ist klein und hat einen zu geringen Kontrast zum Hintergrund, so dass Benutzer mit einer Sehbehin-derung ihn nicht lesen können.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist eine Frage der Barrierefreiheit.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Das Aussehen und die Qualität der Blumen, die über die Website eines Blumenhändlers bestellt wurden, unterscheiden sich erheb-lich von den Bildern auf der Website.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist eine Frage der User Experience.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobil-telefon, die sie über Datenroaming-Gebühren informiert.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Es wird im Curriculum als Beispiel genannt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Auf der Website eines Hotels können die Benutzer die Buchung eines teuren Hotelzimmers stornieren, aber sie finden nicht her-aus, wie das geht.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Hat mit der Effektivität zu tun.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Benutzer geben spontan an, dass ihnen das Aussehen der Startseite einer Hotelwebsite nicht gefällt.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Bezieht sich auf die Zufriedenstellung.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öff-nen können.",
-        "isCorrect": false,
+        "isCorrect": true,
         "explanation": "",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       }
@@ -7291,7 +7291,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "6: Hinsichtlich der Website einer Fluggesellschaft, welche zwei der folgenden Aspekte beeinflussen die User Experience, nicht aber die Usability?",
+    "question": "Hinsichtlich der Website einer Fluggesellschaft, welche zwei der folgenden Aspekte beeinflussen die User Experience, nicht aber die Usability?",
     "correctCount": 2,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
@@ -7299,89 +7299,89 @@
       {
         "text": "Die Bilder auf der Website sind ansprechend.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Bezieht sich sowohl auf die User Experience als auch auf die Usability/Zufriedenstellung.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Gepäckkosten bleiben verborgen, bis der Benutzer seinen Namen eingegeben hat.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Bezieht sich auf beides: auf User Experience und auf Usability",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Es ist möglich, ein Ticket zu stornieren und einen Teil des Geldes rückerstattet zu bekommen, aber alle Benutzer haben Schwierigkeiten herauszufinden, wie sie die Rückerstattung erhalten.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Bezieht sich auf beides: auf User Experience und auf Usability",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Benutzer empfinden die Preise auf der Website als ziemlich hoch.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Ist keine Frage der Usability, sondern ein Marketingthema, das sich allerdings auf die User Experience auswirkt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Flughafensuche ist nicht fehlertolerant. Zum Beispiel wird bei einer Suche nach 'Strassbourg' nicht 'Strasbourg' vorgeschlagen.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Bezieht sich auf beides: auf User Experience und auf Usability",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Nach dem Flug ärgern sich die Benutzer über unerwünschte Marketing-E-Mails der Fluggesellschaft.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Hat Auswirkungen auf die User Experience. Da dies nach der Interaktion geschieht, ist es kein Problem der Usability.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       }
     ]
   },
   {
     "certificate": "CPUX-F",
-    "question": "7: Welche zwei der folgenden Komponenten sind für den Autofahrer Teil der Benutzungsschnittstelle eines Autos?",
+    "question": "Welche zwei der folgenden Komponenten sind für den Autofahrer Teil der Benutzungsschnittstelle eines Autos?",
     "correctCount": 2,
     "chapter": "2: Grundlegende Begriffe und Konzepte",
     "image": "",
     "options": [
       {
         "text": "Lenkrad",
-        "isCorrect": false,
+        "isCorrect": true,
         "explanation": "",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Batterie",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Motor",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Türgriff",
-        "isCorrect": false,
+        "isCorrect": true,
         "explanation": "",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Auspuff",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Bremsscheibe",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Für gewöhnlich überlassen Fahrer die Interaktion mit Batterie, Motor, Auspuff oder Bremsscheibe der Werkstatt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       }
     ]
   },
   {
     "certificate": "CPUX-F",
-    "question": "8: Welche eine der folgenden Aussagen ist KEIN menschzentriertes Qualitätsziel für einen Geldautomaten der nächsten Generation?",
+    "question": "Welche eine der folgenden Aussagen ist KEIN menschzentriertes Qualitätsziel für einen Geldautomaten der nächsten Generation?",
     "correctCount": 1,
     "chapter": "3: Menschzentrierte Gestaltung",
     "image": "",
@@ -7389,52 +7389,52 @@
       {
         "text": "Die Benutzer müssen in der Lage sein, Geld doppelt so schnell wie bisher abzuheben.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist ein menschzentriertes Qualitätsziel, das sich auf die Usability oder die User Experience bezieht.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Benutzer müssen ein Gefühl der absoluten Privatsphäre haben, wenn sie den Geldautomaten benutzen.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist ein menschzentriertes Qualitätsziel, das sich auf die Usability oder die User Experience bezieht.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Benutzer müssen in der Lage sein, den Namen des Geldautomatenherstellers doppelt so schnell zu erkennen wie bisher.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Ist kein menschzentriertes Qualitätsziel, da dies den Benutzern nicht wichtig ist; es könnte ein Marketingziel sein.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Blinde Benutzer müssen in der Lage sein, ohne fremde Hilfe Geld abzuheben.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist ein menschzentriertes Qualitätsziel, da sich dieses Ziel auf die Barrierefreiheit bezieht.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Die Benutzer müssen in der Lage sein, mit jeder gültigen nationalen oder internationalen Bankkarte Geld abzuheben.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist ein menschzentriertes Qualitätsziel, das sich auf die Usability oder die User Experience bezieht.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Benutzer, die eine Quittung anfordern, müssen diese verstehen können.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Ist ein menschzentriertes Qualitätsziel, das sich auf die Usability oder die User Experience bezieht.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       }
     ]
   },
   {
     "certificate": "CPUX-F",
-    "question": "9: Welche eine der folgenden Methoden ist NICHT geeignet, um den Nutzungskontext eines Geldautomaten zu bestimmen?",
+    "question": "Welche eine der folgenden Methoden ist NICHT geeignet, um den Nutzungskontext eines Geldautomaten zu bestimmen?",
     "correctCount": 1,
     "chapter": "4: Planung einer menschzentrierten Gestaltung",
     "image": "",
     "options": [
       {
         "text": "Die Idee für den neuen Geldautomaten repräsentativen Bankkunden zeigen",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Dies beschreibt eine einseitige Kommunikation. Während der Analyse wollen wir hören, was die Benutzer zu sagen haben",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7471,9 +7471,9 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "10: Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geldautomaten zu kontrollieren und gegebenenfalls bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten?",
+    "question": "Thomas arbeitet in einer Bank. Eine seiner Aufgaben ist es, die Bargeldmenge im Geldautomaten zu kontrollieren und gegebenenfalls bis zum erforderlichen Stand aufzufüllen. Das macht er jeden Morgen und freitagnachmittags in Vorbereitung auf das Wochenende. Welche eine der folgenden Aussagen beschreibt Thomas am besten?",
     "correctCount": 1,
-    "chapter": "2: Grundlegende Begriffe und Konzepte",
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
     "image": "",
     "options": [
       {
@@ -7490,8 +7490,8 @@
       },
       {
         "text": "Thomas ist sekundärer Benutzer des Geldautomaten.",
-        "isCorrect": false,
-        "explanation": "",
+        "isCorrect": true,
+        "explanation": "Siehe die Definition von sekundärem Benutzer im Curriculum.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
@@ -7503,14 +7503,1364 @@
       {
         "text": "Thomas ist ein Interessenvertreter für den Geldautomaten, aber kein Benutzer.",
         "isCorrect": false,
-        "explanation": "",
+        "explanation": "Thomas ist sowohl ein (sekundärer) Benutzer als auch ein Interessenvertreter.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
         "text": "Thomas ist Benutzer des Geldautomaten, aber kein Interessenvertreter.",
         "isCorrect": false,
+        "explanation": "Thomas ist sowohl ein (sekundärer) Benutzer als auch ein Interessenvertreter.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "HappyHolidays verkauft über seine Website Pauschalreisen. Anna bucht auf HappyHolidays.com eine Reise nach Kreta für Bernd und sich; sie schickt die Bordkarten per E-Mail an Bernd, damit er sie ausdruckt. Carolin hat Schwierigkeiten damit, einen Urlaub in Frankreich auf Hap-pyHolidays.com zu buchen, also ruft sie bei HappyHolidays an und spricht mit David; David führt sie am Telefon durch den gesamten Bu-chungsprozess. Welche zwei der folgenden Aussagen sind richtig?",
+    "correctCount": 2,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Anna und David sind primäre Benutzer von HappyHolidays.com.",
+        "isCorrect": false,
+        "explanation": "Anna und Carolin sind primäre Benutzerinnen.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bernd ist ein primärer Benutzer von HappyHolidays.com.",
+        "isCorrect": false,
         "explanation": "",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bernd und David sind sekundäre Benutzer von HappyHolidays.com.",
+        "isCorrect": false,
+        "explanation": "Bernd ist ein indirekter Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "David ist ein sekundärer Benutzer von HappyHolidays.com.",
+        "isCorrect": true,
+        "explanation": "David ist ein sekundärer Benutzer, weil er Carolin anleitet, die eine primäre Benutzerin ist.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bernd und Carolin sind indirekte Benutzer von HappyHolidays.com.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      },
+      {
+        "text": "Bernd ist ein indirekter Benutzer von HappyHolidays.com.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Personen sind Interessenvertreter, aber KEINE Benutzer einer Autovermietungs-Website?",
+    "correctCount": 2,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Trainer, der den Mitarbeitern eines Callcenters beibringt, wie man die Autovermietungs-Website benutzt",
+        "isCorrect": false,
+        "explanation": "Diese Person ist ein sekundärer Benutzer, da sie die primären Benutzer schult - siehe die Beispiele für sekundäre Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein Mitarbeiter des Callcenters, der auf der Autovermietungs-Website für einen Kunden eine Reservierung vornimmt",
+        "isCorrect": false,
+        "explanation": "Der Mitarbeiter des Callcenters ist ein primärer Benutzer gemäß dem Beispiel im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein Designer, der die Benutzungsschnittstelle der Autovermietungs-Website gestaltet",
+        "isCorrect": true,
+        "explanation": "Dies ist ein Interessenvertreter. Er hat ein aktives Interesse am interaktiven System, weil er es entworfen hat, aber er nutzt es nicht als primärer oder sekundärer Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein Kontoadministrator, der eine E-Mail-Rechnung für eine Reservierung auf der Autovermietungs-Website bekommt",
+        "isCorrect": false,
+        "explanation": "Ist ein indirekter Benutzer, der mit einer Ausgabe des Systems arbeitet.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein Kunde, der über einen Mitarbeiter im Callcenter eine Reservierung auf der Autovermietungs-Website vornehmen lässt",
+        "isCorrect": false,
+        "explanation": "Ist ein indirekter Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein Mitarbeiter im Marketing, der über die Autovermietungs-Website eine Werbeaktion mit „10 % Rabatt auf die Kfz-Versicherung” laufen lässt, die für alle Benutzer gilt, die direkt über die Website ein Auto reservieren",
+        "isCorrect": true,
+        "explanation": "Hat ein aktives Interesse an der Website (sie ist die Grundlage für die Werbeaktion). Solche Personen sind weder Benutzer, noch pflegen sie die Website, noch erhalten sie ein Ergebnis von ihr. Sie sind also Interessenvertreter, aber keine Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt eine Benutzergruppe am besten?",
+    "correctCount": 1,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Gruppe von Benutzern mit denselben oder ähnlichen Personenmerkmalen und Nutzungskontexten in Bezug auf das interaktive System",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Fünf bis zehn Benutzer, die an kontextuellen Interviews teilnehmen",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Benutzergruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Eine Gruppe von Teilnehmern eines Usability-Tests, deren Personenmerkmale und Nutzungskontext ähnlich oder identisch bezüglich des interaktiven Systems sind",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Benutzergruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Eine Gruppe von Teilnehmern an einer Fokusgruppe, deren Personenmerkmale und Nutzungskontext ähnlich oder identisch bezüglich des interaktiven Systems sind",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Benutzergruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Eine Beschreibung einer fiktiven, aber realistischen Gruppe von Benutzern und was sie bei der Benutzung eines interaktiven Systems zu tun beabsichtigen",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Benutzergruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Eine Beschreibung einer Gruppe von Benutzern und was sie bei der Benutzung des interaktiven Systems tun möchten",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Benutzergruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen beschreiben am besten, warum es wichtig ist, zwischen Aufgaben und Teilaufgaben zu unterscheiden?",
+    "correctCount": 2,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Aufgaben sind für primäre Benutzer und Teilaufgaben sind für sekundäre und indirekte Benutzer.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von Aufgabe und Teilaufgabe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Dem Meister-Schüler-Modell zufolge sind Aufgaben für den Meister und Teilaufgaben für den Schüler.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von Aufgabe und Teilaufgabe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Aufgaben können zur Erstellung von Usability-Testaufgaben verwendet werden; Teilaufgaben sollten als Grundlage für Usability-Testaufgaben vermieden werden, da sie für sich genommen keinen Wert besitzen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Aufgaben bilden die Grundlage für Nutzungsszenarien, während Teilaufgaben die Grundlage für Aufgabenmodelle sind.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von Aufgabe und Teilaufgabe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Aufgaben werden verwendet, um Erfordernisse abzuleiten. Sowohl Aufgaben als auch Teilaufgaben werden zur Ableitung von Nutzungsanforderungen verwendet.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von Aufgabe und Teilaufgabe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Beim Festlegen einer Interaktion, die eine Aufgabe unterstützt, müssen alle Teilaufgaben, die für die Erledigung dieser Aufgabe wichtig sind, berücksichtigt werden.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Fragen sind am besten geeignet, wenn eine Benutzerbefragung verwendet wird, um den Nutzungskontext einer Hotelbuchungs-Website zu verstehen?",
+    "correctCount": 2,
+    "chapter": "Chapter",
+    "image": "",
+    "options": [
+      {
+        "text": "Was erwarten Sie von einer Hotelbuchungs-Website?",
+        "isCorrect": true,
+        "explanation": "Diese Frage ist offen und für den Nutzungskontext relevant; siehe die Beispiele in der Beschreibung von Benutzerbefragung in Kapitel 4 des Curriculums.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Wie zufrieden sind Sie mit der neuen Buchungswebsite für das Hotel Zeta in Brüssel?",
+        "isCorrect": false,
+        "explanation": "Ist eine geschlossene Frage, die sich auf die Zufriedenheit mit einer bestimmten Website konzentriert.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Wie beurteilen Sie die Aussage: „Die neue Hotelbuchungs-Website sieht gut aus“?",
+        "isCorrect": false,
+        "explanation": "Eignet sich für eine Benutzerbefragung zur Bewertung einer fertigen Website; siehe die Beispiele in der Beschreibung von Benutzerbefragung in Abschnitt 7.3 des Curriculums.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Aus welchem Grund haben Sie zuletzt eine Hotelbuchungs-Website genutzt?",
+        "isCorrect": true,
+        "explanation": "Diese Frage ist offen und für den Nutzungskontext relevant; siehe die Beispiele in der Beschreibung von Benutzerbefragung in Kapitel 4 des Curriculums.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Wie sind derzeit die finanziellen Aussichten für neue Hotels?",
+        "isCorrect": false,
+        "explanation": "Ist eine allgemeine Frage, die sich nicht direkt auf den Nutzungskontext einer Hotelbuchungs-Website bezieht.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Wie beurteilen Sie die Aussage: „Die neue Hotelbuchungs-Website entspricht meinen Erwartungen“?",
+        "isCorrect": false,
+        "explanation": "Eignet sich für eine Benutzerbefragung zur Bewertung einer fertigen Website; siehe die Beispiele in der Beschreibung von Benutzerbefragung in Abschnitt 7.3 des Curriculums.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Zweck einer Fokusgruppe am besten?",
+    "correctCount": 1,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Fokussierte Informationen von einer Gruppe von Benutzern in einer Usability-Testsitzung sammeln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Kontextuelle Informationen über die Erfordernisse der Benutzer sammeln, ohne deren Arbeit zu beeinträchtigen",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Kontextuelle Informationen über die Erfordernisse der Benutzer sammeln, indem man mit Benutzern spricht und dabei den Fokus auf eine besondere Benutzergruppe legt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ideen für fokussierte Personas und Szenarien durch Befragung von Mitgliedern einer Benutzergruppe sammeln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein tieferes Verständnis ausgewählter Themen und wichtiger Fragen des Nutzungskontexts aus verschiedenen Blickwinkeln zu gewinnen",
+        "isCorrect": true,
+        "explanation": "Ist eine gekürzte Version der Beschreibung des Zwecks einer Fokusgruppe im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ein interaktives System evaluieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Ein Kollege plant Interviews mit den Benutzern eines Restaurantbewertungssystems. Seine Interview-Checkliste enthält unter anderem die Frage: Wie wählen Sie ein Restaurant aus? Welche zwei der folgenden Begriffe charakterisieren diese Interviewfrage am besten?",
+    "correctCount": 2,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Geschlossen",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von offener Frage und neutraler Frage im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Formativ",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von offener Frage und neutraler Frage im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Suggestiv",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von offener Frage und neutraler Frage im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Neutral",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Offen",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Summativ",
+        "isCorrect": false,
+        "explanation": "Siehe die Definitionen von offener Frage und neutraler Frage im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind gültige Ist-Szenarien für eine bestehende Autovermietungs-Website?",
+    "correctCount": 2,
+    "chapter": "4: Planung einer menschzentrierten Gestaltung",
+    "image": "",
+    "options": [
+      {
+        "text": "Rita besucht die Autovermietungswebsite, um einen Kleinwagen zu mieten. Sie vergleicht die Autos, die an ihren Reisedaten verfügbar sind und wählt das Auto aus, das ihr am besten gefällt. Sie reserviert das Auto für die Abholung am Tag vor ihrer Reise.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Rita besucht die Autovermietungswebsite, um einen Kleinwagen zu mieten. Ihr ist nicht klar, ob die Autos, die ihr gefallen, an ihren Reisedaten verfügbar sind. Rita sucht nach einer Telefonnummer, um mit jemandem von der Autovermietung zu sprechen, aber sie kann nur einen Chat-Dienst finden, der momentan offline ist.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "1. Ermitteln Sie die gewünschte Abfahrtszeit; 2. Ermitteln Sie die Kosten für jedes verfügbare Fahrzeug; 3. Wählen Sie ein Fahrzeug (basierend auf Kosten, Größe, persönlichen Vorlieben); 4. Reservieren Sie das Auto; 5. Holen Sie das Auto ab.",
+        "isCorrect": false,
+        "explanation": "Ist nicht erzählend und bezieht sich nicht auf einen bestimmten Benutzer.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Bei der Anmietung eines Autos müssen die Kunden wissen, welche Fahrzeuge zu den von ihnen ausgewählten Terminen verfügbar sind, damit sie eine gezielte Entscheidung treffen können.",
+        "isCorrect": false,
+        "explanation": "Ist nicht erzählend und bezieht sich nicht auf einen bestimmten Benutzer. Außerdem ist es ein Erfordernis.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Bei der Anmietung eines Autos müssen die Kunden das gewünschte Datum auswählen können, damit die Website die verfügbaren Fahrzeuge anzeigen kann.",
+        "isCorrect": false,
+        "explanation": "Ist nicht erzählend und bezieht sich nicht auf einen bestimmten Benutzer. Außerdem ist es eine Nutzungsanforderung.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Rita kann Auto fahren, besitzt aber kein Auto. Rita besucht am Wochenende gelegentlich ihren Bruder in Lübeck. Diese Reise mit dem Zug zu machen, ist ihr zu teuer und die Busfahrt dauert ihr zu lange. Daher mietet sie normalerweise ein Auto.",
+        "isCorrect": false,
+        "explanation": "Beschreibt eine Persona. Die Aussage ist erzählend aber beschreibt nicht wie ein Benutzer derzeit eine oder mehrere Aufgaben im aktuellen Nutzungskontext erledigt.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine Ausdruck charakterisiert die folgende Beschreibung am besten? Elena Herrmann, Personalkoordinatorin, Fluid Pharmaceuticals Elena ist 35 Jahre alt. Sie teilt sich eine Wohnung mit ihrem Freund, mit dem sie seit vier Jahren zusammen ist. Die beiden haben keine Kinder. Elenas Lieblingsbeschäftigungen sind Tangotanzen und das Zubereiten köstlicher Tapas. Sie hat solide Grundkenntnisse in Spanisch. Elena verbringt den größten Teil ihres Tages damit, Formulare zu bearbeiten, die benötigt werden, um Mitarbeiter in der Marketing-abteilung einzustellen, zu versetzen oder zu entlassen. Wenn etwas unvollständig oder unklar ist, nimmt sie sich die nötige Zeit, die Antwort zu finden. Sie ist Expertin für alle relevanten Formulare und Verfahren. Elenas Ziele: Karriere im Personalwesen, Exzellenz durch Genauigkeit, Hilfsbereitschaft, nicht in Rückstand geraten.",
+    "correctCount": 1,
+    "chapter": "Chapter",
+    "image": "",
+    "options": [
+      {
+        "text": "Prototyp",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von und Beispiel für Persona im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Persona",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Ist-Szenario",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von und Beispiel für Persona im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von und Beispiel für Persona im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Benutzergruppe",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von und Beispiel für Persona im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Benutzergruppenprofil",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von und Beispiel für Persona im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen über Erfordernisse sind richtig?",
+    "correctCount": 2,
+    "chapter": "5: Ermittlung von Erfordernissen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erfordernisse werden immer aus Sicht des Benutzers formuliert.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Die Erfordernisse für eine Benutzergruppe können sich von den Erfordernissen für eine andere Benutzergruppe im gleichen Nut-zungskontext unterscheiden.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Erfordernisse sind Teil der Informationsarchitektur.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Erfordernis im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Erfordernisse sind immer quantifiziert.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Erfordernis im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Erfordernisse sind identisch mit Benutzerzielen.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Erfordernis im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Erfordernisse werden verwendet, um gute Fehlermeldungen zu formulieren.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Erfordernis im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der untenstehenden Begriffe beschreibt die folgende Aussage am besten? 80% der Benutzer, die die Autovermietungs-Website schon mindestens zweimal genutzt haben, müssen in der Lage sein, am Flughafen Frank-furt ein Auto für zwei Tage ab morgen 09.00 Uhr zu mieten. Benutzer müssen die Aufgabe in weniger als 5 Minuten erledigen können.",
+    "correctCount": 1,
+    "chapter": "5: Ermittlung von Erfordernissen",
+    "image": "",
+    "options": [
+      {
+        "text": "Low-Fidelity-Prototyp-Anforderung",
+        "isCorrect": false,
+        "explanation": "Siehe das analoge Beispiel Effizienzmaß bei der Definition von quantitativen Nutzungsanforderungen im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "Siehe das analoge Beispiel Effizienzmaß bei der Definition von quantitativen Nutzungsanforderungen im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Usability-Testaufgabe",
+        "isCorrect": false,
+        "explanation": "Siehe das analoge Beispiel Effizienzmaß bei der Definition von quantitativen Nutzungsanforderungen im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Erfordernis",
+        "isCorrect": false,
+        "explanation": "Siehe das analoge Beispiel Effizienzmaß bei der Definition von quantitativen Nutzungsanforderungen im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Quantitative Nutzungsanforderung",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      },
+      {
+        "text": "Qualitative Nutzungsanforderung",
+        "isCorrect": false,
+        "explanation": "Siehe das analoge Beispiel Effizienzmaß bei der Definition von quantitativen Nutzungsanforderungen im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=47"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aussagen sind gültige Nutzungsanforderungen für eine Hotelbuchungs-Website? ",
+    "correctCount": 2,
+    "chapter": "5: Ermittlung von Erfordernissen",
+    "image": "",
+    "options": [
+      {
+        "text": "Mindestens 80% der Benutzer, die die Website zum ersten Mal nutzen, müssen in der Lage sein, innerhalb von zehn Minuten ein Zimmer zu buchen.",
+        "isCorrect": true,
+        "explanation": "Ist eine quantitative Nutzungsanforderung.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Das Firmenlogo muss in der oberen linken Ecke jeder Website erscheinen.",
+        "isCorrect": false,
+        "explanation": "Ist eine Marktanforderung.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Die Website muss mindestens so gut nutzbar sein, wie die der zwei stärksten Wettbewerber.",
+        "isCorrect": false,
+        "explanation": "Ist eine Marktanforderung.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Die Website muss über ein Hilfesystem verfügen.",
+        "isCorrect": false,
+        "explanation": "Könnte eine Marktanforderung sein; es ist keine Nutzungs-anforderung, da die Benutzer Systeme wünschen, die ohne ein Hilfesystem benutzt werden können.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Das Farbschema der Website muss die Standardfarben des Hotels widerspiegeln.",
+        "isCorrect": false,
+        "explanation": "Ist eine Marktanforderung oder eine organisatorische Anforderung.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Benutzer müssen in der Lage sein, eine Zimmerbuchung zu stornieren.",
+        "isCorrect": true,
+        "explanation": "Ist eine qualitative Nutzungsanforderung",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aspekte sind Teil der Informationsarchitektur?",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Informationsarchitektur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Gestaltungsregeln",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Informationsarchitektur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Festlegen des Grafikdesigns",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Informationsarchitektur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Die Ausdrücke, die in der Benutzungsschnittstelle für Navigation und Inhalt verwendet werden",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Wireframes",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Informationsarchitektur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Die Struktur der Informationen, die dem Benutzer zur Verfügung stehen müssen",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Methoden ist am nützlichsten für die Entwicklung der Navigationsstruktur einer neuen Website?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Kontextuelles Interview",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Navigationsstruktur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Fokusgruppe",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Navigationsstruktur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Usability-Inspektion eines Low-Fidelity-Prototyps",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Navigationsstruktur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Usability-Inspektion eines High-Fidelity-Prototyps",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Navigationsstruktur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Card-Sorting",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Navigationsstruktur im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Begriffe beschreibt die untenstehende Abbildung am besten?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "images/test_question_25.png",
+    "options": [
+      {
+        "text": "Design Pattern",
+        "isCorrect": false,
+        "explanation": "Die Abbildung kann kein Design Pattern darstellen. Laut Curriculum ist ein Design Pattern „ein Gestaltungsproblem, eine allgemeine Lösung und Beispiele, wie diese Lösung angewandt werden kann“. Die Fragestellung enthält keine Beschreibung eines Gestaltungsproblems.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Persona",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Nutzungsszenario",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Wireframe",
+        "isCorrect": true,
+        "explanation": "Die Abbildung entspricht der Definition von Wireframe und Low-Fidelity-Prototyp, wobei Low-Fidelity-Prototyp nicht als Antwortmöglichkeit aufgeführt ist.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Für eine interne Demonstration hat einer Ihrer Kollegen ein neues Be-stellsystem auf einigen Blättern Papier skizziert. Jedes Blatt stellt einen Screen dar. Der Inhalt der Screens ist handgezeichnet und unvollstän-dig. Ihr Kollege wechselt die Screens, sobald man auf den Button „klickt“, indem man mit einem Bleistift das Blatt berührt. Welcher eine der folgenden Begriffe beschreibt diese Sammlung von Skizzen am besten?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Gestaltungsregel",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Low-Fidelity-Prototyp im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Low-Fidelity-Prototyp",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "High-Fidelity-Prototyp",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Low-Fidelity-Prototyp im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Wireframe",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Low-Fidelity-Prototyp im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Styleguide",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Low-Fidelity-Prototyp im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Storyboard",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Low-Fidelity-Prototyp im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Begriffe sind Interaktionsprinzipien?",
+    "correctCount": 2,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Erwartungskonformität",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Nachhaltigkeit",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Interaktionsprinzip im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Gebrauchstauglichkeit",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Interaktionsprinzip im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Aufgabenangemessenheit",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Vermeidung von Schäden durch die Benutzung",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Interaktionsprinzip im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Barrierefreiheit",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Interaktionsprinzip im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Begriff „mentales Modell“ am besten?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Beschreibung eines fiktiven, aber realistischen Benutzers und was er bei der Verwendung eines interaktiven Systems zu tun beabsichtigt",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von mentalem Modell im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Beschreibung der Teilaufgaben innerhalb einer Aufgabe, die ausgeführt werden müssen, um die Ziele des Benutzers zu erreichen",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von mentalem Modell im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Der Denkprozess einer Person darüber, wie etwas in der realen Welt funktioniert",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Ein kostengünstiges, einfaches Modell eines Designs oder Konzepts, das dazu dient, Rückmeldungen von Benutzern und anderen Interessenvertretern in frühen Phasen der Entwicklung einzuholen",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von mentalem Modell im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Informationen, die einen Benutzer dabei unterstützen, mit einem interaktiven System zu interagieren",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von mentalem Modell im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Ein Datenmodell, das abbildet, was die Teilnehmer nach einer Usability-Testsitzung über das interaktive System dachten",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von mentalem Modell im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen verdeutlicht die Wichtigkeit von Gestaltungsregeln?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Gestaltungsregeln sichern die Umsetzung der menschzentrierten Gestaltung, indem sie primären Benutzern ermöglichen, direkt an der Gestaltung teilzunehmen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Der unspezifische Charakter von Gestaltungsregeln gibt Designern die Freiheit, User Interface Elemente nach ihrem Belieben zu implementieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Der spezifische Charakter von Gestaltungsregeln ermöglicht es Designern, die gleichen User Interface Elemente konsistent zu implementieren.",
+        "isCorrect": true,
+        "explanation": "Ist eine Umformulierung der Definition von Gestaltungsregel im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Gestaltungsregeln ermöglichen es Designern, sich Unterschiede im Aussehen und Verhalten von Benutzungsschnittstellen innerhalb einer Organisation einfallen zu lassen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Gestaltungsregeln zielen in erster Linie darauf ab, die Verantwortung für die Gestaltung von Benutzungsschnittstellen auf das gesamte Designteam zu verteilen, anstatt dem User Interface Designer die alleinige Verantwortung zu überlassen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Gestaltungsregeln werden in Usability-Inspektionen verwendet, um festzustellen, ob ein Design den organisatorischen Anforderungen entspricht oder nicht.",
+        "isCorrect": false,
+        "explanation": "Ist falsch, da es sich um organisatorische Anforderungen und nicht um Nutzungsanforderungen handelt.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Begriff „Design Pattern” am besten?",
+    "correctCount": 1,
+    "chapter": "6: Nutzungsanforderungen festlegen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine Sammlung von Buttons in verschiedenen Formen und Farben für die Verwendung auf einer Website",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Design Pattern im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Sammlung von Personas mit sehr ähnlichen Merkmalen",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Design Pattern im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Sammlung von Benutzergruppen mit sehr ähnlichen Merkmalen",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Design Pattern im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Sammlung von 4 bis 8 Icons, die in einer festen Reihenfolge auf dem Screen angeordnet sind",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Design Pattern im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Reihe unterschiedlicher Ansätze zur Lösung einer Aufgabe in einem gegebenen Nutzungskontext; die Ansätze müssen in mehreren separaten Usability-Testsitzungen beobachtet worden sein",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition von Design Pattern im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Eine Lösung eines häufig auftretendes Gestaltungsproblems in einem gegebenen Nutzungskontext, die ein Gestaltungsproblem, eine allgemeine Lösung und Beispiele für die Anwendung dieser beschreibt",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Methoden werden häufig zur Usability-Evaluierung eingesetzt?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Kontextuelles Interview",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Usability-Evaluierung im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Unmoderierter Usability-Test",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Fokusgruppen",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Usability-Evaluierung im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Erstellung von Personas",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Usability-Evaluierung im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Erstellung von Storyboards",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Usability-Evaluierung im Curriculum",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Usability-Inspektion",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Ihr Team ist bereit, eine neue Autovermietungs-Website online zu stellen. Aufgrund zeitlicher Engpässe konnten während der Entwicklung der Website keine Usability-Tests durchgeführt werden. Ihr Vorgesetzter fordert Sie nun auf, einen Usability-Test durchzuführen. Ihre Teammitglieder stehen Usability skeptisch gegenüber. Angenommen, Sie haben keine großen Einschränkungen hinsichtlich des Budgets, welche eine der folgenden Maßnahmen wäre für das Projekt am besten?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Führen Sie einen Usability-Test mit 20 repräsentativen Benutzern durch. Laden Sie Ihre Teammitglieder zur Beobachtung der Testsitzungen ein.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Führen Sie einen Usability-Test mit 5 repräsentativen Benutzern durch. Beheben Sie die gefundenen Usability-Probleme, bevor Sie einen weiteren Usability-Test mit 5 anderen repräsentativen Benutzern durchführen. Laden Sie Ihre Teammitglieder zur Beobachtung der Testsitzungen ein.",
+        "isCorrect": true,
+        "explanation": "Diese Antwort passt besser als 20 repräsentative Benutzer zu fragen, weil sie das in der Einleitung zu Kapitel 1 beschriebene Grundprinzip der iterativen Gestaltung besser widerspiegelt. Wenn Sie die Ressourcen dazu haben, einen Usability-Test mit 20 Benutzern durchzuführen, sollten Sie zuerst einen Test mit beispielsweise 5 Benutzern durchführen, dann die kritischsten Probleme korrigieren und einen erneuten Test mit 5 weiteren Benutzern durchführen.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Führen Sie eine Fokusgruppe mit 10 repräsentativen Benutzern durch, in der die neue Website vorgestellt und diskutiert wird. Laden Sie Ihre Teammitglieder zur Beobachtung der Fokusgruppe ein.",
+        "isCorrect": false,
+        "explanation": "Ist kein Usability-Test, wie er vom Manager gefordert wird. Außerdem ist diese Aktivitäten meinungsbasiert, so dass sie möglicherweise nicht funktioniert, weil in der Frage steht: „Ihre Teammitglieder stehen der Usability skeptisch gegenüber.“ In der Einleitung zu Abschnitt 7.2 des Curriculums heißt es: „Die Erhebung persönlicher Meinungen von Benutzern oder deren Diskussion ist nicht Teil eines Usability-Tests.”",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Führen Sie eine Fokusgruppe mit 4 repräsentativen Benutzern durch, in der die neue Website vorgestellt und diskutiert wird. Laden Sie Ihre Teammitglieder zur Beobachtung der Fokusgruppe ein.",
+        "isCorrect": false,
+        "explanation": "Ist kein Usability-Test, wie er vom Manager gefordert wird. Außerdem ist diese Aktivitäten meinungsbasiert, so dass sie möglicherweise nicht funktioniert, weil in der Frage steht: „Ihre Teammitglieder stehen der Usability skeptisch gegenüber.“ In der Einleitung zu Abschnitt 7.2 des Curriculums heißt es: „Die Erhebung persönlicher Meinungen von Benutzern oder deren Diskussion ist nicht Teil eines Usability-Tests.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Bitten Sie jedes Ihrer Teammitglieder, eine Reihe von repräsentativen Aufgaben auf der Website auszuführen, damit sie „den Schmerz der Benutzer spüren können“.",
+        "isCorrect": false,
+        "explanation": "Ist kein Usability-Test, wie er vom Manager gefordert wird. Außerdem ist diese Aktivitäten meinungsbasiert, so dass sie möglicherweise nicht funktioniert, weil in der Frage steht: „Ihre Teammitglieder stehen der Usability skeptisch gegenüber.“ In der Einleitung zu Abschnitt 7.2 des Curriculums heißt es: „Die Erhebung persönlicher Meinungen von Benutzern oder deren Diskussion ist nicht Teil eines Usability-Tests.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      },
+      {
+        "text": "Führen Sie eine Usability-Inspektion der Website durch.",
+        "isCorrect": false,
+        "explanation": "Ist kein Usability-Test, wie er vom Manager gefordert wird. Außerdem ist diese Aktivitäten meinungsbasiert, so dass sie möglicherweise nicht funktioniert, weil in der Frage steht: „Ihre Teammitglieder stehen der Usability skeptisch gegenüber.“ In der Einleitung zu Abschnitt 7.2 des Curriculums heißt es: „Die Erhebung persönlicher Meinungen von Benutzern oder deren Diskussion ist nicht Teil eines Usability-Tests.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=48"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt einen Usability-Test am besten?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Eine moderierte, problemorientierte Diskussion zwischen repräsentativen Benutzern",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Usability-Test im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ein Experte evaluiert das interaktive System sorgfältig, um Usability-Probleme aufzudecken.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Usability-Test im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Repräsentative Benutzer werden gebeten, ihre Meinung über das interaktive System zu äußern.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Usability-Test im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Repräsentative Benutzer evaluieren das interaktive System anhand eines Fragebogens.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Usability-Test im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Repräsentative Benutzer werden beobachtet, während sie vorgegebene, repräsentative Aufgaben mit Hilfe des interaktiven Systems lösen.",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Repräsentative Benutzer testen das interaktive System, um Fehler und Mängel zu finden.",
+        "isCorrect": false,
+        "explanation": "Siehe die Definition und Beschreibung von Usability-Test im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche zwei der folgenden Aktivitäten gehören zur Vorbereitung oder Planung eines Usability-Tests?",
+    "correctCount": 2,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Briefing des Usability-Testteilnehmers über das, was während der Usability-Testsitzung passieren wird",
+        "isCorrect": false,
+        "explanation": "Planen, Durchführen und Kommunizieren sind in der Beschreibung des Usability-Tests im Curriculum definiert, zum Beispiel in Abbildung 9. Diese Antwort bezieht sich auf das Durchführen",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Erstellen des Usability-Test-Leitfadens",
+        "isCorrect": true,
+        "explanation": "Planen, Durchführen und Kommunizieren sind in der Beschreibung des Usability-Tests im Curriculum definiert, zum Beispiel in Abbildung 9. Diese Antwort bezieht sich auf die Planung",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Durchführen des Pre-Test-Interviews",
+        "isCorrect": false,
+        "explanation": "Planen, Durchführen und Kommunizieren sind in der Beschreibung des Usability-Tests im Curriculum definiert, zum Beispiel in Abbildung 9. Diese Antwort bezieht sich auf das Durchführen",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Rekrutierung geeigneter Usability-Testteilnehmer",
+        "isCorrect": true,
+        "explanation": "Planen, Durchführen und Kommunizieren sind in der Beschreibung des Usability-Tests im Curriculum definiert, zum Beispiel in Abbildung 9. Diese Antwort bezieht sich auf die Planung",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Verfassen des Usability-Testberichts",
+        "isCorrect": false,
+        "explanation": "Planen, Durchführen und Kommunizieren sind in der Beschreibung des Usability-Tests im Curriculum definiert, zum Beispiel in Abbildung 9. Diese Antwort bezieht sich auf das Kommunizieren",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Verfassen des Interview-Leitfadens",
+        "isCorrect": false,
+        "explanation": "Dies bezieht sich auf Interviews, nicht auf Usability-Tests.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Sie wurden gebeten, einen Usability-Test einer Autovermietungs-Website durchzuführen. Welche eine der folgenden Aufgaben ist für den Usability-Test NICHT geeignet?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Finden Sie eine Telefonnummer, die Sie anrufen können, um mit jemandem über Ihren Mietvertrag zu sprechen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Sagen Sie mir, was Sie von der Startseite der Website halten.",
+        "isCorrect": true,
+        "explanation": "Hier wird nach Meinungen gefragt. In der Einleitung zu Abschnitt 7.2 des Curriculums heißt es: „Die Erhebung persönlicher Meinungen von Benutzern oder deren Diskus-sion ist nicht Teil eines Usability-Tests.”",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Mieten Sie ein Auto, das Ihren Erfordernissen entspricht. Mieten Sie es von einem Ort aus und für einen Zeitraum, der zu Ihnen und Ihrem Budget passt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Mieten Sie einen Kleinwagen vom Flughafen London Heathrow. Sie müssen das Auto morgen früh um 9 Uhr abholen und 4 Tage später mittags am selben Ort zurückgeben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Stornieren Sie eine Reservierung, die Sie zuvor getätigt haben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Wie hoch ist die Miete eines Navigationssystems?",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt den Begriff „Post-Test-Interview” am besten?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Informationen, die der Moderator dem Testteilnehmer vor der Usability-Testsitzung zur Verfügung stellt",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Post-Test Interview im Curricu-lum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Das Interview, das stattfindet, bevor der Usability-Testteilnehmer mit der Durchführung von Usability-Testaufgaben beginnt",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Post-Test Interview im Curricu-lum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die Fragen, die der Moderator dem Testteilnehmer während der Usability-Testsitzung stellt",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Post-Test Interview im Curricu-lum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Das Interview, das stattfindet, nachdem der Usability-Testteilneh-mer so viele Usability-Testaufgaben durchgeführt hat, wie es die Zeit erlaubt",
+        "isCorrect": true,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die Fragen, die der Moderator den Testteilnehmern etwa eine Woche nach der Usability-Testsitzung stellt, um ihre langfristige User Experience zu erfassen",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Post-Test Interview im Curricu-lum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die Fragen, die am Ende eines kontextuellen Interviews gestellt werden",
+        "isCorrect": false,
+        "explanation": "Siehe die Beschreibung von Post-Test Interview im Curricu-lum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Sie führen einen Usability-Test einer neuen Autovermietungs-Website durch. Welcher eine der folgenden Befunde ist NICHT passend für diesen Usability-Test?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Auf der Startseite fehlt ein ‚Reservierung stornieren‘-Button.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die animierte Werbung auf der rechten Seite der Startseite hat mich genervt und abgelenkt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die Mietpreise sind zu hoch.",
+        "isCorrect": true,
+        "explanation": "Diese Antwort hat nichts mit Usability zu tun.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Fachbegriffe wie CDW, Collision Damage Waiver, werden gut erklärt.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ich fand es schwierig, die Gesamtkosten für die Miete herauszufinden.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ich konnte nicht herausfinden, ob ich ein Auto in Paris ausleihen und in Madrid zurückgeben kann.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welcher eine der folgenden Begriffe ist KEINE typische Bewertung eines Usability-Befunds?",
+    "correctCount": 1,
+    "chapter": "Chapter",
+    "image": "",
+    "options": [
+      {
+        "text": "Positiver Befund",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Geringes Problem",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ernstes Problem",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Kritisches Problem",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Essenzielles Problem (muss unabhängig von den Kosten behoben werden)",
+        "isCorrect": true,
+        "explanation": "Diese Antwort ist keine Bewertung, weil der Begriff „Essenzielles Problem (muss unabhängig von den Kosten behoben werden)“ im Curriculum nicht aufgeführt ist. Außerdem überschreitet der Zusatz „muss unabhängig von den Kosten behoben werden“ den Verantwortungsbereich des User Experience Professionals.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Katastrophales Problem (existenzielle Bedrohung)",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt eine Usability-Inspektion am besten?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Ein Treffen, bei dem Designer im Brainstorming Ideen für ein neues interaktives System entwickeln",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Eine Evaluierung eines Storyboards",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Eine Evaluierung eines interaktiven Systems, bei der Experten potenzielle Usability-Probleme identifizieren",
+        "isCorrect": true,
+        "explanation": "Ist eine Kurzversion der Definition von Usability-Inspektion im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Eine fokussierte Diskussion, bei der ein Moderator eine Gruppe von Teilnehmern durch eine Reihe von Fragen zu einem bestimmten Thema führt",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Eine Evaluierung, bei der repräsentative Benutzer bestimmte Aufgaben am interaktiven System ausführen, um Usability-Probleme zu identifizieren",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Eine Überprüfung (Inspektion) der Ergebnisse eines kontextuel-len Interviews",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      }
+    ]
+  },
+  {
+    "certificate": "CPUX-F",
+    "question": "Welche eine der folgenden Aussagen beschreibt am besten, wie Benutzerbefragungen für die Usability-Evaluierung verwendet werden?",
+    "correctCount": 1,
+    "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
+    "image": "",
+    "options": [
+      {
+        "text": "Die Benutzer werden gebeten, durch Ausfüllen eines Fragebogens Fakten und Meinungen über ein interaktives System mitzuteilen.",
+        "isCorrect": true,
+        "explanation": "Ist eine geringfügig geänderte Version der Definition von Benutzerbefragung im Curriculum.",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ein oder mehrere Evaluatoren untersuchen oder benutzen ein interaktives System, um potenzielle Usability-Probleme zu identifizieren.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Repräsentative Benutzer führen bestimmte Aufgaben mit dem interaktiven System aus.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ein Moderator stellt ausgewählten Personen Fragen, um ein tieferes Verständnis für die Usability eines interaktiven Systems zu gewinnen.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Die Benutzer werden gebeten, ihre Ergebnisse zu berichten, nachdem sie das interaktive System etwa 30 Minuten lang untersucht haben.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
+      },
+      {
+        "text": "Ein Moderator leitet eine Diskussion zwischen Mitgliedern einer oder mehrerer Benutzergruppen über vorher festgelegte Fragen der Usability.",
+        "isCorrect": false,
+        "explanation": "",
+        "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=49"
       }
     ]
   }
