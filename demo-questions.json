@@ -3670,7 +3670,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
       },
       {
-        "text": "<b>Erfordernis: </b>DDer Kunde muss die Bestellung im Überblick prüfen können, bevor er die Bestellung abschließend auslöst.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Webseite vor dem Kauf die Zutaten für jede bestellte Pizza überblicken können.",
+        "text": "<b>Erfordernis: </b>Der Kunde muss die Bestellung im Überblick prüfen können, bevor er die Bestellung abschließend auslöst.\n <b>Nutzungsanforderung:</b> Der Kunde muss auf der Webseite vor dem Kauf die Zutaten für jede bestellte Pizza überblicken können.",
         "isCorrect": false,
         "explanation": "Es handelt sich nicht um ein korrektes Erfordernis, weil das zu erreichende Ziel nicht angegeben ist. Ein entsprechendes korrekt formuliertes Erfordernis wäre zum Beispiel: »Der Benutzer muss die Bestellung im Überblick prüfen können, um sicher entscheiden zu können, ob die Bestellung korrekt ist und er sie auslösen möchte.«",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=289"
@@ -4006,7 +4006,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "90: Welche drei der folgenden Aussagen sind Marktanforderungen oder organisatorische Anforderungen, im Gegensatz zu Nutzungsanforderungen?",
+    "question": " Welche drei der folgenden Aussagen sind Marktanforderungen oder organisatorische Anforderungen, im Gegensatz zu Nutzungsanforderungen?",
     "correctCount": 3,
     "chapter": "6: Nutzungsanforderungen festlegen",
     "image": "",
@@ -4051,7 +4051,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "91: Welche drei der folgenden Aussagen über Erfordernisse sind korrekt?",
+    "question": "Welche drei der folgenden Aussagen über Erfordernisse sind korrekt?",
     "correctCount": 3,
     "chapter": "6: Nutzungsanforderungen festlegen",
     "image": "",
