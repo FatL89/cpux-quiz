@@ -7923,7 +7923,7 @@
     "certificate": "CPUX-F",
     "question": "Welche zwei der folgenden Aussagen über Erfordernisse sind richtig?",
     "correctCount": 2,
-    "chapter": "5: Ermittlung von Erfordernissen",
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
     "options": [
       {
@@ -7968,7 +7968,7 @@
     "certificate": "CPUX-F",
     "question": "Welcher eine der untenstehenden Begriffe beschreibt die folgende Aussage am besten? 80% der Benutzer, die die Autovermietungs-Website schon mindestens zweimal genutzt haben, müssen in der Lage sein, am Flughafen Frank-furt ein Auto für zwei Tage ab morgen 09.00 Uhr zu mieten. Benutzer müssen die Aufgabe in weniger als 5 Minuten erledigen können.",
     "correctCount": 1,
-    "chapter": "5: Ermittlung von Erfordernissen",
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
     "options": [
       {
@@ -8013,7 +8013,7 @@
     "certificate": "CPUX-F",
     "question": "Welche zwei der folgenden Aussagen sind gültige Nutzungsanforderungen für eine Hotelbuchungs-Website? ",
     "correctCount": 2,
-    "chapter": "5: Ermittlung von Erfordernissen",
+    "chapter": "5: Den Nutzungskontext verstehen und festlegen",
     "image": "",
     "options": [
       {
