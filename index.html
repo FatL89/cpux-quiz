@@ -556,8 +556,8 @@ function finishQuiz(timeUp=false){
   const max = questions.length;
   const pct = (totalScore / max) * 100;
   $('finalScore').textContent = `${totalScore.toFixed(2)} / ${max} (${pct.toFixed(2)}%)`;
-  const passed = (totalScore >= 28) || (pct >= 78);
-  const statusText = passed ? 'Bestanden (≥ 28 Punkte bzw. 78%)' : 'Nicht bestanden (< 28 Punkte bzw. 78%)';
+  const passed = (totalScore >= 28) || (pct >= 70);
+  const statusText = passed ? 'Bestanden (≥ 28 Punkte bzw. 70%)' : 'Nicht bestanden (< 28 Punkte bzw. 70%)';
   $('grade').textContent = `${statusText}` + (timeUp ? ' (Zeit abgelaufen)' : '');
 
   // Review
