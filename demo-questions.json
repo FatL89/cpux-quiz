@@ -4366,7 +4366,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "98: Welche zwei der folgenden Aussagen über User-Interface-Spezifikationen sind korrekt?",
+    "question": "Welche zwei der folgenden Aussagen über User-Interface-Spezifikationen sind korrekt?",
     "correctCount": 2,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
