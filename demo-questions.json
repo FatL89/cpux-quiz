@@ -5176,7 +5176,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "Eine Fachanwendung für Bankangestellte verwendet Fachausdrücke wie »elektronischer Zahlungsverkehr« und »Terminund Spareinlagen«. Auf welchem einen der folgenden Interaktionsprinzipien basiert diese Entscheidung vornehmlich?",
+    "question": "Eine Fachanwendung für Bankangestellte verwendet Fachausdrücke wie »elektronischer Zahlungsverkehr« und »Termin- und Spareinlagen«. Auf welchem einen der folgenden Interaktionsprinzipien basiert diese Entscheidung vornehmlich?",
     "correctCount": 1,
     "chapter": "7: Lösungen gestalten, die Nutzungsanforderungen erfüllen",
     "image": "",
