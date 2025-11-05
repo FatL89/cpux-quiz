@@ -598,7 +598,7 @@
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=262"
       },
       {
-        "text": "AntUsability betrachtet nicht nur die Benutzung selbst, sondern immer auch, was nach der Benutzung passiert und wie sich der Benutzer an die Interaktion erinnert.wort",
+        "text": "Usability betrachtet nicht nur die Benutzung selbst, sondern immer auch, was nach der Benutzung passiert und wie sich der Benutzer an die Interaktion erinnert.wort",
         "isCorrect": false,
         "explanation": "",
         "source": "documents/Basiswissen Usability und User Experience.pdf#page=262"
@@ -7264,7 +7264,7 @@
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
-        "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobil-telefon, die sie über Datenroaming-Gebühren informiert.",
+        "text": "Im Ausland erhalten die Benutzer eine Nachricht auf ihrem Mobiltelefon, die sie über Datenroaming-Gebühren informiert.",
         "isCorrect": true,
         "explanation": "Es wird im Curriculum als Beispiel genannt.",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
@@ -7282,7 +7282,7 @@
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
       },
       {
-        "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öff-nen können.",
+        "text": "Putzmittelflaschen haben einen Verschluss, den Kinder nicht öffnen können.",
         "isCorrect": true,
         "explanation": "",
         "source": "documents/CPUX-F_DE_Oeffentlich-zugaengliche-Pruefungsfragen.pdf#page=46"
