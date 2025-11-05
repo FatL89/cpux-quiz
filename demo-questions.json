@@ -1036,7 +1036,7 @@
   },
   {
     "certificate": "CPUX-F",
-    "question": "24: Welche zwei der folgenden Aktivitäten sind am besten geeignet, um ein Unternehmen von der HCD-Reifegradstufe 0 »Unvollständig« auf die nächsthöhere Stufe 1 »Ausgeführt« zu bringen?",
+    "question": "Welche zwei der folgenden Aktivitäten sind am besten geeignet, um ein Unternehmen von der HCD-Reifegradstufe 0 »Unvollständig« auf die nächsthöhere Stufe 1 »Ausgeführt« zu bringen?",
     "correctCount": 2,
     "chapter": "3: Menschzentrierte Gestaltung",
     "image": "",
